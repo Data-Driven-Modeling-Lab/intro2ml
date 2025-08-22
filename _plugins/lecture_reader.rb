@@ -28,7 +28,11 @@ module LectureReader
       lectures.sort_by! { |lecture| lecture['lecture_number'].to_i }
       
       # Make available to all pages
-      site.data['lectures'] = lectures
+      # If running in an environment without ../lectures (e.g., GitHub Pages project repo),
+      # do NOT overwrite existing data loaded from _data/lectures.yml
+      if !lectures.empty?
+        site.data['lectures'] = lectures
+      end
       
       # Also create individual lecture pages if needed
       create_lecture_pages(site, lectures) if site.config['create_lecture_pages']
