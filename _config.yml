@@ -3,9 +3,11 @@ course_name: "Introduction to Machine Learning"
 course_description: "Fundamentals of machine learning from linear methods to deep learning, with hands-on Python implementation and real-world applications."
 course_semester: "Spring 2025"
 
-# URL settings
-baseurl: ""
-url: "https://intro-ml-aub.github.io"
+# URL settings (for GitHub Pages)
+# User/Org Pages: url: "https://josephbakarji.github.io", baseurl: ""
+# Project Pages (repo intro2ml): url: "https://josephbakarji.github.io", baseurl: "/intro2ml"
+url: "https://josephbakarji.github.io"
+baseurl: "/intro2ml"
 
 # Course information
 schoolname: "American University of Beirut"
