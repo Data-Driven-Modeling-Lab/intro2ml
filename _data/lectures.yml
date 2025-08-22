@@ -1,0 +1,193 @@
+- section: Introduction
+  lecture_number: 1
+  date: '2025-08-26'
+  title: Introduction, Ethics/Purpose of AI, Logistics
+  subtitle: Course foundations and logistics
+  type: lecture
+  duration: 75
+  description: 'Course introduction covering learning objectives, expectations, and
+    motivation.  Exploration of AI''s transformative impact on society and discussion
+    of ethical  implications in AI development and deployment.
+
+    '
+  materials:
+    slides:
+    - name: Introductory Slides
+      url: /materials/slides/introductory_slides.pdf
+      type: slides
+  references:
+    videos:
+    - name: Introduction Video
+      url: https://www.youtube.com/watch?v=Ybj9t-yAA-E
+      recommended: true
+    articles:
+    - name: 'Artificial Intelligence: A Modern Approach (Ch. 1)'
+      chapter: Chapter 1 - Introduction
+      required: true
+    - name: A bit about my research - Discovering Physics from Data
+      url: https://www.josephbakarji.com/articles/on-discovering-physics-from-data
+      type: research
+      optional: true
+  assignments: null
+- section: Introduction
+  lecture_number: 2
+  date: 2025-08-28
+  title: Data, Models, and Python
+  subtitle: null
+  type: lecture
+  duration: 75
+  description: null
+  materials:
+    slides:
+    - name: Learning Examples And Data
+      url: /materials/slides/learning examples and data.pdf
+      type: slides
+  references:
+    videos:
+    - name: Data Visualization Best Practices
+      url: https://www.youtube.com/watch?v=0xKklLplnhE
+      recommended: true
+  assignments: null
+- section: Introduction
+  lecture_number: 3
+  date: '2025-09-02'
+  title: Math and Python Review - Your Computational Toolkit
+  subtitle: Linear algebra meets computational implementation
+  type: lecture
+  duration: 75
+  description: 'Comprehensive review of mathematical foundations essential for machine
+    learning,  combined with hands-on Python implementation. Students will bridge
+    the gap between  mathematical notation and computational implementation through
+    interactive notebooks  that combine CS229 linear algebra concepts with NumPy code
+    examples.
+
+    '
+  materials:
+    notebooks:
+    - name: 00 Python Intro
+      url: /materials/notebooks/00_python_intro/
+      type: notebooks
+    - name: 01 Vectors And Basics
+      url: /materials/notebooks/01_vectors_and_basics/
+      type: notebooks
+    - name: 02 Matrices And Operations
+      url: /materials/notebooks/02_matrices_and_operations/
+      type: notebooks
+    - name: 03 Matrix Properties And Calculus
+      url: /materials/notebooks/03_matrix_properties_and_calculus/
+      type: notebooks
+    - name: 04 Data Reading And Plotting
+      url: /materials/notebooks/04_data_reading_and_plotting/
+      type: notebooks
+  references:
+    articles:
+    - name: CS231n Python/NumPy Tutorial
+      url: https://cs231n.github.io/python-numpy-tutorial/
+      recommended: true
+    videos:
+    - name: '3Blue1Brown: Essence of Linear Algebra'
+      url: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+      duration: Series
+      recommended: true
+    - name: Khan Academy's Linear Algebra Basics
+      url: https://www.khanacademy.org/math/linear-algebra
+      optional: true
+    tools:
+    - name: NumPy Documentation
+      url: https://numpy.org/doc/stable/
+    - name: Matplotlib Tutorials
+      url: https://matplotlib.org/stable/tutorials/index.html
+    - name: Pandas User Guide
+      url: https://pandas.pydata.org/docs/user_guide/
+  assignments: null
+- section: Function Approximation
+  lecture_number: 4
+  date: '2025-09-04'
+  title: Supervised Learning and Linear Regression
+  subtitle: First machine learning algorithm and foundational concepts
+  type: lecture
+  duration: 75
+  description: 'Introduction to supervised learning paradigm with linear regression
+    as the first ML algorithm. Mathematical foundations, implementation, and practical
+    applications with hands-on coding.
+
+    '
+  materials:
+    slides:
+    - name: Linear-Regression
+      url: /materials/slides/linear-regression.pdf
+      type: slides
+    notebooks:
+    - name: Sgd Poly Example
+      url: /materials/notebooks/sgd_poly_example/
+      type: notebooks
+    - name: Basic Fit Example
+      url: /materials/notebooks/basic_fit_example/
+      type: notebooks
+    assignments:
+    - name: Modeling-Functions
+      url: /materials/assignments/modeling-functions.md
+      type: assignments
+    references:
+    - name: Kaggle Competition
+      url: /materials/references/kaggle_competition/
+      type: references
+  references: null
+  assignments:
+    released_today:
+    - name: 'Problem Set 2: Linear Regression Implementation'
+      type: homework
+      due_date: '2025-09-11'
+      weight: 4%
+      description: Implement linear regression from scratch
+- section: Function Approximation
+  lecture_number: 5
+  date: '2025-09-09'
+  title: Feature Engineering and Generalization
+  subtitle: From raw data to meaningful features, avoiding overfitting
+  type: lecture
+  duration: 75
+  description: 'Deep dive into feature engineering techniques and understanding generalization.
+    Covers bias-variance tradeoff, cross-validation, and regularization methods.
+
+    '
+  materials:
+    slides:
+    - name: Generalization-And-Features
+      url: /materials/slides/generalization-and-features.pdf
+      type: slides
+    notebooks:
+    - name: Ml Tutorial
+      url: /materials/notebooks/ML_tutorial/
+      type: notebooks
+    assignments:
+    - name: Adv Generalization
+      url: /materials/assignments/adv_generalization.pdf
+      type: assignments
+    - name: Generalization-And-Features
+      url: /materials/assignments/generalization-and-features.pdf
+      type: assignments
+  references: null
+  assignments: null
+- section: Function Approximation
+  lecture_number: 6
+  date: '2025-09-11'
+  title: Classification and Logistic Regression
+  subtitle: From regression to classification with probabilistic models
+  type: lecture
+  duration: 75
+  description: 'Introduction to classification problems using logistic regression.
+    Covers sigmoid function, maximum likelihood estimation, and decision boundaries.
+
+    '
+  materials:
+    slides:
+    - name: Log-Regression
+      url: /materials/slides/log-regression.pdf
+      type: slides
+  references: null
+  assignments:
+    due_today:
+    - name: 'Problem Set 2: Linear Regression Implementation'
+      type: homework
+      status: due

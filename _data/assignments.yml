@@ -4,17 +4,13 @@
   due_date: 2025-09-04
   description: Explore big-picture data and course material.
   links:
-  - name: PDF
-    url: hw0.pdf
   - name: Assignment details
     url: /materials/assignments/hw0/
 - id: hw2
   title: 'Homework 2: Linear Regression'
-  release_date: 2025-02-15
-  due_date: 2025-02-22
+  release_date: 2025-09-02
+  due_date: 2025-09-11
   description: Implement polynomial regression and SGD; short writeup.
   links:
-  - name: PDF
-    url: hw2.pdf
-  - name: Assignment details (Markdown)
+  - name: Page
     url: /materials/assignments/hw2/

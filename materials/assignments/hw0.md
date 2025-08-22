@@ -1,13 +1,13 @@
 ---
-title: "Problem Set 0: Introduction"
+title: "Problem 1: Data Collection and Analysis with Your Phone"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw0/
 ---
 
-# Problem Set 0: Introduction
+[Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2380628&forceview=1): 
 
-# Problem 1: Data Collection and Analysis with Your Phone
+## Problem 1: Data Collection and Analysis with Your Phone
 
 This problem is designed to get you thinking creatively about how to collect and analyze data using limited (yet powerful) resources: your phone! You’ll be surprised at how much data you can capture with your phone’s sensors. You might be less surprised at how much of that data is shared with tech companies, fueling predictions about your behavior, targeted ads, and addictive platform design.
 
@@ -16,7 +16,7 @@ collect data -> define a problem -> analyze it -> redefine the problem -> collec
 
 Not all data science is machine learning. Sometimes it's just about signal processing, statistics, or simple algorithms (e.g., Fourier transform, averages, locating objects in an image).
 
-## Instructions
+### Instructions
 
 - **Use your phone as a sensor**: Possible options: camera, microphone, gyroscope, accelerometer, light sensor, screen, etc.
 
@@ -50,7 +50,7 @@ Not all data science is machine learning. Sometimes it's just about signal proce
 
 ---
 
-# Problem 2: Exploring Project Ideas with a Language Model
+## Problem 2: Exploring Project Ideas with a Language Model
 
 This assignment is a warm-up to get you thinking about **project ideas** and **datasets** before we dive into machine learning in detail. The best way to learn ML is through exposure to lots of examples. The more you explore, the better.  
 
@@ -72,7 +72,7 @@ This assignment is a warm-up to get you thinking about **project ideas** and **d
    - Ask the LLM to **draft an abstract** for a project proposal based on your discussion.  
    - This isn't your final project: it's just practice to see what's possible.
 
-4. **Submit**: Submit PDF files of the abstract and syllabus in PDF files to moodle.
+4. **Submit**: Submit PDF files of: 1) the abstract of the project idea, 2) the syllabus of the course you've generated, and 3) the conversation history you've had with the LLM, in PDF files to moodle.
 
 
 **Enjoy!**
