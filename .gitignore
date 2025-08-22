@@ -1,3 +1,10 @@
 _site/
 vendor/
 .DS_Store
+
+# ignore large datasets and specific large PDFs
+materials/data/*.mat
+materials/slides/deep-learning-lecture.pdf
+materials/slides/deep-learning-lecture-2.pdf
+materials/slides/introductory_slides.pdf
+materials/slides/learning examples and data.pdf
