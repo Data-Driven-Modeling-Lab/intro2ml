@@ -1,0 +1,3 @@
+- https://cs231n.github.io/python-numpy-tutorial/
+- https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+- 

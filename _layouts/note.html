@@ -1,0 +1,274 @@
+---
+layout: default
+---
+
+<style>
+.note-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.note-header {
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.note-title {
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.note-meta {
+    display: flex;
+    gap: 20px;
+    color: #7f8c8d;
+    font-size: 14px;
+    align-items: center;
+}
+
+.note-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Math styling */
+.note-content .MathJax_Display {
+    margin: 1em 0;
+}
+
+.note-content .MathJax {
+    color: #2c3e50;
+}
+
+/* Code styling */
+/* Code styling (defer colors to global theme; override only layout spacing) */
+.note-content pre {
+    border-radius: 6px;
+    padding: 14px;
+    overflow-x: auto;
+    font-size: 14px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    line-height: 1.5;
+}
+
+.note-content code {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.note-content pre code {
+    background: transparent;
+    padding: 0;
+}
+
+/* Jupyter notebook specific styling */
+.note-content .highlight {
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.note-content .output {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin: 12px 0;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+/* Dark code blocks vs light printed output */
+.note-content .language-python.highlighter-rouge .highlight pre,
+.note-content .language-python.highlighter-rouge .highlight {
+    background: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.note-content .language-plaintext.highlighter-rouge .highlight pre,
+.note-content .language-plaintext.highlighter-rouge .highlight {
+    background: #f7f7f9;
+    color: #2c3e50;
+    border: 1px solid #e5e5e5;
+}
+
+/* Enhanced math styling for notebooks */
+.note-content .MathJax_Display {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+/* Headers styling */
+.note-content h1, .note-content h2, .note-content h3, .note-content h4 {
+    color: #2c3e50;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.note-content h1 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.note-content h2 {
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+/* Lists styling */
+.note-content ul, .note-content ol {
+    margin-left: 20px;
+}
+
+.note-content li {
+    margin-bottom: 5px;
+}
+
+/* Images and figures */
+.note-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.note-content figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.note-content figcaption {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Tables */
+.note-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.note-content th, .note-content td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.note-content th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.note-content tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Blockquotes */
+.note-content blockquote {
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #f8f9fa;
+    font-style: italic;
+}
+
+/* Navigation */
+.note-navigation {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .note-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .note-title {
+        font-size: 2em;
+    }
+    
+    .note-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .note-navigation {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+
+<div class="note-container">
+    <div class="note-header">
+        <h1 class="note-title">{{ page.title }}</h1>
+        <div class="note-meta">
+            {% if page.date %}
+            <span> {{ page.date | date: "%B %d, %Y" }}</span>
+            {% endif %}
+            {% if page.author %}
+            <span> {{ page.author }}</span>
+            {% endif %}
+            {% if page.lecture_number %}
+            <span> Lecture {{ page.lecture_number }}</span>
+            {% endif %}
+            {% if page.category %}
+            <span> {{ page.category }}</span>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div class="note-content">
+        {{ content }}
+    </div>
+    
+    <div class="note-navigation">
+        <a href="/materials/" class="nav-link">← Back to Materials</a>
+        {% if page.source_file %}
+        <a href="{{ page.source_file }}" class="nav-link">View Source →</a>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Enhanced MathJax configuration for better rendering -->
+<!-- MathJax configuration is handled in the default layout. Avoid duplicate or mismatched configs here. -->

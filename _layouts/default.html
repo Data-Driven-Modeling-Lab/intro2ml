@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.course_name }}</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- MathJax for math rendering -->
+    {% if site.mathjax or page.mathjax %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"></script>
+    <script type="text/x-mathjax-config">
+        init_mathjax = function() {
+            if (window.MathJax) {
+                MathJax.Hub.Config({
+                    TeX: {
+                        equationNumbers: {
+                            autoNumber: "AMS",
+                            useLabelIds: true
+                        }
+                    },
+                    tex2jax: {
+                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                        processEscapes: true,
+                        processEnvironments: true
+                    },
+                    displayAlign: 'center',
+                    CommonHTML: {
+                        linebreaks: {
+                            automatic: true
+                        }
+                    }
+                });
+            }
+        };
+        init_mathjax();
+    </script>
+    {% endif %}
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">
+                    <a href="{{ '/' | relative_url }}">{{ site.course_name }}</a>
+                </h1>
+                <p class="course-info">{{ site.course_semester }} • {{ site.schoolname }}</p>
+            </div>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+                <a href="{{ '/schedule/' | relative_url }}" {% if page.url contains 'schedule' %}class="active"{% endif %}>Schedule</a>
+                <a href="{{ '/assignments/' | relative_url }}" {% if page.url contains 'assignments' %}class="active"{% endif %}>Assignments</a>
+                <a href="{{ '/project/' | relative_url }}" {% if page.url contains 'project' %}class="active"{% endif %}>Project</a>
+                <a href="{{ '/resources/' | relative_url }}" {% if page.url contains 'resources' %}class="active"{% endif %}>Resources</a>
+                <a href="{{ '/logistics/' | relative_url }}" {% if page.url contains 'logistics' %}class="active"{% endif %}>Logistics</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.instructor }} • {{ site.schoolname }}</p>
+        </div>
+    </footer>
+</body>
+</html>

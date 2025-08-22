@@ -1,0 +1,51 @@
+student_id,age,major,year,study_hours_per_week,gpa,programming_experience,coffee_cups_per_day,sleep_hours,exercise_hours_per_week,social_media_hours_per_day,stress_level,favorite_subject
+1,19,Computer Science,Sophomore,15,3.2,Intermediate,3,6.5,4,2.5,7,Mathematics
+2,20,Mathematics,Junior,12,3.8,Beginner,1,7.5,6,1.5,4,Statistics
+3,18,Physics,Freshman,8,3.1,None,2,8.0,2,3.0,6,Physics
+4,21,Engineering,Senior,20,3.9,Advanced,4,6.0,5,1.0,8,Calculus
+5,19,Computer Science,Sophomore,18,3.6,Intermediate,5,5.5,3,4.0,9,Algorithms
+6,20,Mathematics,Junior,14,3.7,Beginner,2,7.0,4,2.0,5,Linear Algebra
+7,22,Physics,Senior,16,3.4,Intermediate,3,6.5,7,1.5,6,Quantum Mechanics
+8,18,Engineering,Freshman,10,2.9,Beginner,1,8.5,3,2.5,5,Engineering Design
+9,19,Computer Science,Sophomore,22,3.8,Advanced,6,5.0,2,3.5,8,Data Structures
+10,21,Mathematics,Junior,11,3.5,None,2,7.5,5,1.8,4,Probability
+11,20,Physics,Junior,13,3.3,Beginner,4,6.8,4,2.2,7,Thermodynamics
+12,19,Engineering,Sophomore,17,3.6,Intermediate,3,6.2,6,1.7,6,Mechanics
+13,18,Computer Science,Freshman,9,3.0,Beginner,2,8.2,3,3.8,5,Introduction to Programming
+14,22,Mathematics,Senior,19,3.9,Advanced,1,6.5,8,0.5,3,Abstract Algebra
+15,20,Physics,Junior,15,3.4,Intermediate,5,5.8,4,2.8,8,Electromagnetism
+16,21,Engineering,Senior,21,3.7,Advanced,4,6.0,5,1.2,7,Control Systems
+17,19,Computer Science,Sophomore,16,3.5,Intermediate,3,6.8,3,2.5,6,Computer Networks
+18,18,Mathematics,Freshman,7,2.8,None,1,8.8,2,4.2,4,Calculus I
+19,20,Physics,Junior,14,3.6,Beginner,2,7.2,6,1.5,5,Optics
+20,21,Engineering,Senior,18,3.8,Intermediate,4,5.5,7,1.0,8,Fluid Mechanics
+21,19,Computer Science,Sophomore,20,3.4,Advanced,7,5.2,2,3.0,9,Machine Learning
+22,22,Mathematics,Senior,12,3.7,Beginner,2,7.0,9,1.2,3,Real Analysis
+23,18,Physics,Freshman,6,2.7,None,1,9.0,1,4.5,3,General Physics
+24,20,Engineering,Junior,16,3.5,Intermediate,3,6.5,5,2.0,6,Materials Science
+25,19,Computer Science,Sophomore,17,3.6,Intermediate,4,6.0,4,2.8,7,Software Engineering
+26,21,Mathematics,Junior,13,3.8,Beginner,1,7.8,7,1.0,4,Topology
+27,20,Physics,Junior,15,3.2,Intermediate,5,6.2,3,3.2,8,Particle Physics
+28,22,Engineering,Senior,19,3.9,Advanced,3,6.8,6,1.5,5,Robotics
+29,18,Computer Science,Freshman,11,3.1,Beginner,2,8.0,2,3.5,6,Discrete Mathematics
+30,19,Mathematics,Sophomore,14,3.5,None,4,6.5,5,2.3,7,Differential Equations
+31,20,Physics,Junior,12,3.3,Beginner,3,7.2,4,2.0,5,Solid State Physics
+32,21,Engineering,Senior,22,3.6,Advanced,5,5.8,8,0.8,9,Aerospace Engineering
+33,19,Computer Science,Sophomore,18,3.7,Intermediate,6,5.5,3,3.8,8,Artificial Intelligence
+34,18,Mathematics,Freshman,8,2.9,None,1,8.5,1,4.0,4,Pre-Calculus
+35,20,Physics,Junior,16,3.4,Intermediate,4,6.8,5,2.5,7,Nuclear Physics
+36,22,Engineering,Senior,20,3.8,Advanced,2,6.0,7,1.2,6,Chemical Engineering
+37,19,Computer Science,Sophomore,15,3.3,Intermediate,5,6.2,2,3.2,8,Database Systems
+38,21,Mathematics,Junior,17,3.9,Beginner,1,7.5,8,0.5,3,Complex Analysis
+39,18,Physics,Freshman,9,3.0,None,3,8.2,3,3.5,5,Classical Mechanics
+40,20,Engineering,Junior,14,3.5,Intermediate,4,6.5,6,1.8,6,Electrical Engineering
+41,19,Computer Science,Sophomore,21,3.6,Advanced,7,5.0,1,4.2,9,Computer Graphics
+42,22,Mathematics,Senior,11,3.7,None,2,7.8,9,1.0,4,Number Theory
+43,20,Physics,Junior,13,3.1,Beginner,6,6.0,4,2.8,8,Astrophysics
+44,21,Engineering,Senior,18,3.8,Intermediate,3,6.8,7,1.5,7,Biomedical Engineering
+45,18,Computer Science,Freshman,10,2.8,Beginner,1,8.8,2,4.0,5,Computer Science I
+46,19,Mathematics,Sophomore,16,3.4,None,4,6.2,5,2.2,6,Multivariable Calculus
+47,20,Physics,Junior,14,3.6,Intermediate,2,7.0,6,1.5,5,Condensed Matter
+48,22,Engineering,Senior,23,3.9,Advanced,5,5.5,8,0.8,8,Mechanical Engineering
+49,19,Computer Science,Sophomore,19,3.5,Intermediate,4,6.5,3,3.0,7,Operating Systems
+50,21,Mathematics,Junior,12,3.7,Beginner,1,7.5,7,1.2,4,Graph Theory

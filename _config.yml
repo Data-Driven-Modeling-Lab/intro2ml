@@ -1,0 +1,68 @@
+# Site settings
+course_name: "Introduction to Machine Learning"
+course_description: "Fundamentals of machine learning from linear methods to deep learning, with hands-on Python implementation and real-world applications."
+course_semester: "Spring 2025"
+
+# URL settings
+baseurl: ""
+url: "https://intro-ml-aub.github.io"
+
+# Course information
+schoolname: "American University of Beirut"
+schoolurl: "https://www.aub.edu.lb"
+instructor: "Joseph Bakarji"
+instructor_email: "jb50@aub.edu.lb"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# MathJax configuration
+mathjax: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  lectures:
+    output: true
+    permalink: /:collection/:name/
+  assignments:
+    output: true
+    permalink: /:collection/:name/
+  
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "lectures"
+    values:
+      layout: "lecture"
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
+  - scope:
+      path: "materials"
+      type: "pages"
+    values:
+      layout: "note"
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Future posts
+future: true
+
+# Permalink structure
+permalink: /:categories/:year/:month/:day/:title/

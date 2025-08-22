@@ -1,0 +1,68 @@
+name: Sync Schedule from Google Sheets
+
+on:
+  schedule:
+    # Run every day at 6 AM UTC (automatically sync changes)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual triggering from GitHub Actions tab
+  push:
+    paths:
+      # Trigger when schedule-related files change
+      - '_scripts/sync-schedule.py'
+      - '.github/workflows/sync-schedule.yml'
+
+jobs:
+  sync-schedule:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install gspread oauth2client
+    
+    - name: Create credentials file
+      run: |
+        echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > _scripts/credentials.json
+      working-directory: .
+    
+    - name: Run sync script
+      run: |
+        cd _scripts
+        python sync-schedule.py
+      id: sync
+      continue-on-error: true
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add schedule.md
+        git commit -m " Auto-sync schedule from Google Sheets $(date +'%Y-%m-%d %H:%M')" || exit 0
+        git push
+    
+    - name: Create summary
+      run: |
+        if [ "${{ steps.git-check.outputs.changes }}" == "true" ]; then
+          echo " Schedule updated and committed" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ No changes detected in schedule" >> $GITHUB_STEP_SUMMARY
+        fi
+        echo " Sync completed at $(date)" >> $GITHUB_STEP_SUMMARY
