@@ -3,11 +3,10 @@ course_name: "Introduction to Machine Learning"
 course_description: "Fundamentals of machine learning from linear methods to deep learning, with hands-on Python implementation and real-world applications."
 course_semester: "Fall 2025"
 
-# URL settings (for GitHub Pages)
-# User/Org Pages: url: "https://josephbakarji.github.io", baseurl: ""
-# Project Pages (repo intro2ml): url: "https://josephbakarji.github.io", baseurl: "/intro2ml"
-url: "https://josephbakarji.github.io"
-baseurl: "/intro2ml"
+# URL settings (for GitHub Pages with custom domain)
+# Root site on custom domain: set baseurl to empty and url to your domain
+url: "https://intro2ml.com"
+baseurl: ""
 
 # Course information
 schoolname: "American University of Beirut"
