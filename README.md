@@ -1,10 +1,9 @@
 # Introduction to Machine Learning - Course Website
 
-A simple, clean Jekyll website for the Introduction to Machine Learning course at American University of Beirut, inspired by Stanford CS231n's design with integrated MathJax support for mathematical content.
+A simple, clean Jekyll website for the Introduction to Machine Learning course at American University of Beirut, inspired by Stanford CS231, CS230, and CS229, designs with integrated MathJax support for mathematical content.
 
 ## Features
 
-- **Clean Design**: Minimalist layout inspired by CS231n.stanford.edu
 - **Math Support**: Full MathJax integration for LaTeX mathematical notation
 - **Responsive**: Mobile-friendly design
 - **Course Schedule**: Clean table layout for lectures, assignments, and deadlines
