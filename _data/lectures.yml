@@ -12,7 +12,7 @@
     '
   materials:
     slides:
-    - name: Introductory Slides
+    - name: Lecture Slides
       url: /materials/slides/introductory_slides.pdf
       type: slides
   references:
@@ -36,7 +36,7 @@
   description: null
   materials:
     slides:
-    - name: Learning Examples And Data
+    - name: Lecture Slides
       url: /materials/slides/learning examples and data.pdf
       type: slides
   references:
@@ -61,7 +61,7 @@
     '
   materials:
     notebooks:
-    - name: Python Intro
+    - name: Python Introduction (Test)
       url: /materials/notebooks/00_python_intro/
       type: notebooks
     - name: Vectors And Basics
@@ -111,7 +111,7 @@
     '
   materials:
     slides:
-    - name: Linear Regression
+    - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
     notebooks:
@@ -122,7 +122,7 @@
       url: /materials/notebooks/basic_fit_example/
       type: notebooks
     assignments:
-    - name: Modeling Functions
+    - name: Modeling-Functions
       url: /materials/assignments/modeling-functions.md
       type: assignments
     references:
@@ -150,7 +150,7 @@
     '
   materials:
     slides:
-    - name: Generalization And Features
+    - name: Lecture Slides
       url: /materials/slides/generalization-and-features.pdf
       type: slides
     notebooks:
@@ -161,7 +161,7 @@
     - name: Adv Generalization
       url: /materials/assignments/adv_generalization.pdf
       type: assignments
-    - name: Generalization And Features
+    - name: Generalization-And-Features
       url: /materials/assignments/generalization-and-features.pdf
       type: assignments
   references: null
@@ -179,7 +179,7 @@
     '
   materials:
     slides:
-    - name: Log Regression
+    - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
   references: null
