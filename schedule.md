@@ -414,17 +414,7 @@ title: Schedule
                                         {% assign clean_url = material.url | replace: '.ipynb', '/' %}
                                         <a href="{{ clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
                                         {% else %}
-                                        {% assign url_parts = material.url | split: "/" %}
-                                        {% assign encoded_filename = url_parts.last | url_encode %}
-                                        {% assign encoded_url = "" %}
-                                        {% for part in url_parts %}
-                                            {% if forloop.last %}
-                                                {% assign encoded_url = encoded_url | append: "/" | append: encoded_filename %}
-                                            {% else %}
-                                                {% assign encoded_url = encoded_url | append: part %}
-                                            {% endif %}
-                                        {% endfor %}
-                                        <a href="{{ encoded_url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        <a href="{{ material.url | relative_url }}" class="material-link">{{ material.name }}</a>
                                         {% endif %}
                                     {% else %}
                                     <span class="material-link">{{ material.name }}</span>
