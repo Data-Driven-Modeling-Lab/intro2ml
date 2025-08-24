@@ -409,10 +409,10 @@ title: Schedule
                                         <a href="{{ material.url }}" class="material-link">{{ material.name }}</a>
                                         {% elsif material.url contains '.md' %}
                                         {% assign clean_url = material.url | replace: '.md', '/' %}
-                                        <a href="{{ '/materials/' | append: clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        <a href="{{ clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
                                         {% elsif material.url contains '.ipynb' %}
                                         {% assign clean_url = material.url | replace: '.ipynb', '/' %}
-                                        <a href="{{ '/materials/' | append: clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        <a href="{{ clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
                                         {% else %}
                                         {% assign url_parts = material.url | split: "/" %}
                                         {% assign encoded_filename = url_parts.last | url_encode %}
@@ -424,7 +424,7 @@ title: Schedule
                                                 {% assign encoded_url = encoded_url | append: part %}
                                             {% endif %}
                                         {% endfor %}
-                                        <a href="{{ '/materials/' | append: encoded_url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        <a href="{{ encoded_url | relative_url }}" class="material-link">{{ material.name }}</a>
                                         {% endif %}
                                     {% else %}
                                     <span class="material-link">{{ material.name }}</span>
