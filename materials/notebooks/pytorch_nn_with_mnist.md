@@ -38,7 +38,6 @@ We will load the MNIST dataset using `torchvision.datasets`, apply transformatio
 
 ```python
 
-# Transform to convert images to tensor and normalize pixel values
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
 
 # Download and load the MNIST dataset

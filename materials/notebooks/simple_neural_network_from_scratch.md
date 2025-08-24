@@ -28,7 +28,6 @@ def sigmoid_derivative(sig):
 
 ```python
 
-# Set random seed for reproducibility
 np.random.seed(42)
 
 # Initialize weights

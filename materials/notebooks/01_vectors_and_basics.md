@@ -6,7 +6,6 @@ permalink: /materials/notebooks/01_vectors_and_basics/
 notebook_source: "01_vectors_and_basics.ipynb"
 ---
 
-# Vectors and Basic Operations
 
 **Based on CS229 Linear Algebra Review - Section 1**
 

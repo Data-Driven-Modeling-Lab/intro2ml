@@ -6,7 +6,6 @@ permalink: /materials/notebooks/03_matrix_properties_and_calculus/
 notebook_source: "03_matrix_properties_and_calculus.ipynb"
 ---
 
-# Matrix Properties and Matrix Calculus
 
 **Based on CS229 Linear Algebra Review - Sections 3-4**
 

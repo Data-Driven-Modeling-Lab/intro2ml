@@ -25,7 +25,6 @@ We'll generate 100 data points for a parabolic function $y = x^2$. We'll add som
 
 
 ```python
-# Generate data
 noise_strength = 10 
 x = np.linspace(0, 10, 100)
 y = x**2 + noise_strength * (np.random.random((len(x)))-0.5)

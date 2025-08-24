@@ -9,7 +9,6 @@ notebook_source: "test_file.ipynb"
 ```python
 import numpy as np
 
-# Sigmoid activation and its derivative
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 

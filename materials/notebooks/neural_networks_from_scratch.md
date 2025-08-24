@@ -27,7 +27,6 @@ def sigmoid_derivative(x):
 
 
 ```python
-# Initialize weights and biases
 np.random.seed(42)
 input_dim = 2  # Number of input features
 hidden_dim = 2  # Number of hidden neurons

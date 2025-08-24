@@ -6,7 +6,6 @@ permalink: /materials/notebooks/02_matrices_and_operations/
 notebook_source: "02_matrices_and_operations.ipynb"
 ---
 
-# Matrices and Matrix Operations
 
 **Based on CS229 Linear Algebra Review - Section 2**
 

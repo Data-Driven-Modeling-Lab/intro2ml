@@ -6,7 +6,6 @@ permalink: /materials/notebooks/00_python_intro/
 notebook_source: "00_python_intro.ipynb"
 ---
 
-# Python Fundamentals for Machine Learning
 
 **A Quick Introduction/Refresher**
 

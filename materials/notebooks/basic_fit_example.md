@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 %matplotlib widget
 
-# Generating data
 np.random.seed(0)
 x = np.linspace(-3, 3, 30)
 y = 3.5 * x + np.random.normal(size=x.size)

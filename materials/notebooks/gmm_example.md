@@ -10,7 +10,6 @@ notebook_source: "gmm_example.ipynb"
 import numpy as np
 from scipy.stats import multivariate_normal
 
-# Seed for reproducibility
 np.random.seed(42)
 
 # Generate synthetic data from 3 Gaussian distributions

@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 
 
 ```python
-# synthetic parameters
 num_points = 1000
 var = 100
 a = 1.5

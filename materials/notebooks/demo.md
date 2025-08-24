@@ -14,7 +14,6 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 
-# Define the neural network
 class SimpleNN(nn.Module):
     def __init__(self):
         super(SimpleNN, self).__init__()

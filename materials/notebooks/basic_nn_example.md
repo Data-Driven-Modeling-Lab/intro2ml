@@ -66,7 +66,6 @@ Let's first generate some synthetic data to illustrate the concepts. The input d
 
 
 ```python
-# Generate synthetic data
 x = torch.unsqueeze(torch.linspace(-3, 3, 1000), dim=1)  # x data (tensor), shape=(1000, 1)
 y = torch.sin(torch.cos(x.pow(2))) + 0.1 * torch.randn(x.size())  # noisy y data (tensor), shape=(1000, 1)
 ```

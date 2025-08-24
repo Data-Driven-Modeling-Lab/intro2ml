@@ -6,7 +6,6 @@ permalink: /materials/notebooks/04_data_reading_and_plotting/
 notebook_source: "04_data_reading_and_plotting.ipynb"
 ---
 
-# Data Reading and Visualization
 
 **Working with Real Data in Python**
 

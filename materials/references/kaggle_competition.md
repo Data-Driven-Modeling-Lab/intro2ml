@@ -11,7 +11,6 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-# Define the polynomial model
 def polynomial_model(x1, x2):
     return (
         7.2 * x1 +
