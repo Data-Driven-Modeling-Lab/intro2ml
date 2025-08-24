@@ -345,7 +345,12 @@ title: Schedule
             <div class="lecture-header" onclick="toggleLectureDetails(this)">
                 <div class="lecture-date">
                     {% if lecture.date %}
-                        {{ lecture.date }}
+                        {% assign d = lecture.date | date: "%Y-%m-%d" %}
+                        {% if d == lecture.date %}
+                            {{ lecture.date | date: "%b %e" }}
+                        {% else %}
+                            {{ lecture.date }}
+                        {% endif %}
                     {% else %}
                         TBD
                     {% endif %}

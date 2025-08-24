@@ -52,6 +52,15 @@ body {
     border-top: 1px solid #f0f0f0;
 }
 
+.nav-toggle {
+    display: none;
+    background: #f8f9fa;
+    border: 1px solid #e5e5e5;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
 .site-nav a {
     display: inline-block;
     padding: 8px 16px;
@@ -263,15 +272,10 @@ pre code {
         padding: 0 15px;
     }
     
-    .site-nav {
-        padding: 10px 0;
-    }
-    
-    .site-nav a {
-        display: block;
-        margin-bottom: 5px;
-        margin-right: 0;
-    }
+    .nav-toggle { display: inline-block; margin-top: 8px; }
+    .site-nav { display: none; padding: 10px 0; }
+    .site-nav.open { display: block; }
+    .site-nav a { display: block; margin-bottom: 5px; margin-right: 0; }
     
     .instructor-card {
         flex-direction: column;

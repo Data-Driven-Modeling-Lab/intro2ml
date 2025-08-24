@@ -52,7 +52,8 @@
                 </h1>
                 <p class="course-info">{{ site.course_semester }} • {{ site.schoolname }}</p>
             </div>
-            <nav class="site-nav">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="toggleNav()">☰ Menu</button>
+            <nav class="site-nav" id="siteNav">
                 <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
                 <a href="{{ '/schedule/' | relative_url }}" {% if page.url contains 'schedule' %}class="active"{% endif %}>Schedule</a>
                 <a href="{{ '/assignments/' | relative_url }}" {% if page.url contains 'assignments' %}class="active"{% endif %}>Assignments</a>
@@ -74,5 +75,13 @@
             <p>&copy; {{ 'now' | date: "%Y" }} {{ site.instructor }} • {{ site.schoolname }}</p>
         </div>
     </footer>
+    <script>
+    function toggleNav(){
+      var nav = document.getElementById('siteNav');
+      var btn = document.querySelector('.nav-toggle');
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+    </script>
 </body>
 </html>
