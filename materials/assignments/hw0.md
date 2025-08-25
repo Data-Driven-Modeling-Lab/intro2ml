@@ -1,15 +1,16 @@
 ---
-title: "Problem 1: Data Collection and Analysis with Your Phone"
+title: "Problem Set 0: Introduction"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw0/
 ---
 
-[Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2380628&forceview=1): 
+
+[Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2380628&forceview=1)
 
 ## Problem 1: Data Collection and Analysis with Your Phone
 
-This problem is designed to get you thinking creatively about how to collect and analyze data using limited (yet powerful) resources: your phone! You’ll be surprised at how much data you can capture with your phone’s sensors. You might be less surprised at how much of that data is shared with tech companies, fueling predictions about your behavior, targeted ads, and addictive platform design.
+This problem is designed to get you thinking creatively about how to collect and analyze data using limited (yet powerful) resources: your phone! You'll be surprised at how much data you can capture with your phone’s sensors. You might be less surprised at how much of that data is shared with tech companies, fueling predictions about your behavior, targeted ads, and addictive platform design.
 
 Ethical dilemmas aside, this exercise is meant to show you what the **real-world iterative process of data science** looks like:  
 collect data -> define a problem -> analyze it -> redefine the problem -> collect more data -> try again.  
