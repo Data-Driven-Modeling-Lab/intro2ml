@@ -15,6 +15,10 @@
     - name: Lecture Slides
       url: /materials/slides/introductory_slides.pdf
       type: slides
+    references:
+    - name: Course introductory note and takeaways
+      url: /materials/references/course_purpose_note.md
+      type: references
   references:
     articles:
     - name: 'Artificial Intelligence: A Modern Approach (Ch. 1) Russell & Norvig textbook'
