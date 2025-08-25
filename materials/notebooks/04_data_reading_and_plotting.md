@@ -32,6 +32,11 @@ print(f"NumPy version: {np.__version__}")
 print(f"Pandas version: {pd.__version__}")
 ```
 
+    Libraries imported successfully!
+    NumPy version: 1.23.5
+    Pandas version: 1.4.4
+
+
 ## 1. Creating Sample Data
 
 First, let's create some realistic sample datasets that we can work with.
@@ -87,6 +92,103 @@ print(f"Columns: {list(df.columns)}")
 df.head()
 ```
 
+    Created dataset with 200 students
+    Columns: ['student_id', 'study_hours', 'previous_math_score', 'attendance_rate', 'sleep_hours', 'extracurricular', 'exam_score', 'major', 'year']
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>student_id</th>
+      <th>study_hours</th>
+      <th>previous_math_score</th>
+      <th>attendance_rate</th>
+      <th>sleep_hours</th>
+      <th>extracurricular</th>
+      <th>exam_score</th>
+      <th>major</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4.787359</td>
+      <td>67.934425</td>
+      <td>0.760898</td>
+      <td>5.896705</td>
+      <td>1</td>
+      <td>100.000000</td>
+      <td>Engineering</td>
+      <td>Freshman</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>2.988929</td>
+      <td>78.480749</td>
+      <td>0.897137</td>
+      <td>8.854140</td>
+      <td>0</td>
+      <td>100.000000</td>
+      <td>Physics</td>
+      <td>Sophomore</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2.764567</td>
+      <td>53.278735</td>
+      <td>0.842937</td>
+      <td>8.636965</td>
+      <td>1</td>
+      <td>99.831415</td>
+      <td>Physics</td>
+      <td>Freshman</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>2.764605</td>
+      <td>53.888043</td>
+      <td>0.878988</td>
+      <td>7.913707</td>
+      <td>1</td>
+      <td>100.000000</td>
+      <td>Computer Science</td>
+      <td>Sophomore</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>9.299429</td>
+      <td>64.223337</td>
+      <td>0.881890</td>
+      <td>5.361531</td>
+      <td>1</td>
+      <td>100.000000</td>
+      <td>Mathematics</td>
+      <td>Sophomore</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 2. Saving and Loading Data
 
 ### Saving Data to CSV
@@ -112,6 +214,17 @@ with open('student_performance.csv', 'r') as f:
             break
 ```
 
+    Data saved to 'student_performance.csv'
+    Simplified data saved to 'class_exercise_data.csv'
+    
+    First few lines of the CSV file:
+    student_id,study_hours,previous_math_score,attendance_rate,sleep_hours,extracurricular,exam_score,major,year
+    1,4.787358779738473,67.93442541572516,0.7608977983341839,5.89670508611535,1,100.0,Engineering,Freshman
+    2,2.988929460431175,78.48074906036454,0.897137390965522,8.854139762815656,0,100.0,Physics,Sophomore
+    3,2.764567168741907,53.27873487754014,0.8429369126181151,8.636965180891403,1,99.83141541836285,Physics,Freshman
+    4,2.7646045886636013,53.888043384351676,0.8789880368915142,7.913707181360765,1,100.0,Computer Science,Sophomore
+
+
 ### Reading Data from CSV
 
 
@@ -125,6 +238,91 @@ print(df_loaded.dtypes)
 print("\nFirst 3 rows:")
 df_loaded.head(3)
 ```
+
+    Loaded data shape: (200, 9)
+    Data types:
+    student_id               int64
+    study_hours            float64
+    previous_math_score    float64
+    attendance_rate        float64
+    sleep_hours            float64
+    extracurricular          int64
+    exam_score             float64
+    major                   object
+    year                    object
+    dtype: object
+    
+    First 3 rows:
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>student_id</th>
+      <th>study_hours</th>
+      <th>previous_math_score</th>
+      <th>attendance_rate</th>
+      <th>sleep_hours</th>
+      <th>extracurricular</th>
+      <th>exam_score</th>
+      <th>major</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4.787359</td>
+      <td>67.934425</td>
+      <td>0.760898</td>
+      <td>5.896705</td>
+      <td>1</td>
+      <td>100.000000</td>
+      <td>Engineering</td>
+      <td>Freshman</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>2.988929</td>
+      <td>78.480749</td>
+      <td>0.897137</td>
+      <td>8.854140</td>
+      <td>0</td>
+      <td>100.000000</td>
+      <td>Physics</td>
+      <td>Sophomore</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2.764567</td>
+      <td>53.278735</td>
+      <td>0.842937</td>
+      <td>8.636965</td>
+      <td>1</td>
+      <td>99.831415</td>
+      <td>Physics</td>
+      <td>Freshman</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3. Data Exploration and Summary Statistics
 
@@ -144,6 +342,41 @@ print("\nMissing values:")
 print(df_loaded.isnull().sum())
 ```
 
+    Dataset Information:
+    Shape: (200, 9)
+    Memory usage: 14.2 KB
+    
+    Column information:
+    <class 'pandas.core.frame.DataFrame'>
+    RangeIndex: 200 entries, 0 to 199
+    Data columns (total 9 columns):
+     #   Column               Non-Null Count  Dtype  
+    ---  ------               --------------  -----  
+     0   student_id           200 non-null    int64  
+     1   study_hours          200 non-null    float64
+     2   previous_math_score  200 non-null    float64
+     3   attendance_rate      200 non-null    float64
+     4   sleep_hours          200 non-null    float64
+     5   extracurricular      200 non-null    int64  
+     6   exam_score           200 non-null    float64
+     7   major                200 non-null    object 
+     8   year                 200 non-null    object 
+    dtypes: float64(5), int64(2), object(2)
+    memory usage: 14.2+ KB
+    
+    Missing values:
+    student_id             0
+    study_hours            0
+    previous_math_score    0
+    attendance_rate        0
+    sleep_hours            0
+    extracurricular        0
+    exam_score             0
+    major                  0
+    year                   0
+    dtype: int64
+
+
 ### Summary Statistics
 
 
@@ -159,6 +392,44 @@ for col in categorical_cols:
     print(f"\n{col}:")
     print(df_loaded[col].value_counts())
 ```
+
+    Descriptive Statistics:
+           student_id  study_hours  previous_math_score  attendance_rate  \
+    count      200.00       200.00               200.00           200.00   
+    mean       100.50         3.98                73.94             0.79   
+    std         57.88         2.55                14.48             0.12   
+    min          1.00         0.36                40.47             0.46   
+    25%         50.75         2.06                63.05             0.72   
+    50%        100.50         3.50                74.11             0.82   
+    75%        150.25         5.25                84.25             0.88   
+    max        200.00        14.60               100.00             0.99   
+    
+           sleep_hours  extracurricular  exam_score  
+    count       200.00           200.00      200.00  
+    mean          7.16             0.69       98.36  
+    std           1.45             0.46        4.15  
+    min           4.00             0.00       78.20  
+    25%           6.12             0.00      100.00  
+    50%           7.19             1.00      100.00  
+    75%           8.08             1.00      100.00  
+    max          10.90             1.00      100.00  
+    
+    Categorical Variables:
+    
+    major:
+    Computer Science    74
+    Engineering         43
+    Physics             42
+    Mathematics         41
+    Name: major, dtype: int64
+    
+    year:
+    Freshman     67
+    Sophomore    59
+    Junior       51
+    Senior       23
+    Name: year, dtype: int64
+
 
 ## 4. Data Visualization
 
@@ -199,6 +470,12 @@ plt.tight_layout()
 plt.show()
 ```
 
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_13_0.png)
+    
+
+
 ### Relationship Between Variables
 
 
@@ -238,6 +515,12 @@ plt.tight_layout()
 plt.show()
 ```
 
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_15_0.png)
+    
+
+
 ### Advanced Visualizations with Seaborn
 
 
@@ -267,6 +550,17 @@ plt.tight_layout()
 plt.show()
 ```
 
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_17_0.png)
+    
+
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_17_1.png)
+    
+
+
 ### Pair Plots for Multiple Relationships
 
 
@@ -277,10 +571,19 @@ subset_df = df_loaded[subset_vars]
 
 # Create pair plot
 plt.figure(figsize=(12, 10))
-pair_plot = sns.pairplot(subset_df, hue='major', alpha=0.7)
+pair_plot = sns.pairplot(subset_df, hue='major')
 pair_plot.fig.suptitle('Pair Plot of Key Variables by Major', y=1.02)
 plt.show()
 ```
+
+
+    <Figure size 1200x1000 with 0 Axes>
+
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_19_1.png)
+    
+
 
 ## 5. Statistical Analysis
 
@@ -310,6 +613,25 @@ for var in ['study_hours', 'previous_math_score', 'sleep_hours', 'attendance_rat
 print("\nSignificance levels: *** p<0.001, ** p<0.01, * p<0.05")
 ```
 
+    Correlations with Exam Score:
+    ===================================
+    previous_math_score :  0.321
+    attendance_rate     :  0.261
+    study_hours         :  0.257
+    sleep_hours         :  0.200
+    student_id          : -0.139
+    extracurricular     :  0.048
+    
+    Statistical Significance Tests:
+    ===================================
+    study_hours         : r= 0.257, p=0.000235 ***
+    previous_math_score : r= 0.321, p=0.000004 ***
+    sleep_hours         : r= 0.200, p=0.004510 **
+    attendance_rate     : r= 0.261, p=0.000189 ***
+    
+    Significance levels: *** p<0.001, ** p<0.01, * p<0.05
+
+
 ### Group Comparisons
 
 
@@ -338,6 +660,21 @@ for major in df_loaded['major'].unique():
     print(f"  {major:15s}: {major_scores.mean():.1f} ± {major_scores.std():.1f}")
 print(f"  F-test: F={f_stat:.3f}, p={p_value:.6f}")
 ```
+
+    Group Comparisons:
+    ==============================
+    Extracurricular Activities:
+      With activities: 98.5 ± 4.2
+      Without activities: 98.1 ± 4.2
+      t-test: t=0.676, p=0.499896
+    
+    Major Comparison (ANOVA):
+      Engineering    : 96.6 ± 5.9
+      Physics        : 98.7 ± 3.8
+      Computer Science: 98.6 ± 3.7
+      Mathematics    : 99.4 ± 2.0
+      F-test: F=3.909, p=0.009672
+
 
 ## 6. Advanced Plotting Techniques
 
@@ -380,6 +717,12 @@ plt.text(0.05, 0.95, f'Overall Correlation: r = {correlation:.3f}',
 plt.tight_layout()
 plt.show()
 ```
+
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_25_0.png)
+    
+
 
 ### Interactive Elements and Subplots
 
@@ -440,6 +783,12 @@ plt.tight_layout()
 plt.show()
 ```
 
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_27_0.png)
+    
+
+
 ## 7. Data Export and Sharing
 
 ### Different File Formats
@@ -477,6 +826,17 @@ for file in files:
         size = os.path.getsize(file) / 1024  # Size in KB
         print(f"  {file}: {size:.1f} KB")
 ```
+
+     Saved as CSV
+     Saved as Excel
+     Saved as JSON
+     Saved summary statistics
+    
+    File sizes:
+      student_data_processed.csv: 21.2 KB
+      student_data_processed.json: 52.9 KB
+      summary_statistics.csv: 0.8 KB
+
 
 ### Save Plots
 
@@ -531,6 +891,17 @@ print(" Plots saved as PNG and PDF")
 
 plt.show()
 ```
+
+     Plots saved as PNG and PDF
+
+
+    <Figure size 1200x800 with 0 Axes>
+
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_31_2.png)
+    
+
 
 ## 8. Best Practices and Tips
 
@@ -587,6 +958,32 @@ def data_quality_report(df, name="Dataset"):
 data_quality_report(df_loaded, "Student Performance Dataset")
 ```
 
+     Data Quality Report: Student Performance Dataset
+    ==================================================
+    Shape: 200 rows × 9 columns
+    Memory usage: 37.1 KB
+    
+     No missing values
+    
+     No duplicate rows
+    
+     Data types:
+       float64: 5 columns
+       int64: 2 columns
+       object: 2 columns
+    
+     Numerical columns summary:
+       student_id: 0 potential outliers (0.0%)
+       study_hours: 5 potential outliers (2.5%)
+       previous_math_score: 0 potential outliers (0.0%)
+       attendance_rate: 1 potential outliers (0.5%)
+       sleep_hours: 0 potential outliers (0.0%)
+       extracurricular: 0 potential outliers (0.0%)
+       exam_score: 49 potential outliers (24.5%)
+    
+    ==================================================
+
+
 ### Plotting Best Practices
 
 
@@ -627,6 +1024,21 @@ print(" Choose colors wisely (colorblind-friendly)")
 print(" Save in appropriate resolution for use case")
 ```
 
+
+    
+![png](/materials/notebooks/04_data_reading_and_plotting/output_35_0.png)
+    
+
+
+    Key plotting principles:
+     Clear, descriptive titles and axis labels
+     Appropriate point size and transparency
+     Include sample size and key statistics
+     Use grids and appropriate axis limits
+     Choose colors wisely (colorblind-friendly)
+     Save in appropriate resolution for use case
+
+
 ## 9. Clean Up
 
 Remove temporary files created during this session.
@@ -658,6 +1070,17 @@ for file in files_to_remove:
 print("\n Tip: Keep 'class_exercise_data.csv' for the in-class exercise!")
 ```
 
+    Files that could be cleaned up:
+      student_performance.csv (21.3 KB)
+      student_data_processed.csv (21.2 KB)
+      student_data_processed.json (52.9 KB)
+      summary_statistics.csv (0.8 KB)
+      student_performance_analysis.png (431.8 KB)
+      student_performance_analysis.pdf (27.2 KB)
+    
+     Tip: Keep 'class_exercise_data.csv' for the in-class exercise!
+
+
 ## Summary
 
 In this notebook, you learned:
@@ -686,3 +1109,5 @@ In this notebook, you learned:
 ## Next Steps
 
 You're now ready to work with real data! In the in-class exercise, you'll apply these skills to explore a dataset and answer questions through data analysis and visualization.
+
+

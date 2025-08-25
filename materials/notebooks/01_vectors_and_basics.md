@@ -49,6 +49,13 @@ y = np.array([1, -2, 4])
 print(f"\nVector y: {y}")
 ```
 
+    Vector x: [2 3 1]
+    Shape: (3,)
+    Dimension: 3
+    
+    Vector y: [ 1 -2  4]
+
+
 ## 2. Vector Addition
 
 ### Mathematical Definition
@@ -93,6 +100,19 @@ print(f"b = {b}")
 print(f"a + b = {c}")
 ```
 
+    x + y = [3 1 5]
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_5_1.png)
+    
+
+
+    a = [3 2]
+    b = [1 3]
+    a + b = [4 5]
+
+
 ## 3. Scalar Multiplication
 
 ### Mathematical Definition
@@ -119,7 +139,7 @@ for i, alpha in enumerate(scalars):
     plt.arrow(0, 0, scaled_v[0], scaled_v[1], 
               head_width=0.2, head_length=0.2, 
               fc=colors[i], ec=colors[i], 
-              label=f'{alpha} × v = {scaled_v}')
+              label=f'{alpha} x v = {scaled_v}')
 
 plt.grid(True, alpha=0.3)
 plt.axis('equal')
@@ -135,8 +155,21 @@ plt.show()
 print(f"Original vector v: {v}")
 for alpha in scalars:
     result = alpha * v
-    print(f"{alpha} × v = {result}")
+    print(f"{alpha} x v = {result}")
 ```
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_7_0.png)
+    
+
+
+    Original vector v: [2 1]
+    0.5 x v = [1.  0.5]
+    1 x v = [2 1]
+    2 x v = [4 2]
+    -1 x v = [-2 -1]
+
 
 ## 4. Vector Norms (Length/Magnitude)
 
@@ -184,6 +217,22 @@ print(f"\n3D vector: {v3d}")
 print(f"||v||_2 = {np.linalg.norm(v3d):.3f}")
 ```
 
+    Vector v: [3 4]
+    ||v||_2 using np.linalg.norm: 5.0
+    ||v||_2 manual calculation: 5.0
+    ||v||_2 using dot product: 5.0
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_9_1.png)
+    
+
+
+    
+    3D vector: [1 2 2]
+    ||v||_2 = 3.000
+
+
 ## 5. Unit Vectors and Normalization
 
 ### Mathematical Definition
@@ -219,7 +268,7 @@ plt.arrow(0, 0, v[0], v[1], head_width=0.2, head_length=0.2,
 scale = 3  # Scale for visualization
 v_norm_scaled = v_normalized[:2] * scale
 plt.arrow(0, 0, v_norm_scaled[0], v_norm_scaled[1], head_width=0.2, head_length=0.2, 
-          fc='red', ec='red', label=f'Normalized (×{scale} for visibility), ||v|| = 1')
+          fc='red', ec='red', label=f'Normalized (x{scale} for visibility), ||v|| = 1')
 
 # Unit circle for reference
 circle = plt.Circle((0, 0), 1, fill=False, color='gray', linestyle='--', alpha=0.5)
@@ -235,6 +284,18 @@ plt.xlim(-1, 5)
 plt.ylim(-1, 5)
 plt.show()
 ```
+
+    Original vector: [3 4 0]
+    Original norm: 5.0
+    
+    Normalized vector: [0.6 0.8 0. ]
+    Normalized norm: 1.0
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_11_1.png)
+    
+
 
 ## 6. Dot Product (Inner Product)
 
@@ -258,11 +319,11 @@ y = np.array([1, 2])
 dot_product = np.dot(x, y)
 print(f"x = {x}")
 print(f"y = {y}")
-print(f"x · y = {dot_product}")
+print(f"x . y = {dot_product}")
 
 # Manual calculation
 dot_manual = x[0]*y[0] + x[1]*y[1]
-print(f"Manual calculation: {x[0]}×{y[0]} + {x[1]}×{y[1]} = {dot_manual}")
+print(f"Manual calculation: {x[0]}x{y[0]} + {x[1]}x{y[1]} = {dot_manual}")
 
 # Calculate angle between vectors
 cos_theta = dot_product / (np.linalg.norm(x) * np.linalg.norm(y))
@@ -282,16 +343,29 @@ arc_radius = 0.8
 arc_x = arc_radius * np.cos(angles)
 arc_y = arc_radius * np.sin(angles)
 plt.plot(arc_x, arc_y, 'g--', alpha=0.7)
-plt.text(0.5, 0.3, f'θ = {theta_degrees:.1f}°', fontsize=12)
+plt.text(0.5, 0.3, f'$\\theta$ = {theta_degrees:.1f}$^\circ$', fontsize=12)
 
 plt.grid(True, alpha=0.3)
 plt.axis('equal')
 plt.legend()
-plt.title(f'Dot Product: x · y = {dot_product}')
+plt.title(f'Dot Product: x . y = {dot_product}')
 plt.xlabel('x')
 plt.ylabel('y')
 plt.show()
 ```
+
+    x = [3 4]
+    y = [1 2]
+    x . y = 11
+    Manual calculation: 3x1 + 4x2 = 11
+    
+    Angle between vectors: 10.3 degrees
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_13_1.png)
+    
+
 
 ## 7. Special Cases of Dot Product
 
@@ -311,23 +385,23 @@ print("=" * 40)
 v1 = np.array([1, 0])
 v2 = np.array([0, 1])
 dot1 = np.dot(v1, v2)
-print(f"Orthogonal vectors: {v1} · {v2} = {dot1}")
+print(f"Orthogonal vectors: {v1} . {v2} = {dot1}")
 
 # Parallel vectors (same direction)
 v3 = np.array([2, 1])
 v4 = np.array([4, 2])  # 2 * v3
 dot2 = np.dot(v3, v4)
 expected = np.linalg.norm(v3) * np.linalg.norm(v4)
-print(f"Parallel vectors: {v3} · {v4} = {dot2}")
-print(f"Expected (||v3|| × ||v4||): {expected:.3f}")
+print(f"Parallel vectors: {v3} . {v4} = {dot2}")
+print(f"Expected (||v3|| x ||v4||): {expected:.3f}")
 
 # Opposite direction
 v5 = np.array([1, 1])
 v6 = np.array([-1, -1])  # opposite direction
 dot3 = np.dot(v5, v6)
 expected_neg = -np.linalg.norm(v5) * np.linalg.norm(v6)
-print(f"Opposite vectors: {v5} · {v6} = {dot3}")
-print(f"Expected (-||v5|| × ||v6||): {expected_neg:.3f}")
+print(f"Opposite vectors: {v5} . {v6} = {dot3}")
+print(f"Expected (-||v5|| x ||v6||): {expected_neg:.3f}")
 
 # Visualize all cases
 fig, axes = plt.subplots(1, 3, figsize=(15, 5))
@@ -357,6 +431,20 @@ plt.tight_layout()
 plt.show()
 ```
 
+    Special Cases of Dot Product:
+    ========================================
+    Orthogonal vectors: [1 0] . [0 1] = 0
+    Parallel vectors: [2 1] . [4 2] = 10
+    Expected (||v3|| x ||v4||): 10.000
+    Opposite vectors: [1 1] . [-1 -1] = -2
+    Expected (-||v5|| x ||v6||): -2.000
+
+
+    
+![png](/materials/notebooks/01_vectors_and_basics/output_15_1.png)
+    
+
+
 ## 8. Practice Exercises
 
 Try these exercises to test your understanding:
@@ -378,7 +466,7 @@ print(f"b = {b}")
 vector_sum = a + b  # a + b
 vector_diff = a - b  # a - b
 scalar_mult = 3 * a  # 3 * a
-dot_prod = np.dot(a, b)  # a · b
+dot_prod = np.dot(a, b)  # a . b
 norm_a = np.linalg.norm(a)  # ||a||
 norm_b = np.linalg.norm(b)  # ||b||
 
@@ -386,7 +474,7 @@ print(f"\nResults:")
 print(f"a + b = {vector_sum}")
 print(f"a - b = {vector_diff}")
 print(f"3 * a = {scalar_mult}")
-print(f"a · b = {dot_prod}")
+print(f"a . b = {dot_prod}")
 print(f"||a|| = {norm_a:.3f}")
 print(f"||b|| = {norm_b:.3f}")
 
@@ -396,6 +484,21 @@ if norm_a > 0 and norm_b > 0:  # Avoid division by zero
     angle_deg = np.degrees(np.arccos(np.clip(cos_angle, -1, 1)))
     print(f"Angle between a and b: {angle_deg:.1f} degrees")
 ```
+
+    Exercise 1: Vector Operations
+    ==============================
+    a = [ 1 -2  5]
+    b = [ 2 -1  1]
+    
+    Results:
+    a + b = [ 3 -3  6]
+    a - b = [-1 -1  4]
+    3 * a = [ 3 -6 15]
+    a . b = 9
+    ||a|| = 5.477
+    ||b|| = 2.449
+    Angle between a and b: 47.9 degrees
+
 
 ## Key Takeaways
 

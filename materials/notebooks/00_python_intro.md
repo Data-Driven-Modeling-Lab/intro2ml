@@ -33,6 +33,15 @@ print(f"\nType of name: {type(name)}")
 print(f"Type of num_students: {type(num_students)}")
 ```
 
+    Course: Machine Learning
+    Students: 30
+    Learning rate: 0.01
+    Supervised learning: True
+    
+    Type of name: <class 'str'>
+    Type of num_students: <class 'int'>
+
+
 ### Basic Math Operations
 
 
@@ -54,6 +63,18 @@ import math
 print(f"\nSquare root of {a}: {math.sqrt(a)}")
 print(f"Log of {a}: {math.log(a)}")
 ```
+
+    Addition: 10 + 3 = 13
+    Subtraction: 10 - 3 = 7
+    Multiplication: 10 * 3 = 30
+    Division: 10 / 3 = 3.3333333333333335
+    Integer division: 10 // 3 = 3
+    Modulo: 10 % 3 = 1
+    Exponentiation: 10 ** 3 = 1000
+    
+    Square root of 10: 3.1622776601683795
+    Log of 10: 2.302585092994046
+
 
 ## 2. Python Collections: Lists, Tuples, and Dictionaries
 
@@ -84,6 +105,18 @@ features[0] = 'student_age'  # Modify element
 print(f"After modifying first feature: {features}")
 ```
 
+    Features: ['age', 'income', 'education', 'experience']
+    Scores: [85, 92, 78, 88, 95]
+    Mixed data: ['Alice', 25, True, 3.14]
+    
+    First feature: age
+    Last score: 95
+    First 3 scores: [85, 92, 78]
+    Length of features: 4
+    After adding 90: [85, 92, 78, 88, 95, 90]
+    After modifying first feature: ['student_age', 'income', 'education', 'experience']
+
+
 ### List Comprehensions - Powerful and Pythonic
 
 
@@ -106,6 +139,12 @@ print(f"High scores (>= 90): {high_scores}")
 normalized_scores = [(score - min(scores)) / (max(scores) - min(scores)) for score in scores]
 print(f"Normalized scores: {[round(s, 3) for s in normalized_scores]}")
 ```
+
+    Squared scores (traditional): [7225, 8464, 6084, 7744, 9025, 8100]
+    Squared scores (list comp): [7225, 8464, 6084, 7744, 9025, 8100]
+    High scores (>= 90): [92, 95, 90]
+    Normalized scores: [0.412, 0.824, 0.0, 0.588, 1.0, 0.706]
+
 
 ### Dictionaries - Key-Value Pairs
 
@@ -138,6 +177,23 @@ for key, value in student.items():
     print(f"  {key}: {value}")
 ```
 
+    Student info: {'name': 'Alice', 'age': 22, 'major': 'Computer Science', 'gpa': 3.85, 'courses': ['Math', 'ML', 'Statistics']}
+    Name: Alice
+    GPA: 3.85
+    
+    Updated student: {'name': 'Alice', 'age': 22, 'major': 'Computer Science', 'gpa': 3.9, 'courses': ['Math', 'ML', 'Statistics'], 'graduation_year': 2025}
+    Keys: ['name', 'age', 'major', 'gpa', 'courses', 'graduation_year']
+    Values: ['Alice', 22, 'Computer Science', 3.9, ['Math', 'ML', 'Statistics'], 2025]
+    
+    Student details:
+      name: Alice
+      age: 22
+      major: Computer Science
+      gpa: 3.9
+      courses: ['Math', 'ML', 'Statistics']
+      graduation_year: 2025
+
+
 ## 3. Control Flow: Loops and Conditionals
 
 ### If Statements
@@ -163,6 +219,13 @@ for score in test_scores:
     performance = evaluate_performance(score)
     print(f"Score {score}: {performance}")
 ```
+
+    Score 95: Excellent
+    Score 85: Good
+    Score 75: Satisfactory
+    Score 65: Needs Improvement
+    Score 55: Failing
+
 
 ### Loops
 
@@ -193,6 +256,40 @@ while loss > 0.1 and iteration < 10:
     print(f"  Iteration {iteration}: Loss = {loss:.3f}")
 ```
 
+    Counting to 5:
+      0
+      1
+      2
+      3
+      4
+    
+    Every 2nd number from 0 to 10:
+      0
+      2
+      4
+      6
+      8
+      10
+    
+    ML Algorithms:
+      1. Linear Regression
+      2. Logistic Regression
+      3. Decision Trees
+      4. Neural Networks
+    
+    Simulating gradient descent iterations:
+      Iteration 1: Loss = 7.000
+      Iteration 2: Loss = 4.900
+      Iteration 3: Loss = 3.430
+      Iteration 4: Loss = 2.401
+      Iteration 5: Loss = 1.681
+      Iteration 6: Loss = 1.176
+      Iteration 7: Loss = 0.824
+      Iteration 8: Loss = 0.576
+      Iteration 9: Loss = 0.404
+      Iteration 10: Loss = 0.282
+
+
 ## 4. Functions - Building Reusable Code
 
 ### Basic Functions
@@ -219,6 +316,12 @@ print(f"Mean: {calculate_mean(data):.2f}")
 print(f"Variance: {calculate_variance(data):.2f}")
 print(f"Standard Deviation: {calculate_std(data):.2f}")
 ```
+
+    Data: [85, 92, 78, 88, 95, 82, 90, 87]
+    Mean: 87.12
+    Variance: 26.11
+    Standard Deviation: 5.11
+
 
 ### Functions with Default Parameters
 
@@ -251,6 +354,28 @@ for x in x_values:
     print(f"  sigmoid({x}) = {y:.3f}")
 ```
 
+    Linear function (default parameters):
+      f(-2) = -2
+      f(-1) = -1
+      f(0) = 0
+      f(1) = 1
+      f(2) = 2
+    
+    Linear function (slope=2, intercept=3):
+      f(-2) = -1
+      f(-1) = 1
+      f(0) = 3
+      f(1) = 5
+      f(2) = 7
+    
+    Sigmoid function:
+      sigmoid(-2) = 0.119
+      sigmoid(-1) = 0.269
+      sigmoid(0) = 0.500
+      sigmoid(1) = 0.731
+      sigmoid(2) = 0.881
+
+
 ## 5. Essential Python Libraries for ML
 
 ### Importing Libraries
@@ -269,6 +394,12 @@ print(f"e from numpy: {np.e:.4f}")
 print(f"Square root of 16: {sqrt(16)}")
 print(f"Natural log of e: {log(np.e):.4f}")
 ```
+
+    π from math: 3.1416
+    e from numpy: 2.7183
+    Square root of 16: 4.0
+    Natural log of e: 1.0000
+
 
 ### Quick Preview of NumPy
 
@@ -295,6 +426,20 @@ print(f"Element-wise multiplication: {arr1 * arr2}")
 print(f"Dot product: {np.dot(arr1, arr2)}")
 print(f"Squared: {arr1 ** 2}")
 ```
+
+    Python list: [1, 2, 3, 4, 5]
+    NumPy array: [1 2 3 4 5]
+    Type of list: <class 'list'>
+    Type of array: <class 'numpy.ndarray'>
+    
+    Vector operations:
+    Array 1: [1 2 3]
+    Array 2: [4 5 6]
+    Element-wise addition: [5 7 9]
+    Element-wise multiplication: [ 4 10 18]
+    Dot product: 32
+    Squared: [1 4 9]
+
 
 ## 6. Error Handling and Debugging
 
@@ -340,6 +485,21 @@ print(f"list[10] = {safe_access_list(test_list, 10)}")
 print(f"list['hello'] = {safe_access_list(test_list, 'hello')}")
 ```
 
+    Testing safe_divide:
+    10 / 2 = 5.0
+    Error: Cannot divide 10 by zero!
+    10 / 0 = None
+    Error: Cannot divide 10 and hello - check data types
+    10 / 'hello' = None
+    
+    Testing safe_access_list:
+    list[2] = 3
+    Error: Index 10 is out of range for list of length 5
+    list[10] = None
+    Error: Invalid index type <class 'str'>
+    list['hello'] = None
+
+
 ## 7. File I/O - Reading and Writing Data
 
 ### Basic File Operations
@@ -374,6 +534,23 @@ with open('students.txt', 'r') as file:
     for line_num, line in enumerate(file, 1):
         print(f"Line {line_num}: {line.strip()}")
 ```
+
+    Data written to students.txt
+    
+    File content:
+    Name,Age,Major,GPA
+    Alice,22,Computer Science,3.8
+    Bob,21,Mathematics,3.6
+    Charlie,23,Physics,3.9
+    Diana,20,Chemistry,3.7
+    
+    Reading line by line:
+    Line 1: Name,Age,Major,GPA
+    Line 2: Alice,22,Computer Science,3.8
+    Line 3: Bob,21,Mathematics,3.6
+    Line 4: Charlie,23,Physics,3.9
+    Line 5: Diana,20,Chemistry,3.7
+
 
 ### Working with CSV Data (Preview)
 
@@ -414,6 +591,17 @@ if os.path.exists('students.txt'):
     print("\nCleaned up temporary file")
 ```
 
+    Student records:
+      1. {'Name': 'Alice', 'Age': '22', 'Major': 'Computer Science', 'GPA': '3.8'}
+      2. {'Name': 'Bob', 'Age': '21', 'Major': 'Mathematics', 'GPA': '3.6'}
+      3. {'Name': 'Charlie', 'Age': '23', 'Major': 'Physics', 'GPA': '3.9'}
+      4. {'Name': 'Diana', 'Age': '20', 'Major': 'Chemistry', 'GPA': '3.7'}
+    
+    Average GPA: 3.75
+    
+    Cleaned up temporary file
+
+
 ## 8. Quick Practice Exercises
 
 Try these exercises to test your understanding!
@@ -440,6 +628,9 @@ normalized = normalize_to_unit_range(test_data)
 print(f"Original: {test_data}")
 print(f"Normalized: {normalized}")
 ```
+
+    Original: [10, 20, 30, 40, 50]
+    Normalized: [0.0, 0.25, 0.5, 0.75, 1.0]
 
 
 ```python
@@ -486,6 +677,18 @@ gb.add_grade("Bob", 78)
 gb.add_grade("Bob", 88)
 gb.class_summary()
 ```
+
+    Added student: Alice
+    Added student: Bob
+    Added grade 85 for Alice
+    Added grade 92 for Alice
+    Added grade 78 for Bob
+    Added grade 88 for Bob
+    
+    Class Summary:
+      Alice: [85, 92] → Average: 88.5
+      Bob: [78, 88] → Average: 83.0
+
 
 ## Summary
 

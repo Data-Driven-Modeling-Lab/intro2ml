@@ -8,13 +8,14 @@ title: Introduction to Machine Learning
 This course provides a comprehensive introduction to machine learning, covering fundamental algorithms and techniques from linear methods to deep learning. Students will gain hands-on experience implementing machine learning algorithms in Python and applying them to real-world problems. The course emphasizes both theoretical understanding and practical application, preparing students to use machine learning effectively in their future work.
 
 **Key Topics Include:**
-- Data Analysis and Visualization
-- Linear regression, Generalized Linear Models, and classification methods
-- Generative learning and kernel methods 
-- Neural networks and deep learning
+- Data Analysis and Visualization: matplotlib, pandas, numpy
+- Linear regression, Logistic Regression, Generalized Linear Models
+- Generative learning and kernel methods: Support Vector Machines, Naive Bayes, Gaussian Discriminant Analysis
+- Neural networks and deep learning: Fully connected, convolutional, and recurrent neural networks
 - Unsupervised learning and dimensionality reduction: PCA, K-means, Gaussian Mixture Models
-- Reinforcement learning 
-- Foundation models and language modeling
+- Reinforcement learning: Markov Decision Processes, Q-learning, Policy Gradients
+- Foundation models and language modeling: Transformers, LLMs, and self-supervised learning
+- Ethics and future of machine learning: Bias, fairness, and responsible use of AI
 
 ## Instructor
 
@@ -22,7 +23,7 @@ This course provides a comprehensive introduction to machine learning, covering 
     <div>
         <h3>Joseph Bakarji</h3>
         <p><strong>Email:</strong> jb50@aub.edu.lb</p>
-        <p><strong>Office Hours:</strong> Thursday 2:00-4:00PM (or by appointment)</p>
+        <p><strong>Office Hours:</strong> Thursday 2:30-4:30PM (or by appointment)</p>
         <p><strong>Office:</strong> Bechtel 418</p>
     </div>
 </div>

@@ -40,7 +40,7 @@
 - section: Introduction
   lecture_number: 2
   date: Aug 28
-  title: Data, Models, and Python 
+  title: Data, Models, and Python
   subtitle: null
   type: lecture
   duration: 75
@@ -98,6 +98,9 @@
     - name: CS231n Python/NumPy Tutorial
       url: https://cs231n.github.io/python-numpy-tutorial/
       recommended: true
+    - name: Probability and Statistics Refresher
+      url: https://stanford.edu/~shervine/teaching/cs-229/refresher-probabilities-statistics
+      recommended: true
     videos:
     - name: '3Blue1Brown: Essence of Linear Algebra'
       url: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
@@ -131,31 +134,9 @@
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
-    notebooks:
-    - name: Sgd Poly Example
-      url: /materials/notebooks/sgd_poly_example/
-      type: notebooks
-    - name: Basic Fit Example
-      url: /materials/notebooks/basic_fit_example/
-      type: notebooks
-    assignments:
-    - name: Modeling-Functions
-      url: /materials/assignments/modeling-functions/
-      type: assignments
-    references:
-    - name: Kaggle Competition
-      url: /materials/references/kaggle_competition/
-      type: references
     lecture: []
-    post_class: []
   references: null
-  assignments:
-    released_today:
-    - name: 'Problem Set 2: Linear Regression Implementation'
-      type: homework
-      due_date: '2025-09-11'
-      weight: 4%
-      description: Implement linear regression from scratch
+  assignments: null
 - section: Function Approximation
   lecture_number: 5
   date: Sep 9
@@ -176,15 +157,7 @@
     - name: Ml Tutorial
       url: /materials/notebooks/ML_tutorial/
       type: notebooks
-    assignments:
-    - name: Adv Generalization
-      url: /materials/assignments/adv_generalization.pdf
-      type: assignments
-    - name: Generalization-And-Features
-      url: /materials/assignments/generalization-and-features.pdf
-      type: assignments
     lecture: []
-    post_class: []
   references: null
   assignments: null
 - section: Function Approximation
@@ -205,8 +178,4 @@
       type: slides
     lecture: []
   references: null
-  assignments:
-    due_today:
-    - name: 'Problem Set 2: Linear Regression Implementation'
-      type: homework
-      status: due
+  assignments: null
