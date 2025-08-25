@@ -12,37 +12,45 @@
     '
   materials:
     slides:
-    - name: Lecture Slides
+    - name: Introductory Slides
       url: /materials/slides/introductory_slides.pdf
       type: slides
     references:
     - name: Course introductory note and takeaways
-      url: /materials/references/course_purpose_note.md
+      url: /materials/references/course_purpose_note/
       type: references
-  references:
+    lecture:
+    - name: Pre-course Survey
+      url: https://docs.google.com/forms/d/e/1FAIpQLSd01PzGEE1JxqCwxGWsXeS8goRgRcYOOR9sAuEW0UQBrTQmgA/viewform?usp=sharing&ouid=112491546008459452170
+      type: references
+      required: true
+      deadline: August 28
     articles:
     - name: 'Artificial Intelligence: A Modern Approach (Ch. 1) Russell & Norvig textbook'
       url: https://aima.cs.berkeley.edu/
+      type: references
       chapter: Chapter 1 - Introduction
       recommended: true
     - name: A bit about my research - Discovering Physics with Machine Learning
       url: https://www.josephbakarji.com/articles/on-discovering-physics-from-data
       type: research
       optional: true
+  references: null
   assignments: null
 - section: Introduction
   lecture_number: 2
   date: Aug 28
-  title: Data, Models, and Python
+  title: Data, Models, and Python 
   subtitle: null
   type: lecture
   duration: 75
   description: null
   materials:
     slides:
-    - name: Lecture Slides
+    - name: Learning from Data Slides
       url: /materials/slides/learning examples and data.pdf
       type: slides
+    lecture: []
   references:
     videos:
     - name: Data Visualization Best Practices (coming soon)
@@ -65,7 +73,7 @@
     '
   materials:
     notebooks:
-    - name: Python Introduction (Test)
+    - name: Python Introduction
       url: /materials/notebooks/00_python_intro/
       type: notebooks
     - name: Vectors And Basics
@@ -80,6 +88,11 @@
     - name: Data Reading And Plotting
       url: /materials/notebooks/04_data_reading_and_plotting/
       type: notebooks
+    preparation:
+    - name: CS229 Linear Algebra Review
+      url: https://cs229.stanford.edu/section/cs229-linalg.pdf
+      type: reference
+    lecture: []
   references:
     articles:
     - name: CS231n Python/NumPy Tutorial
@@ -127,12 +140,14 @@
       type: notebooks
     assignments:
     - name: Modeling-Functions
-      url: /materials/assignments/modeling-functions.md
+      url: /materials/assignments/modeling-functions/
       type: assignments
     references:
     - name: Kaggle Competition
       url: /materials/references/kaggle_competition/
       type: references
+    lecture: []
+    post_class: []
   references: null
   assignments:
     released_today:
@@ -168,6 +183,8 @@
     - name: Generalization-And-Features
       url: /materials/assignments/generalization-and-features.pdf
       type: assignments
+    lecture: []
+    post_class: []
   references: null
   assignments: null
 - section: Function Approximation
@@ -186,6 +203,7 @@
     - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
+    lecture: []
   references: null
   assignments:
     due_today:

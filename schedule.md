@@ -405,16 +405,27 @@ title: Schedule
                                 {% for material in materials %}
                                 <li class="material-item">
                                     {% if material.url %}
-                                        {% if material.url contains 'http' %}
-                                        <a href="{{ material.url }}" class="material-link">{{ material.name }}</a>
-                                        {% elsif material.url contains '.md' %}
-                                        {% assign clean_url = material.url | replace: '.md', '/' %}
-                                        <a href="{{ clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
-                                        {% elsif material.url contains '.ipynb' %}
-                                        {% assign clean_url = material.url | replace: '.ipynb', '/' %}
-                                        <a href="{{ clean_url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        {% assign u = material.url %}
+                                        {% if u contains 'http' %}
+                                        <a href="{{ u }}" class="material-link">{{ material.name }}</a>
                                         {% else %}
-                                        <a href="{{ material.url | relative_url }}" class="material-link">{{ material.name }}</a>
+                                        {%- comment -%} normalize extensions to pretty permalinks {%- endcomment -%}
+                                        {% if u contains '.md' %}
+                                        {% assign u = u | replace: '.md', '/' %}
+                                        {% elsif u contains '.ipynb' %}
+                                        {% assign u = u | replace: '.ipynb', '/' %}
+                                        {% endif %}
+                                        {%- comment -%} ensure absolute URL under /materials {%- endcomment -%}
+                                        {% assign first_char = u | slice: 0, 1 %}
+                                        {% if first_char != '/' %}
+                                            {% assign p_materials = u | slice: 0, 10 %}
+                                            {% if p_materials == 'materials/' %}
+                                                {% assign u = '/' | append: u %}
+                                            {% else %}
+                                                {% assign u = '/materials/' | append: u %}
+                                            {% endif %}
+                                        {% endif %}
+                                        <a href="{{ u | uri_escape }}" class="material-link">{{ material.name }}</a>
                                         {% endif %}
                                     {% else %}
                                     <span class="material-link">{{ material.name }}</span>
