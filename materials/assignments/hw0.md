@@ -18,36 +18,27 @@ This problem is designed to get you thinking creatively about how to collect and
 
 Ethical dilemmas aside, this exercise is meant to show you what the **real-world iterative process of data science** looks like:  
 
-collect data $\rightarrow$ define a problem $\rightarrow$ analyze it $\rightarrow$ redefine the problem $\rightarrow$ collect more data $\rightarrow$ try again.  
+Collect data $\rightarrow$ define a problem $\rightarrow$ analyze it $\rightarrow$ redefine the problem $\rightarrow$ collect more data $\rightarrow$ try again.  
 
 Not all data science is machine learning. Sometimes it's a matter of signal processing, statistics, or simple algorithms (e.g., Fourier transform, averages, locating objects in an image, tweaking thresholds, etc.).
 
-You have to submit this problem as a *Colab notebook* link on the #phone-data-challenge channel on Slack. **Make sure that the link works before submitting, by making it publicly accessible.** Here's are more detailed instructions.
+You have to submit this problem as a *Colab notebook* link on the `#problem-sets-subs` channel on Slack. **Make sure that the link works before submitting, by making it publicly accessible.** Here's are more detailed instructions.
 
 - **Use your phone as a sensor**: e.g. camera, microphone, gyroscope, accelerometer, light sensor, screen, etc. There are a bunch of apps that can give you access to these sensors (e.g. [Sensor Data Recorder](https://apps.apple.com/us/app/sensor-data-recorder/id1438400138))
 
-- **Brainstorm 5 ideas**: Think of 5 possible uses of these sensors.  
-  *Write them down at the top of the Jupyter notebook in a markdown cell.*
-
+- **Brainstorm 5 ideas**: Think of 5 possible uses of these sensors. *Write them down at the top of the Jupyter notebook in a markdown cell.*
 - **Choose one idea** and collect data for that idea.
-
 - **Solve a task with the data — without machine learning**:  
   Examples (that you can't use):  
   - Find the location of an object of a certain color (e.g., red purse) in a photo or track it in a video.  
   - Detect the tempo of a song by shaking your phone in rhythm (using gyroscope/accelerometer data).
   - Record a sound (song, speech, etc.) with your microphone and analyze it.
-
-- **You can use open-source libraries**, but not machine learning models.  
-  (e.g., use OpenCV for color detection in images).
-
+- **You can use open-source libraries**, but not machine learning models. (e.g., use OpenCV for color detection in images).
 - **Any resource is allowed**. Disclose and briefly describe how you used LLMs by mentioning it in your notebook. 
-
-- **Work individually**: *No teamwork for this problem.*
-
 - **Submit your work**:  
   - Post a link to your Colab notebook in the `#problem-sets-subs` channel.  
   - Include a short description (max 3 sentences) on Slack explaining your idea.  
-  - Your notebook should include your code, analysis, and any visualizations, and it should run.
+  - Your notebook should include your code, analysis, and any visualizations. Most importantly **it should run**.
   - The more you explain your process, the better. You can use the markdown cells to do that. 
 
 - **Bonus / Penalty**:  

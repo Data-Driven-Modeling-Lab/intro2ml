@@ -93,10 +93,6 @@ import scipy as sp           # Scientific computing
 
 # Machine Learning
 import sklearn               # Classical machine learning
-import xgboost as xgb       # Gradient boosting
-import lightgbm as lgb      # Fast gradient boosting
-
-# Deep Learning
 import torch                 # PyTorch deep learning
 import tensorflow as tf      # TensorFlow/Keras
 ```
