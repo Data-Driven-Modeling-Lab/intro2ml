@@ -13,7 +13,7 @@ title: Logistics
 **Credits:** 3 credit hours  
 **Prerequisites:** Linear algebra, calculus, statistics and probability, programming  
 **Lectures:** Tuesday and Thursday, 11:00AM-12:15PM    
-**Location:** IOEC 518  
+**Location:** IOEC 210-A 
 
 ### Instructor: Joseph Bakarji
 - **Email:** jb50@aub.edu.lb
@@ -36,10 +36,9 @@ By the end of this course, successful students will be able to:
 ##  Grading & Assessment
 
 ### Late Policy
-- **Late days:** You get 5 (emergency) extra days to use on any assignment (except project) submission. Use them wisely. 
-- **Assignments:** 10% penalty per day late (including weekends)
-- **Projects:** 15% penalty per late day
-- **Extensions:** Only available for well-documented emergencies or health issues
+- **Late days:** You get a total of 5 (emergency) late days to use on any assignment submission (except project). You can only use 3 days per assignment. Use them wisely. 
+- **Penalty:** 10% penalty per day late beyond credit late days (including weekends)
+- **Extensions:** Only available for well-documented emergencies.
 
 ##  Assignment Policies
 
@@ -75,26 +74,11 @@ def help_route(slack_answered: bool, ta_office_hours_possible: bool, prof_office
 
 ##  Course Success Tips
 
-### Assignments
-- Start assignments early - they take longer than expected. 
-- Use active learning: practice coding regularly
-- Create a study schedule and stick to it
-- Don't procrastinate on reading and practice problems
-- Practice Python regularly, even for short periods
-- Use debugging tools and read error messages carefully. Don't rely too much on LLMs.
-- Comment your code thoroughly for later review
-- Back up your work frequently
+For assignments, start early - they take longer than expected. Don't procrastinate on reading and practice problems. Practice Python regularly, even for short periods. When you use LLMs, always write down how you used it and what you got from it. Use debugging tools and read error messages carefully. Don't rely too much on LLMs. Comment your code thoroughly for later review. Back up your work frequently!
 
-### Project Management
-- Choose projects aligned with your interests, demonstrate your understanding of the course material, and show your creativity.
-- Start with simple approaches before attempting complex methods
-- Document *everything* as you go.
-- Test your code frequently with small examples
+Choose projects aligned with your interests, demonstrate your understanding of the course material, and show your creativity. Start with simple approaches before attempting complex methods. Document *everything* as you go. Test your code frequently with small examples.
 
-### Getting the Most from Class
-- Come prepared with questions from readings and videos assigned in the schedule for class preparation
-- Participate actively in discussions and exercises
-- Review material regularly, don't cram
+To get the most from the class, come prepared with questions from readings and videos assigned in the schedule for class preparation. Participate actively in discussions and exercises. Review material regularly, don't cram.
 
 ##  University Policies
 
@@ -110,4 +94,4 @@ For complete policy details, consult the AUB Student Handbook and academic regul
 
 *These policies are designed to create a fair, supportive, and productive learning environment. Questions about any policy should be directed to the instructor.*
 
-**Last Updated:** August 22, 2025 
+**Last Updated:** August 29, 2025 
