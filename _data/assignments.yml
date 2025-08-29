@@ -1,8 +1,8 @@
 - id: hw0
-  title: 'Problem Set 0: Introduction'
-  release_date: 2025-08-21
-  due_date: 2025-09-04
-  description: Explore big-picture data and course material.
+  title: 'Problem Set 0: Review and Chatting with LLMs'
+  release_date: 2025-08-29
+  due_date: 2025-09-07
+  description: Calculus and linear algebra review. Chatting with LLMs.
   links:
   - name: Assignment details
     url: /materials/assignments/hw0/
