@@ -114,7 +114,7 @@
   assignments: null
 - section: Function Approximation
   lecture_number: 4
-  date: Sep 4
+  date: Sep 9
   title: Supervised Learning and Linear Regression
   subtitle: First machine learning algorithm and foundational concepts
   type: lecture
@@ -129,6 +129,13 @@
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
+    - name: CS 229, Section 1
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+    references:
+    - name: Interactive introduction to linear regression
+      url: https://mlu-explain.github.io/linear-regression/
+      type: references
   references: null
   assignments: null
 - section: Function Approximation

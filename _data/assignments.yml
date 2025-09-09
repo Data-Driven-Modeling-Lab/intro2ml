@@ -6,11 +6,11 @@
   links:
   - name: Assignment details
     url: /materials/assignments/hw0/
-- id: hw2
-  title: 'Homework 2: Linear Regression'
-  release_date: 2025-09-02
-  due_date: 2025-09-11
+- id: hw1
+  title: 'Problem Set 1: Linear Regression'
+  release_date: 2025-09-09
+  due_date: 2025-09-14
   description: Implement polynomial regression and SGD; short writeup.
   links:
   - name: Page
-    url: /materials/assignments/hw2/
+    url: /materials/assignments/hw1/
