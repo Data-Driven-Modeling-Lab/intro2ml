@@ -137,4 +137,4 @@ This website template is available for educational use. Course content remains p
 **Course**: Introduction to Machine Learning  
 **Institution**: American University of Beirut  
 **Instructor**: Joseph Bakarji  
-**Semester**: Spring 2025
+**Semester**: Fall 2025
