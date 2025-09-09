@@ -12,7 +12,7 @@ This is an individual assignment. Review assignment policy regarding collaborati
 
 Zip all files and submit them as a single file on the following moodle link: [Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2401976)
 
-## Problem 0: Ask a good question.
+## Problem 0: Ask a good question (10 points)
 
 To encourage participation and interactions on Slack, you are required to ask at least one good question about the lectures we covered so far, and answer at least one question from another student. Do that on the #learn-and-share channel.
 
@@ -49,7 +49,7 @@ Create a Jupyter notebook that loads the dataset, preprocesses it, and applies l
 Submit the notebook with the dataset in the same folder called `problem_2.ipynb` so that it can run locally. If it doesn't run, you will lose points.
 
 
-## Problem 3: Linear Regression and Gradient Descent (Theory-heavy)
+## Problem 3: Linear Regression and Gradient Descent (20 points)
 
 Consider a supervised learning problem with inputs $x\in\mathbb{R}^d$ and targets $y\in\mathbb{R}$. We use a linear hypothesis with a bias term via the "bias trick": let $x_0=1$ and define
 
@@ -65,7 +65,7 @@ $$
 
 (a) Explain why adding a constant feature $x_0=1$ (the “bias trick”) is equivalent to allowing the fitted hyperplane to *not* pass through the origin. Describe this geometrically in $\mathbb{R}^2$ (one real feature plus bias).
 
-(b) Briefly argue why minimizing $\sum_i (h_\theta(x_i)-y_i)$ (no absolute value or square) is a bad idea. Then compare $\sum_i |h_\theta(x_i)-y_i|$ to $\sum_i (h_\theta(x_i)-y_i)^2$ in terms of differentiability and suitability for gradient-based optimization.
+(b) Briefly argue why minimizing $\sum_i (h_\theta(x_i) - y_i)$ (no absolute value or square) is a bad idea. Then compare $\sum_i |h_\theta(x_i)-y_i|$ to $\sum_i (h_\theta(x_i)-y_i)^2$ in terms of differentiability and suitability for gradient-based optimization.
 
 (c) Show that $J(\theta)$ is a convex function of $\theta$. Under what condition on the data matrix $X$ (whose rows are $x_i^\top$) is $J$ **strictly** convex, hence the minimizer unique?
 
@@ -89,11 +89,11 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 (g) Describe the shape of the level sets (contours) of $J(\theta)$ for two parameters $(\theta_0,\theta_1)$ and how the gradient direction relates to those contours. Explain qualitatively what can happen if $\alpha$ is chosen too large vs. reasonably small.
 
-## Problem 4: Kaggle Competition
+## Problem 4: Kaggle Competition (30 points)
 
 Sign up to kaggle.com and make teams of up to 3. And join the competition through this link: [Competition Link](https://www.kaggle.com/competitions/find-the-polynomial). Please don’t share the link with people outside the class (for now). The problem statement is to fit a function given two inputs and one output (all real numbers). You’re free to use whatever method you see fit. You’re allowed only 2 submissions per day. You’ll see more details on the link.
 
-## Problem 5: Learning Machine Learning with Machine Learning (LMLML)
+## Problem 5: Learning Machine Learning with Machine Learning (LMLML) (20 points)
 
 * Explaining core ideas in your own words (features, model/hypothesis, loss, optimization).
 * Doing math: gradients, normal equation, regularization effects.
@@ -112,7 +112,7 @@ Sign up to kaggle.com and make teams of up to 3. And join the competition throug
 You will run **one** sustained conversation with ChatGPT (or a similar LLM). Start with the **Initial Prompt** below by copy-pasting it into the chat as your very first message.
 
 #### Initial Prompt (copy-paste this)
-
+```
 You are an AI tutor helping me master *linear regression*. This week I learned about:
 - Linear regression hypothesis and model
 - feature engineering,
@@ -144,7 +144,7 @@ Your role and ground rules:
 9) At the very end, summarize the topics I've learned and show me all the MCQs I answered, which ones I got correctly, and key takeaways.
 
 Assume I may share a link to my week's lecture; if I do, you can tailor the depth. Ready? Ask your calibration question first.
-
+```
 
 #### Required elements during your chat
 
