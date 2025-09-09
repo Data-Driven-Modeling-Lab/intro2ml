@@ -91,7 +91,7 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 ## Problem 4: Kaggle Competition (30 points)
 
-Sign up to kaggle.com and make teams of up to 3. And join the competition through this link: [Competition Link](https://www.kaggle.com/competitions/find-the-polynomial). Please don’t share the link with people outside the class (for now). The problem statement is to fit a function given two inputs and one output (all real numbers). You’re free to use whatever method you see fit. You’re allowed only 2 submissions per day. You’ll see more details on the link.
+Sign up to kaggle.com and make teams of up to 3. And join the competition through this link: [Competition Link](https://www.kaggle.com/competitions/find-polynomial). Please don’t share the link with people outside the class (for now). The problem statement is to fit a function given two inputs and one output (all real numbers). You’re free to use whatever method you see fit. You’re allowed only 2 submissions per day. You'll see more details on the link.
 
 ## Problem 5: Learning Machine Learning with Machine Learning (LMLML) (20 points)
 
