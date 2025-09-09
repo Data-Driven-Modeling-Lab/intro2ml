@@ -49,7 +49,7 @@ Create a Jupyter notebook that loads the dataset, preprocesses it, and applies l
 Submit the notebook with the dataset in the same folder called `problem_2.ipynb` so that it can run locally. If it doesn't run, you will lose points.
 
 
-# Problem 3: Linear Regression and Gradient Descent (Theory-heavy)
+## Problem 3: Linear Regression and Gradient Descent (Theory-heavy)
 
 Consider a supervised learning problem with inputs $x\in\mathbb{R}^d$ and targets $y\in\mathbb{R}$. We use a linear hypothesis with a bias term via the "bias trick": let $x_0=1$ and define
 
@@ -100,7 +100,7 @@ Sign up to kaggle.com and make teams of up to 3. And join the competition throug
 * Coding + plotting a simple regression experiment.
 * Testing yourself with MCQs and reflecting on mistakes.
 
-## Deliverables (submit as **one PDF**)
+#### Deliverables (submit as **one PDF**)
 
 1. **Full chat transcript** with the model (from your first prompt to the end).
 2. **MCQ answer sheet** (Q1–Q10 with your chosen option + brief reason).
@@ -108,13 +108,10 @@ Sign up to kaggle.com and make teams of up to 3. And join the competition throug
 4. **Code & plots** shown in the conversation. 
 5. **Link(s) to the lecture slides/video** you used (if any).
 
----
-
-## Instructions for the conversation
 
 You will run **one** sustained conversation with ChatGPT (or a similar LLM). Start with the **Initial Prompt** below by copy-pasting it into the chat as your very first message.
 
-### Initial Prompt (copy-paste this)
+#### Initial Prompt (copy-paste this)
 
 You are an AI tutor helping me master *linear regression*. This week I learned about:
 - Linear regression hypothesis and model
@@ -148,9 +145,8 @@ Your role and ground rules:
 
 Assume I may share a link to my week's lecture; if I do, you can tailor the depth. Ready? Ask your calibration question first.
 
----
 
-## Required elements during your chat
+#### Required elements during your chat
 
 * Answer the **first 5 MCQs** one by one (explanations revealed after each).
 * Ask the tutor for **“5 more MCQs”** near the end, then answer them (total = **10 MCQs**).
@@ -160,7 +156,7 @@ Assume I may share a link to my week's lecture; if I do, you can tailor the dept
 * Request a **final summary** and **two specific next steps** from the tutor at the end.
 
 
-## Suggested conversation flow (you can adapt)
+#### Suggested conversation flow (you can adapt)
 
 1. Paste the **Initial Prompt**.
 2. Answer the calibration question.
@@ -170,7 +166,7 @@ Assume I may share a link to my week's lecture; if I do, you can tailor the dept
 6. Ask more questions until you have answered at least 10 MCQs.
 7. Ask: "Rewrite a review of all MCQs, and my answers with a brief explanation."
 
-## Off-script prompts you *might* try (please tailor to your own interests and background based on what you're interested in and what you'd want to understand in more depth)
+Off-script prompts you *might* try (please tailor to your own interests and background based on what you're interested in and what you'd want to understand in more depth)
 
 * "Why does feature scaling affect eigenvalues of $X^TX$ and thus GD step sizes?"
 * "Show a toy case where normal equation is numerically unstable; compare to ridge."
@@ -180,7 +176,7 @@ Assume I may share a link to my week's lecture; if I do, you can tailor the dept
 * "How do I pick a learning-rate schedule? Try constant vs. decay in a plot."
 
 
-## Reflection (<300 words, use this scaffold)
+#### Reflection (<300 words, use this scaffold)
 
 The best way to learn is to write down what you remember from readings, conversations and lectures. Here's a guide to do it yourself (submit this and don't worry about editing language too much; in fact, it's better if you don't edit it too much so that I know it's not a language model that generated it). Here are questions to consider in your reflection.
 
@@ -188,7 +184,7 @@ The best way to learn is to write down what you remember from readings, conversa
 **So what?** What clicked? What remained confusing? What errors did you make on MCQs and why?
 **Now what?** Two concrete next steps to strengthen your understanding (e.g., try L1, regularization paths, condition numbers).
 
-## Grading rubric (20 pts total)
+#### Grading rubric (20 pts total)
 
 * **Conversation quality (5 pts):** Followed the flow, asked off-script questions, requested derivations; interactions are inquisitive and substantive.
 * **MCQs (5 pts):** Completed **10** MCQs. How many you got correctly is important but only counts for 1 point (if you got most correctly). Exploration of deeper concepts and demonstration of understanding and curiosity is more important.
