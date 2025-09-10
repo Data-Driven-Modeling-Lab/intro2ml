@@ -32,7 +32,7 @@ Answer the following questions with True or False, and briefly explain your reas
 10. The purpose of a test set is to prevent overfitting.
 
 
-## Problem 2: Work with this dataset
+## Problem 2: Work with this dataset (20 points)
 
 Apply linear regression to the following [dataset](https://www.opendatalebanon.org/job/weather/). This dataset contains both monthly and yearly weather statistics from 1996 to 2018. This dataset is aggregated by source (Rafiq Al-Hariri Int. airport, Beirut golf, Zahle, Tripoli), temperature (minimum, maximum, average), rain and humidity (humidity rates, maximal wind direction, wind power, rainy days, mm of rain, etc).
 
@@ -65,7 +65,7 @@ $$
 
 (a) Explain why adding a constant feature $x_0=1$ (the “bias trick”) is equivalent to allowing the fitted hyperplane to *not* pass through the origin. Describe this geometrically in $\mathbb{R}^2$ (one real feature plus bias).
 
-(b) Briefly argue why minimizing $\sum_i (h_\theta(x_i) - y_i)$ (no absolute value or square) is a bad idea. Then compare $\sum_i |h_\theta(x_i)-y_i|$ to $\sum_i (h_\theta(x_i)-y_i)^2$ in terms of differentiability and suitability for gradient-based optimization.
+(b) Briefly argue why minimizing the residual (no absolute value or square) is a bad idea. Then compare the absolute loss to the squared loss in terms of differentiability and suitability for gradient-based optimization.
 
 (c) Show that $J(\theta)$ is a convex function of $\theta$. Under what condition on the data matrix $X$ (whose rows are $x_i^\top$) is $J$ **strictly** convex, hence the minimizer unique?
 
@@ -89,11 +89,11 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 (g) Describe the shape of the level sets (contours) of $J(\theta)$ for two parameters $(\theta_0,\theta_1)$ and how the gradient direction relates to those contours. Explain qualitatively what can happen if $\alpha$ is chosen too large vs. reasonably small.
 
-## Problem 4: Kaggle Competition (30 points)
+## Problem 4: Kaggle Competition (20 points)
 
 Sign up to kaggle.com and make teams of up to 3. And join the competition through this link: [Competition Link](https://www.kaggle.com/competitions/find-polynomial). Please don’t share the link with people outside the class (for now). The problem statement is to fit a function given two inputs and one output (all real numbers). You’re free to use whatever method you see fit. You’re allowed only 2 submissions per day. You'll see more details on the link.
 
-## Problem 5: Learning Machine Learning with Machine Learning (LMLML) (20 points)
+## Problem 5: Learning Machine Learning with Machine Learning - LMLML (20 points)
 
 * Explaining core ideas in your own words (features, model/hypothesis, loss, optimization).
 * Doing math: gradients, normal equation, regularization effects.
@@ -151,12 +151,12 @@ Assume I may share a link to my week's lecture; if I do, you can tailor the dept
 * Answer the **first 5 MCQs** one by one (explanations revealed after each).
 * Ask the tutor for **“5 more MCQs”** near the end, then answer them (total = **10 MCQs**).
 * Ask for **at least one derivation** (e.g., gradient of MSE, normal equation, or ridge closed-form).
-* Ask for **at least one code snippet + plot** exploring linear regression (e.g., fit vs. no scaling, λ sweep for ridge, GD vs. SGD trajectories).
+* Ask for **at least one code snippet + plot** exploring linear regression (e.g., fit vs. no scaling, $\lambda$ sweep for ridge, GD vs. SGD trajectories).
 * Ask **at least two off-script questions** that go beyond lecture scope (examples below).
 * Request a **final summary** and **two specific next steps** from the tutor at the end.
 
 
-#### Suggested conversation flow (you can adapt)
+#### Suggested conversation flow 
 
 1. Paste the **Initial Prompt**.
 2. Answer the calibration question.

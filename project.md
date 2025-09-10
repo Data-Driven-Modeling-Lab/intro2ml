@@ -19,10 +19,10 @@ Unless otherwise noted, all items are due at 11:59pm local time.
 
 | Deliverable | Weight | Due Date | Late Days |
 | --- | --- | --- | --- |
-| Project Proposal | 5% | 2025-10-02 | Yes |
-| Project Milestone | 5% | 2025-10-30 | Yes |
-| Final Report | 15% | 2025-12-10 | No |
-| Final Presentation/Poster | 5% | (TBD) | No |
+| Project Proposal | 5% | 2025-10-21 | Yes |
+| Project Milestone | 5% | 2025-11-13 | Yes |
+| Final Report | 25% | 2025-12-13 | No |
+| Final Presentation/Poster | 5% | 2025-11-27 | No |
 
 ## Overview
 
