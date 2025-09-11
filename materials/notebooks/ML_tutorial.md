@@ -1,11 +1,12 @@
 ---
-title: "[A Brief Introduction to Generalization](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)"
+title: "A Brief Introduction to Generalization"
 layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/ML_tutorial/
 notebook_source: "ML_tutorial.ipynb"
 ---
 
+[![Open In Colab](/materials/notebooks/ML_tutorial/https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)
 
 Let's first import the libraries we need for running the show
 
