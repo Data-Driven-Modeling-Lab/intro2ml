@@ -6,9 +6,9 @@ permalink: /materials/notebooks/ML_tutorial/
 notebook_source: "ML_tutorial.ipynb"
 ---
 
-[![Open In Colab](/materials/notebooks/ML_tutorial/https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)
+[Open In Colab](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)
 
-Let's first import the libraries we need for running the show
+Let's first import the libraries we need 
 
 
 ```python
@@ -439,7 +439,7 @@ $\displaystyle f_\mathbf{w}(x) = +0.991x^2$
     
 
 
-Beautiful! Lasso recovered our model almost perfectly. The motivation for using sparse regularization is Occam's razor: the simplest explanation is usually the right one. The algorithm found that it only needs one term to fit the data, so it set the other terms to zero. This is the power of adding the norm $| w|$ to the loss. There's something I ignored when I use Lasso: how of the $L_1$ norm to include. You will see in the documentation that it is set to $1.0$ by default, but in my experience, you'll want to include much less than that to avoid making the model too simple. That's a hyperparameter that you can also loop over and see what works best for your model.
+Beautiful! Lasso recovered our model almost perfectly. The motivation for using sparse regularization is Occam's razor: the simplest explanation is usually the right one. The algorithm found that it only needs one term to fit the data, so it set the other terms to zero. This is the power of adding the norm $|w|$ to the loss. There's something I ignored when I use Lasso: how of the $L_1$ norm to include. You will see in the documentation that it is set to $1.0$ by default, but in my experience, you'll want to include much less than that to avoid making the model too simple. That's a hyperparameter that you can also loop over and see what works best for your model.
 
 Finally, we can test our model on the test set:
 
