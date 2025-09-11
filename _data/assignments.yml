@@ -4,7 +4,7 @@
   due_date: 2025-09-07
   description: Calculus and linear algebra review. Chatting with LLMs.
   links:
-  - name: Assignment details
+  - name: Open
     url: /materials/assignments/hw0/
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
@@ -12,5 +12,5 @@
   due_date: 2025-09-14
   description: Implement polynomial regression and SGD; short writeup.
   links:
-  - name: Page
+  - name: Open
     url: /materials/assignments/hw1/

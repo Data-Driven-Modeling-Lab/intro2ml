@@ -1,10 +1,11 @@
 ---
-title: "Generate data"
+title: "[A Brief Introduction to Generalization](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)"
 layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/ML_tutorial/
 notebook_source: "ML_tutorial.ipynb"
 ---
+
 
 Let's first import the libraries we need for running the show
 
@@ -25,6 +26,7 @@ We'll generate 100 data points for a parabolic function $y = x^2$. We'll add som
 
 
 ```python
+# Generate data
 noise_strength = 10 
 x = np.linspace(0, 10, 100)
 y = x**2 + noise_strength * (np.random.random((len(x)))-0.5)
@@ -383,7 +385,7 @@ Clearly, the 6th degree polynomial is over-fitting and the first degree polynomi
 
 Before we test our model on the test set, is there something else we can try? Can we do a better job to recover the quadratic model we used to generate the data? Of course! This is where regularization comes in.
 
-Linear predictors are great but they'd be even greater if there is a way we can get them to minimize over-fitting and generalize over the validation set without trying all possible polynomial degrees. To achieve that, we minimize the norm of $\mathbf w$ (by adding it to the original square loss). The $L_1$ norm, $|\mathbf w|$, makes the predictor more sparse (sets small coefficients in the polynomial to zero), while the $L_2$ norm $\| \mathbf  w\|$ makes the predictor less "wiggly" or smoother. Adding a loss term that minimizes the norm is called regularization.
+Linear predictors are great but they'd be even greater if there is a way we can get them to minimize over-fitting and generalize over the validation set without trying all possible polynomial degrees. To achieve that, we minimize the norm of $w$ (by adding it to the original square loss). The $L_1$ norm, $|w|$, makes the predictor more sparse (sets small coefficients in the polynomial to zero), while the $L_2$ norm $\| w \|$ makes the predictor less "wiggly" or smoother. Adding a loss term that minimizes the norm is called regularization.
 
 Let's check out what the $L_1$ norm does. In scikit-learn, the function that does that is `Lasso`, and you can find more details about it [here](https://sklearn.org/modules/generated/sklearn.linear_model.Lasso.html#sklearn.linear_model.Lasso). The syntax is exactly the same as before but replacing `LinearRegression` with `Lasso`
 
@@ -436,7 +438,7 @@ $\displaystyle f_\mathbf{w}(x) = +0.991x^2$
     
 
 
-Beautiful! Lasso recovered our model almost perfectly. The motivation for using sparse regularization is Occam's razor: the simplest explanation is usually the right one. The algorithm found that it only needs one term to fit the data, so it set the other terms to zero. This is the power of adding the norm $|\mathbf w|$ to the loss. There's something I ignored when I use Lasso: how of the $L_1$ norm to include. You will see in the documentation that it is set to $1.0$ by default, but in my experience, you'll want to include much less than that to avoid making the model too simple. That's a hyperparameter that you can also loop over and see what works best for your model.
+Beautiful! Lasso recovered our model almost perfectly. The motivation for using sparse regularization is Occam's razor: the simplest explanation is usually the right one. The algorithm found that it only needs one term to fit the data, so it set the other terms to zero. This is the power of adding the norm $| w|$ to the loss. There's something I ignored when I use Lasso: how of the $L_1$ norm to include. You will see in the documentation that it is set to $1.0$ by default, but in my experience, you'll want to include much less than that to avoid making the model too simple. That's a hyperparameter that you can also loop over and see what works best for your model.
 
 Finally, we can test our model on the test set:
 
@@ -479,67 +481,4 @@ plt.show()
 
 Adding regularization will also prevent higher order polynomials from over-fitting. Lasso might get rid of all other features except the one you need! This is a teaser. Download the code and try it out yourself.
 
-One way of improving your predictions is to add more data. If you go back and set the data input to a 1000, you'll see that your results will be much better. The higher dimensional your feature vector, the more data you need. This is particularly the case with neural networks: those beasts are always data-hungry! Check it out.
-
-
-```python
-import tensorflow as tf
-from tensorflow.keras import layers
-```
-
-
-```python
-# Generate data
-noise_strength = 10 
-x = np.linspace(0, 10, 100000)
-y = x**2 + noise_strength * (np.random.random((len(x)))-0.5)
-```
-
-
-```python
-test_size = 0.2 # Partion of data in test set
-shuffle = False # Whether to sample anywhere in domain of x or separate training and testing domains
-
-# Split data into train/dev/test
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=test_size, shuffle=shuffle)
-x_train, x_dev, y_train, y_dev = train_test_split(x_train, y_train, test_size=test_size, shuffle=shuffle)
-
-```
-
-
-```python
-l2reg = 0.001
-model = tf.keras.models.Sequential()
-model.add(layers.Dense(10, activation='elu', activity_regularizer=tf.keras.regularizers.L2(l2reg)))
-model.add(layers.Dense(10, activation='elu', activity_regularizer=tf.keras.regularizers.L2(l2reg)))
-model.add(layers.Dense(10, activation='elu', activity_regularizer=tf.keras.regularizers.L2(l2reg)))
-model.add(layers.Dense(1, activation='linear', activity_regularizer=tf.keras.regularizers.L2(l2reg)))
-
-model.compile(optimizer='adam', loss='mse')
-history = model.fit(x_train, y_train,
-          batch_size=32,
-          epochs=100,
-          validation_data=(x_dev, y_dev),
-          callbacks=tf.keras.callbacks.EarlyStopping(patience=5))
-
-```
-
-
-```python
-
-y_pred = model.predict(x_test)
-
-fig = plt.figure()
-plt.plot(x, y, '.', ms=.1)
-plt.plot(x_train, model.predict(x_train), label='train')
-plt.plot(x_dev, model.predict(x_dev), label='validation')
-plt.plot(x_test, model.predict(x_test), label='test')
-plt.legend()
-plt.show()
-```
-
-
-    
-![png](/materials/notebooks/ML_tutorial/output_38_0.png)
-    
-
+One way of improving your predictions is to add more data. If you go back and set the data input to a 1000, you'll see that your results will be much better. The higher dimensional your feature vector, the more data you need. This is particularly the case with neural networks: those beasts are always data-hungry! 

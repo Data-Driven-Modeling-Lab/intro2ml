@@ -129,7 +129,7 @@
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
-    - name: CS 229, Section 1
+    - name: CS 229 notes, Part I, Chapter 1, Sections 1.1-1.2
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     references:
@@ -140,7 +140,7 @@
   assignments: null
 - section: Function Approximation
   lecture_number: 5
-  date: Sep 9
+  date: Sep 11
   title: Feature Engineering and Generalization
   subtitle: From raw data to meaningful features, avoiding overfitting
   type: lecture
@@ -161,7 +161,7 @@
   assignments: null
 - section: Function Approximation
   lecture_number: 6
-  date: Sep 11
+  date: Sep 16
   title: Classification and Logistic Regression
   subtitle: From regression to classification with probabilistic models
   type: lecture
