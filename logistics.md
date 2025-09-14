@@ -21,24 +21,22 @@ title: Logistics
 - **Office Hours:** Thursday 2:30-4:30PM (or by appointment)
 
 ### Teaching Assistants
-<!-- *TA information will be updated once assignments are confirmed* -->
-
-- Joe Germany
+#### Joe Germany
     - **Email:** jmg15@mail.aub.edu
     - **Office Hours:** Friday 2:00-3:00PM (or by appointment)
     - **Office:** IOEC 311
 
-- Issar Amro
+#### Issar Amro
     - **Email:** iza04@mail.aub.edu
     - **Office Hours:** Monday 11:00AM-1:00PM and Tuesday 9:00-11:00AM (or online by appointment)
     - **Office:** IOEC 311
 
-- Elie Hachem
+#### Elie Hachem
     - **Email:** egh14@mail.aub.edu
     - **Office Hours:** TBD
     - **Office:** TBD
 
-- Chaymaa Abbas
+#### Chaymaa Abbas
     - **Email:** cwa07@mail.aub.edu
     - **Office Hours:** TBD
     - **Office:** TBD
