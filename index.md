@@ -32,7 +32,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 <div class="instructor-card">
     <div>
-        <h4>Joe Germany</h4>
+        <h3>Joe Germany</h3>
         <p><strong>Email:</strong> jmg15@mail.aub.edu </p>
         <p><strong>Office Hours:</strong> Friday 2:00-3:00PM (or by appointment) </p>
         <p><strong>Office:</strong> IOEC 311 </p>
@@ -41,7 +41,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 <div class="instructor-card">
     <div>
-        <h4>Issar Amro</h4>
+        <h3>Issar Amro</h3>
         <p><strong>Email:</strong> iza04@mail.aub.edu </p>
         <p><strong>Office Hours:</strong> Monday 11:00AM-1:00PM and Tuesday 9:00-11:00AM (or online by appointment) </p>
         <p><strong>Office:</strong> IOEC 311 </p>
@@ -50,7 +50,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 <div class="instructor-card">
     <div>
-        <h4>Elie Hachem</h4>
+        <h3>Elie Hachem</h3>
         <p><strong>Email:</strong> egh14@mail.aub.edu </p>
         <p><strong>Office Hours:</strong> TBD </p>
         <p><strong>Office:</strong> TBD </p>
@@ -59,7 +59,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 <div class="instructor-card">
     <div>
-        <h4>Chaymaa Abbas</h4>
+        <h3>Chaymaa Abbas</h3>
         <p><strong>Email:</strong> cwa07@mail.aub.edu </p>
         <p><strong>Office Hours:</strong> TBD </p>
         <p><strong>Office:</strong> TBD </p>
