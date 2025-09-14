@@ -28,6 +28,15 @@ This course provides a comprehensive introduction to machine learning, covering 
     </div>
 </div>
 
+<div class="instructor-card">
+    <div>
+        <h3>Joe Germany</h3>
+        <p><strong>Email:</strong> jmg15@mail.aub.edu </p>
+        <p><strong>Office Hours:</strong> Friday 2:00-3:00PM (or by appointment) </p>
+        <p><strong>Office:</strong> IOEC 311 </p>
+    </div>
+</div>
+
 ## Course Information
 
 **Prerequisites:** 
