@@ -21,7 +21,63 @@ title: Logistics
 - **Office Hours:** Thursday 2:30-4:30PM (or by appointment)
 
 ### Teaching Assistants
-*TA information will be updated once assignments are confirmed*
+<div class="ta-container">
+  <div class="ta-card">
+      <div>
+          <h3>Joe Germany</h3>
+          <p><strong>Email:</strong> jmg15@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> Friday 2:00-3:00PM (or by appointment) </p>
+          <p><strong>Office:</strong> IOEC 311 </p>
+      </div>
+  </div>
+
+  <div class="ta-card">
+      <div>
+          <h3>Issar Amro</h3>
+          <p><strong>Email:</strong> iza04@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> Monday 11:00AM-1:00PM and Tuesday 9:00-11:00AM (or online by appointment) </p>
+          <p><strong>Office:</strong> IOEC 311 </p>
+      </div>
+  </div>
+
+  <div class="ta-card">
+      <div>
+          <h3>Elie Hachem</h3>
+          <p><strong>Email:</strong> egh14@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> TBD </p>
+          <p><strong>Office:</strong> TBD </p>
+      </div>
+  </div>
+
+  <div class="ta-card">
+      <div>
+          <h3>Chaymaa Abbas</h3>
+          <p><strong>Email:</strong> cwa07@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> TBD </p>
+          <p><strong>Office:</strong> TBD </p>
+      </div>
+  </div>
+</div>
+
+<!-- #### Joe Germany
+- **Email:** jmg15@mail.aub.edu
+- **Office Hours:** Friday 2:00-3:00PM (or by appointment)
+- **Office:** IOEC 311
+
+#### Issar Amro
+- **Email:** iza04@mail.aub.edu
+- **Office Hours:** Monday 11:00AM-1:00PM and Tuesday 9:00-11:00AM (or online by appointment)
+- **Office:** IOEC 311
+
+#### Elie Hachem
+- **Email:** egh14@mail.aub.edu
+- **Office Hours:** TBD
+- **Office:** TBD
+
+#### Chaymaa Abbas
+- **Email:** cwa07@mail.aub.edu
+- **Office Hours:** TBD
+- **Office:** TBD -->
 
 ## Summary of Learning Objectives
 

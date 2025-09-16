@@ -406,3 +406,28 @@ pre code {
     line-height: 1.5;
     font-size: 14px;
 }
+
+.ta-container {
+    display: flex;           /* arrange cards in a row */
+    flex-wrap: wrap;         /* wrap on smaller screens */
+    gap: 10px;               /* space between cards */
+}
+
+.ta-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;            /* reduced inner spacing */
+    margin: 0;               /* remove extra margin */
+    width: 220px;            /* fixed width for uniform cards */
+    box-sizing: border-box;  /* ensures padding doesn’t expand width */
+    font-size: 14px;         /* smaller text for compactness */
+}
+
+.ta-card h3 {
+    margin: 0 0 4px 0;       /* less spacing under name */
+    font-size: 16px;
+}
+
+.ta-card p {
+    margin: 2px 0;           /* tight spacing between lines */
+}
