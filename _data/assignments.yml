@@ -10,7 +10,16 @@
   title: 'Problem Set 1: Linear Regression'
   release_date: 2025-09-09
   due_date: 2025-09-14
-  description: Implement polynomial regression and SGD; short writeup.
+  description: Linear regression, Kaggle competition, Learning with LLMs, weather
+    data exploration
   links:
   - name: Open
     url: /materials/assignments/hw1/
+- id: hw2
+  title: 'Problem Set 2: Logistic Regression and Classification'
+  release_date: 2025-09-17
+  due_date: 2025-09-22
+  description: Project pre-proposal, logistic regression, normal equation, MLE
+  links:
+  - name: Open
+    url: /materials/assignments/hw2/

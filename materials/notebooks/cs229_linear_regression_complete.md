@@ -1,5 +1,5 @@
 ---
-title: "CS229 Linear Regression - Complete Implementation"
+title: "Notes with Code on Linear Regression"
 layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/cs229_linear_regression_complete/
@@ -7,7 +7,7 @@ notebook_source: "cs229_linear_regression_complete.ipynb"
 ---
 
 
-This notebook provides a comprehensive implementation of the CS229 Stanford Linear Regression notes, covering all mathematical concepts with detailed explanations, derivations, and working code examples.
+This notebook provides a brief introduction to linear regression with python implementation, covering all mathematical concepts with detailed explanations, derivations, and working code examples. This mainly used the [CS229 Stanford notes](https://cs229.stanford.edu/main_notes.pdf) as a reference.
 
 ## Table of Contents
 1. Introduction to Supervised Learning
@@ -1439,9 +1439,9 @@ print(f"{'Normal Equations':<20} {'✓ (preferred)':<15} {'✗ (too slow)':<15}"
       1.03461955 -0.80658047 -0.87397061  0.80960635  0.87547701]
     
     Timing results:
-    Normal Equations: 0.0001 seconds
-    Gradient Descent: 0.0749 seconds
-    Speedup: 634.5x faster with Normal Equations
+    Normal Equations: 0.0004 seconds
+    Gradient Descent: 0.0771 seconds
+    Speedup: 199.8x faster with Normal Equations
     
     Accuracy comparison:
     Normal Equations cost: 0.00467521
