@@ -157,7 +157,7 @@
     - name: Lecture Slides
       url: /materials/slides/generalization-and-features.pdf
       type: slides
-    - name: Notes, Chapter 8, Sections 1.1-1.2
+    - name: Notes, Chapter 8
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
   references:
@@ -184,6 +184,9 @@
     - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
+    - name: CS229 Notes, Chapter 2
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
   references: null
   assignments: null
 - section: Statistical Learning
