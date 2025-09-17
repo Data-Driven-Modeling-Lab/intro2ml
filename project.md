@@ -21,7 +21,7 @@ Unless otherwise noted, all items are due at 11:59pm local time.
 | --- | --- | --- | --- |
 | Project Proposal | 5% | 2025-10-21 | Yes |
 | Project Milestone | 5% | 2025-11-13 | Yes |
-| Final Report | 25% | 2025-12-13 | No |
+| Final Report | 25% | 2025-12-02 | No |
 | Final Presentation/Poster | 5% | 2025-11-27 | No |
 
 ## Overview

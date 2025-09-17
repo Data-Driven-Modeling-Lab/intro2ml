@@ -52,9 +52,9 @@ $f_\mathbf{w}(x) = g(\phi(x) \cdot \mathbf w) = \frac{1}{1 + e^{-\phi(x) \cdot \
 
 (b) Find the log-likelihood $l(\mathbf w)$ from the likelihood $p(y^{(i)} \vert x^{(i)}; \mathbf w)$ in terms of $\mathbf w$, $x^{(i)}$, and $y^{(i)}$.
 
-Derive the equation for the gradient of the log-likelihood $\nabla_\mathbf{w} l(\mathbf w)$ (you can use vector identities or get the derivative with respect to one parameter ($w_j$) at a time, i.e. $\partial l(\mathbf w) / \partial w_j$, where $w_j$ is the $j^{th}$ element of the vector $\mathbf w$.
+(c) Derive the equation for the gradient of the log-likelihood $\nabla_\mathbf{w} l(\mathbf w)$ (you can use vector identities or get the derivative with respect to one parameter ($w_j$) at a time, i.e. $\partial l(\mathbf w) / \partial w_j$, where $w_j$ is the $j^{th}$ element of the vector $\mathbf w$.
 
-(c) What is the least mean squares (LMS) update rule to maximize the log-likelihood?
+(d) What is the least mean squares (LMS) update rule to maximize the log-likelihood?
 
 ## Problem 3: Classification with Scikit-Learn (30 points)
 

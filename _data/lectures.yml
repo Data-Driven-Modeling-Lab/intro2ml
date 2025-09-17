@@ -157,10 +157,16 @@
     - name: Lecture Slides
       url: /materials/slides/generalization-and-features.pdf
       type: slides
-    - name: Ml Tutorial
-      url: /materials/notebooks/ML_tutorial/
-      type: notebook
-  references: null
+    - name: Notes, Chapter 8, Sections 1.1-1.2
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+  references:
+  - name: Generalization, linear regression, and Scikit-learn Notebook
+    url: notebooks/ML_tutorial.ipynb
+    type: notebook
+  - name: Generalization, linear regression, and and Scikit-learn Video
+    url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3&ab_channel=JosephBakarji
+    type: notebook
   assignments: null
 - section: Function Approximation
   lecture_number: 6
@@ -178,5 +184,19 @@
     - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
+  references: null
+  assignments: null
+- section: Statistical Learning
+  lecture_number: 7
+  date: Sep 18
+  title: Maximum Likelihood Estimation and Generalized Linear Models
+  subtitle: Foundations of probabilistic reasoning and statistical learning
+  type: lecture
+  duration: 75
+  description: 'Deep dive into maximum likelihood estimation and generalized linear
+    models, at the foundation of statistical learning theory.
+
+    '
+  materials: {}
   references: null
   assignments: null
