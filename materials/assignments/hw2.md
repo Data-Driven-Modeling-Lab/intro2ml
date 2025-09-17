@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 1: Linear Regression"
+title: "Problem Set 2: Logistic Regression"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw2/
@@ -58,7 +58,7 @@ Derive the equation for the gradient of the log-likelihood $\nabla_\mathbf{w} l(
 
 ## Problem 3: Classification with Scikit-Learn (30 points)
 
-I have provided two files <a href="{{ 'materials/data/p2_x.txt' | relative_url }}" download>p2_x.txt</a> and <a href="{{ 'materials/data/p2_y.txt' | relative_url }}" download>p2_y.txt</a>. These files contain inputs $x^{(i)} \in \mathbb R^2$ and outputs $y^{(i)} \in \{ -1, 1 \}$, respectively, with one training example per row. This is a binary classification problem.
+I have provided two files <a href="{{ 'materials/data/p3_x.txt' | relative_url }}" download>p3_x.txt</a> and <a href="{{ 'materials/data/p3_y.txt' | relative_url }}" download>p3_y.txt</a>. These files contain inputs $x^{(i)} \in \mathbb R^2$ and outputs $y^{(i)} \in \{ -1, 1 \}$, respectively, with one training example per row. This is a binary classification problem.
 
 (a) Read the data (you can use [Pandas](https://pandas.pydata.org/)) from the files, and split it into training and test sets. Make sure to shuffle the data before splitting it.
 
