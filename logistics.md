@@ -21,6 +21,7 @@ title: Logistics
 - **Office Hours:** Thursday 2:30-4:30PM (or by appointment)
 
 ### Teaching Assistants
+
 <div class="ta-container">
   <div class="ta-card">
       <div>
@@ -35,7 +36,7 @@ title: Logistics
       <div>
           <h3>Issar Amro</h3>
           <p><strong>Email:</strong> iza04@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> Monday 11:00AM-1:00PM and Tuesday 9:00-11:00AM (or online by appointment) </p>
+          <p><strong>Office Hours:</strong> Tuesday 9:00-11:00AM (or online by appointment) </p>
           <p><strong>Office:</strong> IOEC 311 </p>
       </div>
   </div>
@@ -44,8 +45,8 @@ title: Logistics
       <div>
           <h3>Elie Hachem</h3>
           <p><strong>Email:</strong> egh14@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> TBD </p>
-          <p><strong>Office:</strong> TBD </p>
+          <p><strong>Office Hours:</strong> Wednesday 09:30-11:00AM (or by appointment) </p>
+          <p><strong>Office:</strong> IOEC 502 </p>
       </div>
   </div>
 
@@ -53,8 +54,8 @@ title: Logistics
       <div>
           <h3>Chaymaa Abbas</h3>
           <p><strong>Email:</strong> cwa07@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> TBD </p>
-          <p><strong>Office:</strong> TBD </p>
+          <p><strong>Office Hours:</strong> 12:30-2:00PM (or by appointment)</p>
+          <p><strong>Office:</strong> IOEC 419 </p>
       </div>
   </div>
 </div>
