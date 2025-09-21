@@ -46,7 +46,7 @@ title: Logistics
           <h3>Elie Hachem</h3>
           <p><strong>Email:</strong> egh14@mail.aub.edu </p>
           <p><strong>Office Hours:</strong> Wednesday 09:30-11:00AM (or by appointment) </p>
-          <p><strong>Office:</strong> IOEC 502 </p>
+          <p><strong>Office:</strong> IOEC 512 </p>
       </div>
   </div>
 
