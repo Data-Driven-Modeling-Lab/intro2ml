@@ -8,8 +8,6 @@
     url: /materials/assignments/hw0/
   - name: Solution
     url: /materials/assignments/hw0_solution/
-  - name: Reference
-    url: /materials/assignments/reference.pdf
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
   release_date: 2025-09-09
