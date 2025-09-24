@@ -6,6 +6,8 @@
   links:
   - name: Open
     url: /materials/assignments/hw0/
+  - name: Solution
+    url: /materials/assignments/hw0_solution/
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
   release_date: 2025-09-09
