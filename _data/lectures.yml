@@ -1,6 +1,6 @@
 - section: Introduction
   lecture_number: 1
-  date: '2025-08-26'
+  date: Aug 26
   title: Introduction, Ethics/Purpose of AI, Logistics
   subtitle: Course foundations and logistics
   type: lecture
@@ -36,7 +36,7 @@
   assignments: null
 - section: Introduction
   lecture_number: 2
-  date: '2025-08-28'
+  date: Aug 28
   title: Data, Models, and Python
   subtitle: null
   type: lecture
@@ -55,7 +55,7 @@
   assignments: null
 - section: Introduction
   lecture_number: 3
-  date: '2025-09-02'
+  date: Sep 2
   title: Math and Python Review - Your Computational Toolkit
   subtitle: Linear algebra meets computational implementation
   type: lecture
@@ -72,7 +72,22 @@
     - name: CS229 Linear Algebra Review
       url: https://cs229.stanford.edu/section/cs229-linalg.pdf
       type: reference
-    lecture: []
+    lecture:
+    - name: Python Introduction
+      url: /materials/notebooks/00_python_intro/
+      type: notebook
+    - name: Vectors And Basics
+      url: /materials/notebooks/01_vectors_and_basics/
+      type: notebook
+    - name: Matrices And Operations
+      url: /materials/notebooks/02_matrices_and_operations/
+      type: notebook
+    - name: Matrix Properties And Calculus
+      url: /materials/notebooks/03_matrix_properties_and_calculus/
+      type: notebook
+    - name: Data Reading And Plotting
+      url: /materials/notebooks/04_data_reading_and_plotting/
+      type: notebook
   references:
     articles:
     - name: CS231n Python/NumPy Tutorial
@@ -99,7 +114,7 @@
   assignments: null
 - section: Function Approximation
   lecture_number: 4
-  date: '2025-09-09'
+  date: Sep 9
   title: Supervised Learning and Linear Regression
   subtitle: First machine learning algorithm and foundational concepts
   type: lecture
@@ -114,6 +129,9 @@
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
+    - name: Notes with Code
+      url: /materials/notebooks/cs229_linear_regression_complete/
+      type: notebooks
     - name: CS 229 notes, Part I, Chapter 1, Sections 1.1-1.2
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
@@ -125,7 +143,7 @@
   assignments: null
 - section: Function Approximation
   lecture_number: 5
-  date: '2025-09-11'
+  date: Sep 11
   title: Feature Engineering and Generalization
   subtitle: From raw data to meaningful features, avoiding overfitting
   type: lecture
@@ -142,17 +160,18 @@
     - name: Notes, Chapter 8
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
-  references:
-  - name: Generalization, linear regression, and Scikit-learn Notebook
-    url: notebooks/ML_tutorial.ipynb
-    type: notebook
-  - name: Generalization, linear regression, and and Scikit-learn Video
-    url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3&ab_channel=JosephBakarji
-    type: notebook
+    references:
+    - name: Generalization, linear regression, and Scikit-learn Notebook
+      url: /materials/notebooks/ML_tutorial/
+      type: notebook
+    - name: Generalization, linear regression, and Scikit-learn Video
+      url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3&ab_channel=JosephBakarji
+      type: video
+  references: null
   assignments: null
 - section: Function Approximation
   lecture_number: 6
-  date: '2025-09-16'
+  date: Sep 16
   title: Classification and Logistic Regression
   subtitle: From regression to classification with probabilistic models
   type: lecture
@@ -171,9 +190,9 @@
       type: references
   references: null
   assignments: null
-- section: Statistical Learning
+- section: Probabilistic Reasoning
   lecture_number: 7
-  date: '2025-09-18'
+  date: Sep 18
   title: Maximum Likelihood Estimation and Generalized Linear Models
   subtitle: Foundations of probabilistic reasoning and statistical learning
   type: lecture
@@ -182,6 +201,32 @@
     models, at the foundation of statistical learning theory.
 
     '
-  materials: {}
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/mle-glm.pdf
+      type: slides
+    - name: CS229 Notes, Section 1.3, 2.1, and Chapter 3
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+  references: null
+  assignments: null
+- section: Probabilistic Reasoning
+  lecture_number: 8
+  date: Sep 23
+  title: Generative Learning and Language
+  subtitle: Working with Language and the Naive Bayes Algorithm
+  type: lecture
+  duration: 75
+  description: 'Working with language, inferring algorithms from space v. non-spam,
+    and the Naive Bayes Algorithm as an example for generative learning '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/naive_bayes_and_language.pdf
+      type: slides
+    - name: CS229 Notes, Chapter 4
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
   references: null
   assignments: null

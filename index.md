@@ -93,7 +93,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 
 **Recommended References:**
-- CS229 Lecture Notes from Stanford: https://cs229.stanford.edu/main_notes.pdf 
+- CS229 [Lecture Notes from Stanford](https://cs229.stanford.edu/main_notes.pdf)
 - Hastie, Tibshirani, and Friedman. *The Elements of Statistical Learning* (free online)
 - Murphy, K. P. *Probabilistic Machine Learning: An Introduction* (free online)
 
