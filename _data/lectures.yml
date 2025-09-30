@@ -230,3 +230,24 @@
       type: references
   references: null
   assignments: null
+- section: Deep Learning
+  lecture_number: 10
+  date: Sep 30
+  title: Introduction to Neural Networks
+  subtitle: From linear models to deep networks
+  type: lecture
+  duration: 75
+  description: 'Introduction to neural networks, from biological inspiration to mathematical
+    formulation. Covers perceptrons, multilayer networks, and activation functions.
+
+    '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/deep-learning-lecture-2.pdf
+      type: slides
+    - name: Basic Nn Example
+      url: /materials/notebooks/basic_nn_example/
+      type: notebook
+  references: null
+  assignments: null
