@@ -246,7 +246,7 @@
     - name: Lecture Slides
       url: /materials/slides/deep-learning-lecture-2.pdf
       type: slides
-    - name: Basic Nn Example
+    - name: Python Neural Network Example
       url: /materials/notebooks/basic_nn_example/
       type: notebook
   references: null

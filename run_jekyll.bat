@@ -46,3 +46,4 @@ bundle exec jekyll serve --livereload --incremental --trace
 
 echo [SUCCESS] Jekyll server stopped
 pause
+
