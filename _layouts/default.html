@@ -19,6 +19,10 @@
                         equationNumbers: {
                             autoNumber: "AMS",
                             useLabelIds: true
+                        },
+                        extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js"],
+                        Macros: {
+                            // Add any custom macros here if needed
                         }
                     },
                     tex2jax: {
@@ -32,6 +36,12 @@
                         linebreaks: {
                             automatic: true
                         }
+                    },
+                    "HTML-CSS": {
+                        availableFonts: ["TeX"],
+                        preferredFont: "TeX",
+                        webFonts: ["TeX"],
+                        styles: {".MathJax": {color: "#333"}}
                     }
                 });
             }
