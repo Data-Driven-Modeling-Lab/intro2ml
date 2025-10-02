@@ -133,7 +133,12 @@ h) Compare batch sizes [8, 32, 128, full-batch]. How does this affect (1) traini
 
 i) Creative Extension (Optional). Modify the problem in an interesting way: Try a 3-class problem (three spirals), add a third spatial dimension, implement a custom architecture or training technique, or pursue your own idea.
 
-## Problem 3: A deep exploration with a language model (30 points)
+
+## Problem 3: Making a Neural Network Symmetric (10 points)
+Download the notebook on this [link](https://colab.research.google.com/drive/1i006ul0duV6BfezppSdqWNPBLAc16D7H?usp=sharing) and adjust the network architecture to make it generalize on the right-most 20% of the data, as we've discussed in class. Briefly explain your reasoning and approach in a markdown cell, in the notebook.
+
+
+## Problem 4: A deep exploration with a language model (20 points)
 
 I want you to have a *deep* conversation with a language model about one of the following topics. You should feel that you're not only learning from the conversation, but also contributing to it as if you're talking to a friend. Explore real ethical and philosophical questions. You're free to take the conversation anywhere you want. Try to push the conversation in unexpected directions, ask genuine questions you're curious about it, and make it as interesting as possible, for both you and anyone reading it. At the end of the conversation, ask the model to summarize the conversation in a few paragraphs and feel free to share on #problem-set-subs.
 
