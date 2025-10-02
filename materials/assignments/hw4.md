@@ -24,9 +24,7 @@ The examples in class 1 are marked as $\times$ and examples in class 0 are marke
 Denote the two features $x_1$ and $x_2$, the three neurons in the hidden layer $a_1$, $a_2$, and $a_3$, and the output neuron as $\hat y$. Let the weight from $x_i$ to $a_j$ be $w_{ij}^{(1)}$ for $i \in \{1, 2\}$, $j \in \{1, 2, 3\}$, and the weight from $a_j$ to $\hat y$ be $w_j^{(2)}$. Finally, denote the intercept weight (i.e. bias) for $a_j$ as $w_{0j}^{(1)}$, and the intercept weight for $\hat y$ as $w_0^{(2)}$. For the loss function, we'll use average squared loss:
 
 $
-\begin{equation}
 L(y, \hat y) = \frac{1}{m} \sum_{i=1}^{m} \left( \hat y^{(i)} - y^{(i)} \right)^2
-\end{equation}
 $
 
 where $\hat y^{(i)}$ is the result of the output neuron for example $i$.
