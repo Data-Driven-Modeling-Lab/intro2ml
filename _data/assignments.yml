@@ -25,3 +25,19 @@
   links:
   - name: Open
     url: /materials/assignments/hw2/
+- id: hw3
+  title: 'Problem Set 3: Data Exploration'
+  release_date: 2025-09-26
+  due_date: 2025-10-01
+  description: 'Data Exploration '
+  links:
+  - name: Open
+    url: /materials/assignments/hw3/
+- id: hw4
+  title: 'Problem Set 4: Neural Network Basics'
+  release_date: 2025-10-02
+  due_date: 2025-10-06
+  description: 'Deep Learning Basics '
+  links:
+  - name: Open
+    url: /materials/assignments/hw4/

@@ -243,11 +243,45 @@
     '
   materials:
     lecture:
-    - name: Lecture Slides
-      url: /materials/slides/deep-learning-lecture-2.pdf
+    - name: Lecture Slides (until )
+      url: /materials/slides/deep-learning-lecture-part_1.pdf
       type: slides
     - name: Python Neural Network Example
+      url: notebooks/basic_nn_example.ipynb
+      type: notebook
+  references: null
+  assignments: null
+- section: Deep Learning
+  lecture_number: 11
+  date: Sep 30
+  title: Backpropagation, Computation Graphs and Hands on
+  subtitle: A deeper dive into the inner working of deep learning
+  type: lecture
+  duration: 75
+  description: ' Backpropagation, chain rule, computation graph, pytorch, tutorial,
+    symmetry
+
+    '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/deep-learning-lecture-part_2.pdf
+      type: slides
+    - name: Make Network Symmetric Exercise
       url: /materials/notebooks/basic_nn_example/
       type: notebook
+    references:
+    - name: Pytorch Basics
+      url: /materials/notebooks/Pytorch-First-Steps/
+      type: notebook
+    - name: Neural Network from Scratch
+      url: /materials/notebooks/neural_networks_from_scratch/
+      type: notebook
+    - name: Deep Learning for MNIST
+      url: /materials/notebooks/pytorch_nn_with_mnist/
+      type: notebook
+    - name: Tensorflow Playground
+      url: https://playground.tensorflow.org/
+      type: references
   references: null
   assignments: null
