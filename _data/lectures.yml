@@ -253,7 +253,7 @@
   assignments: null
 - section: Deep Learning
   lecture_number: 11
-  date: Sep 30
+  date: Oct 2
   title: Backpropagation, Computation Graphs and Hands on
   subtitle: A deeper dive into the inner working of deep learning
   type: lecture
