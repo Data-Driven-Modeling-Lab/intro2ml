@@ -15,11 +15,11 @@ This is an individual assignment. Review assignment policy regarding collaborati
 
 Let $X = \{ x^{(1)}, \ldots, x^{(m)} \}$ be a dataset of $m$ samples with 2 features, i.e. $x^{(i)} \in \mathbb R^2$. The samples are classified into 2 categories with labels $y^{(i)} \in \{0, 1\}$. A scatter plot of the dataset is shown in Figure 1:
 
-![Scatter plot of the dataset](p1-data.png){:width="40%"}
+![Scatter plot of the dataset](p1-data.png)
 
 The examples in class 1 are marked as $\times$ and examples in class 0 are marked as $\circ$. We want to perform a binary classification using a neural network with the architecture shown in Figure 2
 
-![Neural network image](nn-image.png){:width="40%"}
+![Neural network image](nn-image.png)
 
 Denote the two features $x_1$ and $x_2$, the three neurons in the hidden layer $a_1$, $a_2$, and $a_3$, and the output neuron as $\hat y$. Let the weight from $x_i$ to $a_j$ be $w_{ij}^{(1)}$ for $i \in \{1, 2\}$, $j \in \{1, 2, 3\}$, and the weight from $a_j$ to $\hat y$ be $w_j^{(2)}$. Finally, denote the intercept weight (i.e. bias) for $a_j$ as $w_{0j}^{(1)}$, and the intercept weight for $\hat y$ as $w_0^{(2)}$. For the loss function, we'll use average squared loss:
 
