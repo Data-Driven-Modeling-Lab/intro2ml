@@ -17,6 +17,8 @@
   links:
   - name: Open
     url: /materials/assignments/hw1/
+  - name: Solution
+    url: /materials/assignments/hw1_solution/
 - id: hw2
   title: 'Problem Set 2: Logistic Regression and Classification'
   release_date: 2025-09-17
