@@ -1,5 +1,5 @@
 ---
-title: "Problem 4: Kaggle Competition"
+title: "Problem Set 1 Solution"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw1_solution/
