@@ -12,6 +12,8 @@ Some crucial ideas:
 - Cross validating, that is looping over a range of polynomial degrees, evaluating the training and validation loss for each, and choosing the degree that minimizes the validation loss.
 - Applying the discovered model on the unseen data.
 
+A sample solution:
+
 ```python
 import pandas as pd
 import numpy as np

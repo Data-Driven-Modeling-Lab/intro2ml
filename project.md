@@ -35,6 +35,14 @@ Choose a problem/topic that excites you. Example directions include:
 
 Projects may be individual or in teams of up to 3. Larger teams are expected to deliver correspondingly deeper scope, stronger analysis, and clearer takeaways.
 
+## Some Project Criteria and Guidelines
+
+- Define a problem in such a way that you can start running training experiments locally on your machine, and then scale up if it works. Accordingly, if you need HPC access, request it early!
+- Make sure that you can obtain the dataset as soon as possible (preferably by the time you submit your proposal).
+- You should build a model **from scratch**. The goal of this project is to get you familiar with the challenges of gathering data and building a model yourself. Set realistic goals for your project, both in terms of time and resources.
+- Favor depth over breadth. For example, choose one (or two) arhitectures and explore different techniques with them, rather than trying to implement 5 different architectures superficially.
+- Your report and presentation should clearly demonstrate that you engaged in a deep, iterative design and prototyping cycle, making adjustments based on the weaknesses and drawbacks of each model and design choice.
+
 ## Collaboration and Honor Code
 
 You may consult books, papers, public repos, and online resources, provided you cite them clearly in your report and code. Do not copy others’ code verbatim without attribution. If this project overlaps with another course or research effort, clearly delineate the portion that is unique to this course.
