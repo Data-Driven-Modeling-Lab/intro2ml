@@ -1,3 +1,10 @@
+---
+title: "Problem 4: Kaggle Competition"
+layout: note
+category: "Assignment"
+permalink: /materials/assignments/hw1_solution/
+---
+
 ## Problem 4: Kaggle Competition
 
 Some crucial ideas:
@@ -19,7 +26,6 @@ test_df = pd.read_csv("test.csv")
 X = train_df[["x1", "x2"]].values
 y = train_df["y"].values
 
-# split data into train set (to train the candidate model), val set (to evaluate the model in the cross-validation process)
 # and test set (the final evaluation of the "best" model)
 X_temp, X_test, y_temp, y_test = train_test_split(X, y, test_size=0.2, random_state=42, shuffle=True)
 X_train, X_val, y_train, y_val = train_test_split(X_temp, y_temp, test_size=0.25, random_state=42, shuffle=True) 
