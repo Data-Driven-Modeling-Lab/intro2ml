@@ -8,9 +8,9 @@ permalink: /materials/assignments/hw1/
 
 This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
 
-**Instructions:**: problem 0 will be evaluated based on your Slack participation. Problem 1 and 5 should be submitted as PDF, labeled as `problem_1.pdf` and `problem_5.pdf` respectively. Problem 2 should be submitted as a Jupyter notebook called `problem_2.ipynb` so that it can run locally. 
+**Instructions:** problem 0 will be evaluated based on your Slack participation. Problem 1 and 5 should be submitted as PDF, labeled as `problem_1.pdf` and `problem_5.pdf` respectively. Problem 2 should be submitted as a Jupyter notebook called `problem_2.ipynb` so that it can run locally. 
 
-Zip all files and submit them as a single file on the following moodle link: [Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2401976)
+Zip all files and submit them as a single file on the following moodle link: [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2401976)
 
 ## Problem 0: Ask a good question (10 points)
 

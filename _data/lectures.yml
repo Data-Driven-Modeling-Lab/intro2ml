@@ -285,3 +285,38 @@
       type: references
   references: null
   assignments: null
+- section: Neural Networks
+  lecture_number: 12
+  date: Oct 7
+  title: Advanced Neural Networks
+  subtitle: Advanced Neural network architectures
+  type: lecture
+  duration: 75
+  description: 'Advanced deep learning architectures from fully connected networks,
+    to autoencoders, recurrent neural networks, convolutional neural networks, etc.
+    - snapshots from CS231n '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/advanced-deep-learning-lecture.pdf
+      type: slides
+    - name: CNN and RNN cheat sheet
+      url: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
+      type: references
+    - name: What is a convolution?
+      url: https://www.youtube.com/watch?v=KuXjwB4LzSA
+      type: references
+    - name: CNN introduction notes (CS231n)
+      url: https://cs231n.github.io/convolutional-networks/
+      type: references
+    - name: CNN introduction video (CS231n)
+      url: https://www.youtube.com/watch?v=bNb2fEVKeEo&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=5
+      type: references
+    - name: Introduction to Recurrent Neural Networks (CS231n)
+      url: https://www.youtube.com/watch?v=6niqTuYFZLQ
+      type: references
+    - name: RNN overview
+      url: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
+      type: references
+  references: null
+  assignments: null

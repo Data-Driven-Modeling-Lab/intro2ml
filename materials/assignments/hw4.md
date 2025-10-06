@@ -8,18 +8,18 @@ permalink: /materials/assignments/hw4/
 
 This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
 
-**Instructions:**: Submit written problem as PDF files, and notebook problems as ipynb files. Zip everything and submit them as a single file on the following moodle link: [Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2408204)
+**Instructions:** Submit written problem as PDF files, and notebook problems as ipynb files. Zip everything and submit them as a single file on the following moodle link: [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2408204)
 
 
 ## Problem 1:  Neural Networks (40 points) 
 
 Let $X = \{ x^{(1)}, \ldots, x^{(m)} \}$ be a dataset of $m$ samples with 2 features, i.e. $x^{(i)} \in \mathbb R^2$. The samples are classified into 2 categories with labels $y^{(i)} \in \{0, 1\}$. A scatter plot of the dataset is shown in Figure 1:
 
-![Scatter plot of the dataset](p1-data.png)
+<img src="/materials/assignments/p1-data.png" alt="Scatter plot of the dataset" width="50%" />
 
 The examples in class 1 are marked as $\times$ and examples in class 0 are marked as $\circ$. We want to perform a binary classification using a neural network with the architecture shown in Figure 2
 
-![Neural network image](nn-image.png)
+<img src="/materials/assignments/nn-image.png" alt="Neural network image" width="50%" />
 
 Denote the two features $x_1$ and $x_2$, the three neurons in the hidden layer $a_1$, $a_2$, and $a_3$, and the output neuron as $\hat y$. Let the weight from $x_i$ to $a_j$ be $w_{ij}^{(1)}$ for $i \in \{1, 2\}$, $j \in \{1, 2, 3\}$, and the weight from $a_j$ to $\hat y$ be $w_j^{(2)}$. Finally, denote the intercept weight (i.e. bias) for $a_j$ as $w_{0j}^{(1)}$, and the intercept weight for $\hat y$ as $w_0^{(2)}$. For the loss function, we'll use average squared loss:
 
@@ -33,13 +33,13 @@ a) Suppose we use the sigmoid function as the activation function for $a_1$, $a_
 
 b) Now, suppose instead of using the sigmoid function for the activation function $a_1$, $a_2$, $a_3$, and $\hat y$, we instead use the step function $f(x)$, defined as
 
-$
+<script type="math/tex; mode=display">
 f(x) = 
 \begin{cases}
     1, & x\geq 0\\
     0,  & x < 0
 \end{cases}
-$
+</script>
 
 
 What is one set of weights that would allow the neural network to classify this dataset with 100\% accuracy? Please specify a value for the weights in the following order and explain your reasoning: 

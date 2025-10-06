@@ -20,16 +20,26 @@
                             autoNumber: "AMS",
                             useLabelIds: true
                         },
-                        extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js"],
+                        extensions: [
+                            "AMSmath.js", 
+                            "AMSsymbols.js", 
+                            "noErrors.js", 
+                            "noUndefined.js",
+                            "autoload-all.js"
+                        ],
                         Macros: {
                             // Add any custom macros here if needed
+                        },
+                        packages: {
+                            '[+]': ['base', 'ams', 'noerrors', 'noundefined']
                         }
                     },
                     tex2jax: {
                         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
                         displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
                         processEscapes: true,
-                        processEnvironments: true
+                        processEnvironments: true,
+                        processRefs: true
                     },
                     displayAlign: 'center',
                     CommonHTML: {
@@ -42,7 +52,10 @@
                         preferredFont: "TeX",
                         webFonts: ["TeX"],
                         styles: {".MathJax": {color: "#333"}}
-                    }
+                    },
+                    showMathMenu: true,
+                    showProcessingMessages: false,
+                    messageStyle: "none"
                 });
             }
         };

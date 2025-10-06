@@ -6,7 +6,7 @@ permalink: /materials/assignments/hw3/
 ---
 
 
-Zip all files and submit them as a single file on the following moodle link: [Sumbission Link]( https://lms.aub.edu.lb/mod/assign/view.php?id=2411994)
+Zip all files and submit them as a single file on the following moodle link: [Submission Link]( https://lms.aub.edu.lb/mod/assign/view.php?id=2411994)
 
 Explore the [following dataset](https://scholarworks.aub.edu.lb/handle/10938/22923). Here are more detailed instructions:
 - Submit everything in a single jupyter notebook.
