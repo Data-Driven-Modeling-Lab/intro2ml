@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/Pytorch-First-Steps/
 notebook_source: "Pytorch-First-Steps.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/Pytorch-First-Steps.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/Pytorch-First-Steps.ipynb)
 
 ```python
 import torch

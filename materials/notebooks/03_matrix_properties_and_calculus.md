@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/03_matrix_properties_and_calculus/
 notebook_source: "03_matrix_properties_and_calculus.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/03_matrix_properties_and_calculus.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/03_matrix_properties_and_calculus.ipynb)
 
 
 **Based on CS229 Linear Algebra Review - Sections 3-4**

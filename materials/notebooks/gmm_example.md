@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gmm_example/
 notebook_source: "gmm_example.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gmm_example.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gmm_example.ipynb)
 
 ```python
 import numpy as np

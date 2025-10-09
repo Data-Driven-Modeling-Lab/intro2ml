@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/02_matrices_and_operations/
 notebook_source: "02_matrices_and_operations.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/02_matrices_and_operations.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/02_matrices_and_operations.ipynb)
 
 
 **Based on CS229 Linear Algebra Review - Section 2**

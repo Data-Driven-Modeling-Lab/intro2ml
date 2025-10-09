@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/00_python_intro/
 notebook_source: "00_python_intro.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/00_python_intro.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/00_python_intro.ipynb)
 
 
 **A Quick Introduction/Refresher**

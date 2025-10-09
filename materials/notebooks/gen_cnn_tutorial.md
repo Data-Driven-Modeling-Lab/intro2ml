@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gen_cnn_tutorial/
 notebook_source: "gen_cnn_tutorial.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gen_cnn_tutorial.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gen_cnn_tutorial.ipynb)
 
 
 NOTE: this notebook was generated from a conversation with an AI coding assistant (Claude Code Sonnet 4.5)

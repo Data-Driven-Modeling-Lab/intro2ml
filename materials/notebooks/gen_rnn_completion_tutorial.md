@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gen_rnn_completion_tutorial/
 notebook_source: "gen_rnn_completion_tutorial.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gen_rnn_completion_tutorial.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/gen_rnn_completion_tutorial.ipynb)
 
 
 **Data source:** ArSenTD-LEV - Arabic Sentiment Twitter Dataset for Levantine dialect

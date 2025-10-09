@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/pytorch_nn_with_mnist/
 notebook_source: "pytorch_nn_with_mnist.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/pytorch_nn_with_mnist.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/pytorch_nn_with_mnist.ipynb)
 
 For motivation, watch the following video: https://www.youtube.com/watch?v=aircAruvnKk
 

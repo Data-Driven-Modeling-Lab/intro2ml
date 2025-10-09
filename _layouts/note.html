@@ -58,7 +58,7 @@ layout: default
 /* Code styling (defer colors to global theme; override only layout spacing) */
 .note-content pre {
     border-radius: 6px;
-    padding: 14px;
+    padding: 10px 12px; /* slightly relaxed for tighter look on website */
     overflow-x: auto;
     font-size: 14px;
     font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
@@ -81,7 +81,7 @@ layout: default
 .note-content .highlight {
     background: transparent;
     border-radius: 4px;
-    padding: 0;
+    padding: 6px 8px; /* add minimal inner padding to avoid cramped look */
     margin: 10px 0;
 }
 
@@ -89,7 +89,7 @@ layout: default
     background: transparent;
     border: none;
     border-radius: 6px;
-    padding: 10px 12px;
+    padding: 8px 10px; /* slightly more breathing room */
     margin: 12px 0;
     font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 }
@@ -264,6 +264,14 @@ layout: default
             <span> {{ page.category }}</span>
             {% endif %}
         </div>
+        {% if page.colab_url and page.colab_url != '' %}
+        <div style="margin-top: 10px;">
+            <a href="{{ page.colab_url }}" target="_blank" rel="noopener" class="nav-link" style="display:inline-flex;align-items:center;gap:8px;">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="height:20px; border:none; box-shadow:none;"/>
+                <span>Open in Colab</span>
+            </a>
+        </div>
+        {% endif %}
     </div>
     
     <div class="note-content">

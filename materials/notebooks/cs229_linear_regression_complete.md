@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/cs229_linear_regression_complete/
 notebook_source: "cs229_linear_regression_complete.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/cs229_linear_regression_complete.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/cs229_linear_regression_complete.ipynb)
 
 
 This notebook provides a brief introduction to linear regression with python implementation, covering all mathematical concepts with detailed explanations, derivations, and working code examples. This mainly used the [CS229 Stanford notes](https://cs229.stanford.edu/main_notes.pdf) as a reference.

@@ -81,5 +81,5 @@ future: true
 permalink: /:categories/:year/:month/:day/:title/
 
 # Optional GitHub settings used by sync script for Colab links
-github_repo: ""
+github_repo: "Data-Driven-Modeling-Lab/intro2ml"
 github_branch: "main"

@@ -4,8 +4,10 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/ML_tutorial/
 notebook_source: "ML_tutorial.ipynb"
-colab_url: ""
+colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/ML_tutorial.ipynb"
 ---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/ML_tutorial.ipynb)
 
 [Open In Colab](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)
 
