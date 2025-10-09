@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/cs229_linear_regression_complete/
 notebook_source: "cs229_linear_regression_complete.ipynb"
+colab_url: ""
 ---
 
 

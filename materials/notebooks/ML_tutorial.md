@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/ML_tutorial/
 notebook_source: "ML_tutorial.ipynb"
+colab_url: ""
 ---
 
 [Open In Colab](https://colab.research.google.com/drive/1tmEpFvxScWT0-2zzbkJtYxBrcDp2x5aH?usp=sharing)

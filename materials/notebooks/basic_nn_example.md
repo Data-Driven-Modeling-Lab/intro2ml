@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/basic_nn_example/
 notebook_source: "basic_nn_example.ipynb"
+colab_url: ""
 ---
 
 ## Introduction to Neural Networks with PyTorch

@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/pytorch_nn_with_mnist/
 notebook_source: "pytorch_nn_with_mnist.ipynb"
+colab_url: ""
 ---
 
 For motivation, watch the following video: https://www.youtube.com/watch?v=aircAruvnKk

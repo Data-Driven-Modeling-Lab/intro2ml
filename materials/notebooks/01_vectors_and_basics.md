@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/01_vectors_and_basics/
 notebook_source: "01_vectors_and_basics.ipynb"
+colab_url: ""
 ---
 
 

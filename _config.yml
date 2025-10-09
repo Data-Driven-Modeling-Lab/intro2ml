@@ -19,7 +19,11 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-  enable_coderay: false
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+    span:
+      line_numbers: false
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -27,14 +31,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_number_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
 
 # MathJax configuration
 mathjax: true
@@ -83,3 +79,7 @@ future: true
 
 # Permalink structure
 permalink: /:categories/:year/:month/:day/:title/
+
+# Optional GitHub settings used by sync script for Colab links
+github_repo: ""
+github_branch: "main"

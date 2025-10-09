@@ -296,9 +296,15 @@ pre code {
 .note-content .highlight {
     background: #0d1117;
     color: #c9d1d9;
-    border: 1px solid #30363d;
+    border: none;
     border-radius: 6px;
 }
+
+/* Remove Rouge line-number gutters and borders (even if generated) */
+.rouge-table { border-collapse: collapse; width: 100%; }
+.rouge-table .rouge-gutter, .rouge-table .gl, .rouge-gutter.gl { display: none !important; }
+.rouge-table td, .rouge-table th { border: none !important; padding: 0 !important; }
+.rouge-code pre { margin: 0 !important; }
 
 /* Force printed outputs (plaintext) to be light and readable */
 .language-plaintext.highlighter-rouge .highlight,
@@ -307,13 +313,15 @@ pre code {
 .language-plaintext .highlight pre {
     background: #f7f7f9 !important;
     color: #2c3e50 !important;
-    border-color: #e5e5e5 !important;
+    border: none !important;
 }
 
 .highlighter-rouge .highlight pre,
 .note-content .highlight pre {
     background: transparent;
     margin: 0;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Base token colors for dark background */

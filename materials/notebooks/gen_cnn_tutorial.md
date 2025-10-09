@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gen_cnn_tutorial/
 notebook_source: "gen_cnn_tutorial.ipynb"
+colab_url: ""
 ---
 
 

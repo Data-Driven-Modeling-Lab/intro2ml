@@ -7,9 +7,9 @@ layout: default
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background: white;
+    background: transparent;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: none;
 }
 
 .note-header {
@@ -79,15 +79,15 @@ layout: default
 
 /* Jupyter notebook specific styling */
 .note-content .highlight {
-    background: #f8f9fa;
+    background: transparent;
     border-radius: 4px;
-    padding: 10px;
+    padding: 0;
     margin: 10px 0;
 }
 
 .note-content .output {
-    background: #ffffff;
-    border: 1px solid #e9ecef;
+    background: transparent;
+    border: none;
     border-radius: 6px;
     padding: 10px 12px;
     margin: 12px 0;
@@ -99,14 +99,16 @@ layout: default
 .note-content .language-python.highlighter-rouge .highlight {
     background: #0d1117;
     color: #c9d1d9;
-    border: 1px solid #30363d;
+    border: none;
+    box-shadow: none;
 }
 
 .note-content .language-plaintext.highlighter-rouge .highlight pre,
 .note-content .language-plaintext.highlighter-rouge .highlight {
     background: #f7f7f9;
     color: #2c3e50;
-    border: 1px solid #e5e5e5;
+    border: none;
+    box-shadow: none;
 }
 
 /* Enhanced math styling for notebooks */

@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/00_python_intro/
 notebook_source: "00_python_intro.ipynb"
+colab_url: ""
 ---
 
 

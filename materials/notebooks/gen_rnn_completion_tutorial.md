@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gen_rnn_completion_tutorial/
 notebook_source: "gen_rnn_completion_tutorial.ipynb"
+colab_url: ""
 ---
 
 

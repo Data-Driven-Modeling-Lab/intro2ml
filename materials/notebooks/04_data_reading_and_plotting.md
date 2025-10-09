@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/04_data_reading_and_plotting/
 notebook_source: "04_data_reading_and_plotting.ipynb"
+colab_url: ""
 ---
 
 
@@ -188,6 +189,8 @@ df.head()
     </tr>
   </tbody>
 </table>
+</div>
+
 
 ## 2. Saving and Loading Data
 
@@ -323,6 +326,8 @@ df_loaded.head(3)
     </tr>
   </tbody>
 </table>
+</div>
+
 
 ## 3. Data Exploration and Summary Statistics
 

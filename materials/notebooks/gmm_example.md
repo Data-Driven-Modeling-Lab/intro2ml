@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gmm_example/
 notebook_source: "gmm_example.ipynb"
+colab_url: ""
 ---
 
 ```python

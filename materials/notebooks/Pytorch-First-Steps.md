@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/Pytorch-First-Steps/
 notebook_source: "Pytorch-First-Steps.ipynb"
+colab_url: ""
 ---
 
 ```python

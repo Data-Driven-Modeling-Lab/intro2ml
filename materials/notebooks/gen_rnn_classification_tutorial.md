@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/gen_rnn_classification_tutorial/
 notebook_source: "gen_rnn_classification_tutorial.ipynb"
+colab_url: ""
 ---
 
 
@@ -153,6 +154,8 @@ df_lebanese.head()
     </tr>
   </tbody>
 </table>
+</div>
+
 
 ```python
 # Label encoding
@@ -715,7 +718,7 @@ all_results.append(results_rnn)
     Epoch 25/30 | Train: 69.62% (loss: 0.765) | Test: 40.50% (loss: 1.937)
     Epoch 30/30 | Train: 73.00% (loss: 0.720) | Test: 37.50% (loss: 2.199)
     
-    Training time: 26.84s
+    Training time: 28.12s
     Final test accuracy: 37.50%
 
 
@@ -737,7 +740,7 @@ all_results.append(results_lstm)
     Epoch 25/30 | Train: 73.75% (loss: 0.637) | Test: 39.00% (loss: 2.142)
     Epoch 30/30 | Train: 77.00% (loss: 0.552) | Test: 36.00% (loss: 2.563)
     
-    Training time: 27.48s
+    Training time: 30.19s
     Final test accuracy: 36.00%
 
 
@@ -759,7 +762,7 @@ all_results.append(results_gru)
     Epoch 25/30 | Train: 78.75% (loss: 0.512) | Test: 39.00% (loss: 2.355)
     Epoch 30/30 | Train: 80.12% (loss: 0.479) | Test: 36.50% (loss: 2.428)
     
-    Training time: 54.19s
+    Training time: 56.29s
     Final test accuracy: 36.50%
 
 
@@ -855,9 +858,9 @@ for r in all_results:
     Model                     Test Accuracy   Training Time  
     ----------------------------------------------------------------------
     Baseline (BoW + LR)        47.00%         N/A            
-    Simple RNN                 37.50%          26.84s
-    LSTM                       36.00%          27.48s
-    GRU                        36.50%          54.19s
+    Simple RNN                 37.50%          28.12s
+    LSTM                       36.00%          30.19s
+    GRU                        36.50%          56.29s
     
     ======================================================================
     OVERFITTING ANALYSIS (Final Train-Test Gap)

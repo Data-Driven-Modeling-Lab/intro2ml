@@ -4,6 +4,7 @@ layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/neural_networks_from_scratch/
 notebook_source: "neural_networks_from_scratch.ipynb"
+colab_url: ""
 ---
 
 ```python
