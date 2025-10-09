@@ -320,3 +320,24 @@
       type: references
   references: null
   assignments: null
+- section: Neural Networks
+  lecture_number: 13
+  date: Oct 9
+  title: CNNs, RNNs and AI Assistants
+  subtitle: How to use AI coding assistants in the context of deep learning
+  type: lecture
+  duration: 75
+  description: ' How to use AI coding assistants in the context of deep learning '
+  materials:
+    lecture:
+    - name: MNIST dataset, AI Generated CNN Tutorial
+      url: /materials/notebooks/gen_cnn_tutorial/
+      type: notebook
+    - name: Arabic Tweets, AI Generated RNN Classification Tutorial
+      url: /materials/notebooks/gen_rnn_classification_tutorial/
+      type: notebook
+    - name: Arabic Tweets, AI-Generated RNN Completion Tutorial
+      url: /materials/notebooks/gen_rnn_completion_tutorial/
+      type: notebook
+  references: null
+  assignments: null
