@@ -44,10 +44,10 @@
   - name: Open
     url: /materials/assignments/hw4/
 - id: hw5
-  title: 'Problem Set 5: Advanced Neural Networks and Project Proposal'
+  title: 'Problem Set 5: Project Proposal and Progress'
   release_date: 2025-10-09
   due_date: 2025-10-16
-  description: 'Advanced deep learning and project proposal '
+  description: Project proposal and progress
   links:
   - name: Open
     url: /materials/assignments/hw5/
