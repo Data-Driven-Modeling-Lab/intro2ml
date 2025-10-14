@@ -243,7 +243,7 @@
     '
   materials:
     lecture:
-    - name: Lecture Slides (until )
+    - name: Lecture Slides
       url: /materials/slides/deep-learning-lecture-part_1.pdf
       type: slides
     - name: Python Neural Network Example
@@ -285,7 +285,7 @@
       type: references
   references: null
   assignments: null
-- section: Neural Networks
+- section: Deep Learning
   lecture_number: 12
   date: Oct 7
   title: Advanced Neural Networks
@@ -320,7 +320,7 @@
       type: references
   references: null
   assignments: null
-- section: Neural Networks
+- section: Deep Learning
   lecture_number: 13
   date: Oct 9
   title: CNNs, RNNs and AI Assistants
@@ -339,5 +339,28 @@
     - name: Arabic Tweets, AI-Generated RNN Completion Tutorial
       url: /materials/notebooks/gen_rnn_completion_tutorial/
       type: notebook
+  references: null
+  assignments: null
+- section: Unsupervised Learning
+  lecture_number: 14
+  date: Oct 14
+  title: Introduction to Unsupervised Learning & K-Means Clustering
+  subtitle: Introduction to clustering and unsupervised pattern discovery
+  type: lecture
+  duration: 75
+  description: 'Introduction to clustering algorithms with focus on K-means. Covers
+    cluster analysis, centroid-based clustering, and evaluation metrics for unsupervised
+    learning.
+
+    '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/kmean_intro.pdf
+      type: slides
+    - name: CS229 Notes, Chapter 10
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+      description: Implement and compare clustering algorithms
   references: null
   assignments: null
