@@ -364,3 +364,30 @@
       description: Implement and compare clustering algorithms
   references: null
   assignments: null
+- section: Unsupervised Learning
+  lecture_number: 15
+  date: Oct 16
+  title: Principal Component Analysis
+  subtitle: Principal component analysis and Dimensionality Reduction
+  type: lecture
+  duration: 75
+  description: 'Dimensionality reduction. Focus on Principal Component Analysis (PCA),
+    SVD, and applications to data compression and visualization.
+
+    '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/pca.pdf
+      type: slides
+    - name: Basic PCA Coding Example
+      url: /materials/references/svd_demo/
+      type: notebook
+    - name: SVD for Image Compression
+      url: /materials/notebooks/0_image_approx/
+      type: notebook
+    - name: MNIST Dataset Dimensionality Reduction
+      url: /materials/notebooks/mnist_example/
+      type: notebook
+  references: null
+  assignments: null
