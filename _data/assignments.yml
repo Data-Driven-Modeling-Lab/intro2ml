@@ -51,3 +51,11 @@
   links:
   - name: Open
     url: /materials/assignments/hw5/
+- id: hw6
+  title: 'Problem Set 6: Unsupervised Learning'
+  release_date: 2025-10-17
+  due_date: 2025-10-23
+  description: 'Unsupervised learning: k-means, PCA, autoencoders and others '
+  links:
+  - name: Open
+    url: /materials/assignments/hw6/
