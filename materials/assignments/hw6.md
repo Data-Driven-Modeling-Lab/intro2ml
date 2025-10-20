@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 5: Unsupervised Learning"
+title: "Problem Set 6: Unsupervised Learning"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw6/
@@ -12,7 +12,7 @@ permalink: /materials/assignments/hw6/
 
 <img src="/materials/assignments/aub-pic.jpg" alt="AUB video" width="50%" />
 
-Save the image above and reduce the number of colors it using K-means clustering. Write your own implementation of K-means clustering, and don't use any existing libraries.
+Save the image above and reduce the number of colors using K-means clustering. Write your own implementation of K-means clustering, and don't use any existing libraries.
 
 a) Use 2, 8, 16, and 64 clusters and plot the original image and the compressed images. 
 
@@ -31,7 +31,7 @@ a) Apply PCA to reduce the dimensionality of the data. Use 2, 8, 16, and 64 comp
 
 b) Is compressing the data from the original 784 dimensions to 2 dimensions equivalent to doing it in two stages: first reducing the dimensionality to 100 and then to 2? 1) Plot the original image and the reconstructed images for both cases. 2) Compute the compression ratio for each case. 3) Prove that the two approaches are equivalent.
 
-c) Given the normalized data matrix $X$, and the covariance matrix $\Sigma = \frac{1}{n-1} X^T X$, show that the eigenvalue decomposition $\Sigma = V \Lambda V^T$ on the covariance matrix is equivalent to the singular value decomposition of the data matrix $X = U \Sigma V^T$.
+c) Given the normalized data matrix $X$, and the covariance matrix $C = \frac{1}{n-1} X^T X$, show that the eigenvalue decomposition $C = W \Lambda W^T$ on the covariance matrix is equivalent to the singular value decomposition of the data matrix $X = U \Sigma V^T$. 
 
 d) Perform a nonlinear dimensionality reduction using an autoencoder architecture (on the flattened images). 1) Plot the original image and the reconstructed images for 5 random samples. 2) Does the data in the reduced dimension space form meaningful clusters? Answer the question through a classification task on the reduced dimension space, and explain why this is a good or bad idea.
 
