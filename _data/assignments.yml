@@ -43,8 +43,6 @@
   links:
   - name: Open
     url: /materials/assignments/hw4/
-  - name: Solution
-    url: /materials/assignments/hw4_solution/
 - id: hw5
   title: 'Problem Set 5: Project Proposal and Progress'
   release_date: 2025-10-09
