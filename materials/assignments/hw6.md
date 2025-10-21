@@ -10,7 +10,7 @@ permalink: /materials/assignments/hw6/
 
 ## Problem 1: K-Means Clustering for Image Compression (30 points)
 
-<img src="/materials/assignments/aub-pic.jpg" alt="AUB video" width="50%" />
+<img src="/materials/assignments/aub-pic.jpg" alt="AUB photo" width="50%" />
 
 Save the image above and reduce the number of colors using K-means clustering. Write your own implementation of K-means clustering, and don't use any existing libraries.
 
@@ -40,3 +40,5 @@ e) Repeat the same task using convolutional layers in the encoder and decoder. D
 f) Repeat the same task using t-SNE and hierarchical clustering (using scikit-learn). Do you observe better clustering in the latent space? 
 
 g) Plot the data in reduced spaces from all methods next to each other for comparison, and discuss the differences. What do you think works best for this dataset?
+
+h) [Extra Credit] Show that SVD and autoencoders are equivalent when the autoencoder is trained with a single layer, without any activation functions, and the bottleneck layer has the same dimension as the number of principal components. Find the paper that proves this equivalence.

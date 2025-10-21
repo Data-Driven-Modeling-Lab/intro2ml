@@ -11,7 +11,7 @@ These samples are classified into 2 classes $y^{(i)} \in \{0,1\}$.
 
 We want to perform a binary classification using a neural network with a hidden layer consisting of 3 neurons such that:
 
-<img src="/materials/assignments/nn.png" alt="Neural network architecture" width="50%" />
+![Neural Network Diagram](/materials/assignments/nn.png)
 
 We denote the 3 neurons by ($a_1, a_2, a_3$) and define the corresponding logits ($\bar{a_1}, \bar{a_2}, \bar{a_3}$):
 
@@ -138,7 +138,7 @@ $$
 We were given a scatter plot of the values of the output *y* being 0 or 1 given the values of ($x_1, x_2$).  
 The values of ($x_1, x_2$) in the input space are symbolized by × if y = 1 and by ○ if y = 0.
 
-<img src="/materials/assignments/Screenshot%202024-03-23%20115352.png" alt="Scatter plot" width="50%" />
+![Scatter Plot](Screenshot%202024-03-23%20115352.png)
 
 To classify this dataset with 100% accuracy, we need a model that produces a decision boundary that perfectly separates the two regions.
 
@@ -155,7 +155,7 @@ $$
 Our best option to achieve 100% accuracy is to let each neuron in the hidden layer determine one side of the decision boundary.  
 Looking at the above graph, we need 3 sides (a triangle) to form the best decision boundary.
 
-<img src="/materials/assignments/Screenshot%202024-03-23%20120038.png" alt="Decision Boundary" width="50%" />
+![Decision Boundary](Screenshot%202024-03-23%20120038.png)
 
 We want the activation function to return 0 when ($x_1, x_2$) lies **within** the triangle and 1 when it lies **outside**.
 
