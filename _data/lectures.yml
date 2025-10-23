@@ -391,3 +391,44 @@
       type: notebook
   references: null
   assignments: null
+- section: Unsupervised Learning
+  lecture_number: 16
+  date: Oct 21
+  title: EM Algorithm and Gaussian Mixture Models
+  subtitle: Probabilistic clustering and the EM algorithm
+  type: lecture
+  duration: 75
+  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization
+    algorithm. Covers probabilistic clustering, latent variable models, and maximum
+    likelihood estimation.
+
+    '
+  materials:
+    lecture:
+    - name: Lecture Slides
+      url: /materials/slides/gmm.pdf
+      type: slides
+    - name: GMM Code Walkthough
+      url: /materials/notebooks/gmm_em_walkthrough/
+      type: notebook
+  references: null
+  assignments: null
+- section: Unsupervised Learning
+  lecture_number: 17
+  date: Oct 23
+  title: Other Unsupervised Learning Methods
+  subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
+  type: lecture
+  duration: 75
+  description: 'Survey of additional unsupervised learning techniques including hierarchical
+    clustering, density-based clustering (DBSCAN), manifold learning, and dimensionality
+    reduction methods.
+
+    '
+  materials:
+    lecture:
+    - name: Unsupervised-Learning-Overview
+      url: /materials/assignments/unsupervised-learning-overview.pdf
+      type: assignment
+  references: null
+  assignments: null

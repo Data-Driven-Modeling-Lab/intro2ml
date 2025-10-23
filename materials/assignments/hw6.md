@@ -23,7 +23,7 @@ c) Perform the same task using SVD for image compression, using 2, 8, 16 and 64 
 d) Compare the SVD and K-means images. What's the difference in compression? How does the compression ratio compare to the original image?
 
 
-## Problem 2: PCA and nonlinear dimensionality reduction (70 points)
+## Problem 2: PCA and nonlinear dimensionality reduction (60 points)
 
 Find and load the MNIST dataset.  
 
@@ -42,3 +42,12 @@ f) Repeat the same task using t-SNE and hierarchical clustering (using scikit-le
 g) Plot the data in reduced spaces from all methods next to each other for comparison, and discuss the differences. What do you think works best for this dataset?
 
 h) [Extra Credit] Show that SVD and autoencoders are equivalent when the autoencoder is trained with a single layer, without any activation functions, and the bottleneck layer has the same dimension as the number of principal components. Find the paper that proves this equivalence.
+
+## Problem 3: Latent Space Dynamics of a Video (10 points)
+
+Download a video from YouTube. Consider each frame to be an example. Submit the link of the video and a plot of the latent space dynamics (of the 2D latent space for PCA and Autoencoders) to the #problem-set-subs channel on Slack. Can we guess what the video is about from the latent spaces?
+
+a) Project the frames on 2D using PCA, and plot the time series of the first two principal components in PC1-PC2 space.
+
+b) Project the frames on 2D using an autoencoder architecture, and plot the time series of the latent variables. 
+
