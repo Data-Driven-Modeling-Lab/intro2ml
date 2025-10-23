@@ -93,7 +93,7 @@ def draw_ellipse(position, covariance, ax=None, **kwargs):
         angle = 0
     for nsig in range(1, 4):  # 1 to 3 standard deviations
         ax.add_patch(Ellipse(position, nsig * width, nsig * height,
-                             angle, **kwargs))
+                             angle=angle, **kwargs))
 
 plt.figure(figsize=(12, 10))
 plot_gmm(gmm, X_pca)
