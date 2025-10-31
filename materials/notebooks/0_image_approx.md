@@ -1,5 +1,5 @@
 ---
-title: "Reference: Data-Driven Science and Engineering, Brunton and Kutz, Chapter 2"
+title: "Image Compression with SVD"
 layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/0_image_approx/
@@ -9,6 +9,13 @@ colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/in
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/0_image_approx.ipynb)
 
+## Image Compression with SVD
+
+Adapted from : Data-Driven Science and Engineering, Brunton and Kutz, Chapter 2
+
+Link: https://faculty.washington.edu/sbrunton/databookRL.pdf
+
+
 ```python
 from matplotlib.image import imread
 import matplotlib.pyplot as plt
@@ -16,8 +23,6 @@ import numpy as np
 import os
 plt.rcParams['figure.figsize'] = [4, 7]
 
-## Reference: Data-Driven Science and Engineering, Brunton and Kutz, Chapter 2
-## Link: https://faculty.washington.edu/sbrunton/databookRL.pdf
 
 A = imread('dog.jpg')
 X = np.mean(A, -1); # Convert RGB to grayscale
@@ -30,7 +35,7 @@ plt.show()
 
 
     
-![png](/materials/notebooks/0_image_approx/output_0_0.png)
+![png](/materials/notebooks/0_image_approx/output_1_0.png)
     
 
 
@@ -83,17 +88,17 @@ for r in (5, 20, 100):
 
 
     
-![png](/materials/notebooks/0_image_approx/output_4_0.png)
+![png](/materials/notebooks/0_image_approx/output_5_0.png)
     
 
 
     
-![png](/materials/notebooks/0_image_approx/output_4_1.png)
+![png](/materials/notebooks/0_image_approx/output_5_1.png)
     
 
 
     
-![png](/materials/notebooks/0_image_approx/output_4_2.png)
+![png](/materials/notebooks/0_image_approx/output_5_2.png)
     
 
 
@@ -127,11 +132,11 @@ plt.show()
 
 
     
-![png](/materials/notebooks/0_image_approx/output_6_0.png)
+![png](/materials/notebooks/0_image_approx/output_7_0.png)
     
 
 
     
-![png](/materials/notebooks/0_image_approx/output_6_1.png)
+![png](/materials/notebooks/0_image_approx/output_7_1.png)
     
 

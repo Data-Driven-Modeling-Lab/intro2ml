@@ -1,5 +1,5 @@
 ---
-title: "1. Download the MNIST dataset"
+title: "MNIST dataset dimensionality reduction example"
 layout: note
 category: "Jupyter Notebook"
 permalink: /materials/notebooks/mnist_example/
@@ -8,6 +8,9 @@ colab_url: "https://colab.research.google.com/github/Data-Driven-Modeling-Lab/in
 ---
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/notebooks/mnist_example.ipynb)
+
+## MNIST dataset dimensionality reduction example
+
 
 ```python
 import numpy as np
@@ -20,11 +23,6 @@ X = mnist.data  # Feature matrix (70,000 samples of 784 features)
 y = mnist.target.astype(int)  # Labels (digits 0-9)
 
 ```
-
-
-    
-![png](/materials/notebooks/mnist_example/output_0_0.png)
-    
 
 
 ```python
@@ -43,6 +41,11 @@ plt.colorbar(scatter, ticks=range(10), label='Digit Label')
 plt.grid(True)
 plt.show()
 ```
+
+
+    
+![png](/materials/notebooks/mnist_example/output_2_0.png)
+    
 
 
 ```python
@@ -105,35 +108,31 @@ plt.show()
 ```
 
     Means of the clusters:
-    Cluster 0: Mean = [ 300.54794659 -660.92240369]
-    Cluster 1: Mean = [-387.65974065  481.74359792]
-    Cluster 2: Mean = [81.24461923  3.09931913]
-    Cluster 3: Mean = [-893.27200304 -461.45418997]
-    Cluster 4: Mean = [ 593.98676639 -153.96015551]
-    Cluster 5: Mean = [1239.62754088 -218.64778218]
-    Cluster 6: Mean = [424.82633416 570.08093663]
-    Cluster 7: Mean = [-506.72302081  -92.98536502]
-    Cluster 8: Mean = [-181.23886685 -403.95786527]
-    Cluster 9: Mean = [-26.87774701 779.78471607]
+    Cluster 0: Mean = [  10.89273388 -582.65412344]
+    Cluster 1: Mean = [-491.45505023  322.8170719 ]
+    Cluster 2: Mean = [108.17363694 -11.6977259 ]
+    Cluster 3: Mean = [-886.40446614 -443.3430705 ]
+    Cluster 4: Mean = [ 543.55838297 -384.02867352]
+    Cluster 5: Mean = [657.32338032  -3.80313235]
+    Cluster 6: Mean = [-172.1257724   692.05765228]
+    Cluster 7: Mean = [1232.39450602 -239.78532534]
+    Cluster 8: Mean = [-346.40125825 -244.59018096]
+    Cluster 9: Mean = [246.66408949 744.93955816]
     
     Standard deviations of the clusters:
-    Cluster 0: Std Dev = [313.85594823 259.21437006]
-    Cluster 1: Std Dev = [180.0142689  191.50979434]
-    Cluster 2: Std Dev = [211.18878722 250.5613713 ]
-    Cluster 3: Std Dev = [ 78.54624225 191.95067188]
-    Cluster 4: Std Dev = [254.30619766 226.18503271]
-    Cluster 5: Std Dev = [351.423388   236.18368818]
-    Cluster 6: Std Dev = [282.28554376 303.0627887 ]
-    Cluster 7: Std Dev = [199.13299941 210.05289074]
-    Cluster 8: Std Dev = [246.49344149 227.05246774]
-    Cluster 9: Std Dev = [217.81045166 181.02033043]
-
-
-    /var/folders/q4/_twpfpf54f3f6s17s74p67tc0000gp/T/ipykernel_93309/1072052865.py:47: MatplotlibDeprecationWarning: Passing the angle parameter of __init__() positionally is deprecated since Matplotlib 3.6; the parameter will become keyword-only two minor releases later.
-      ax.add_patch(Ellipse(position, nsig * width, nsig * height,
+    Cluster 0: Std Dev = [268.3250472 258.7472777]
+    Cluster 1: Std Dev = [169.65372386 244.75804164]
+    Cluster 2: Std Dev = [219.63718487 263.79338739]
+    Cluster 3: Std Dev = [ 82.56368013 203.04177516]
+    Cluster 4: Std Dev = [250.9754226  338.35620799]
+    Cluster 5: Std Dev = [286.11580058 287.72260005]
+    Cluster 6: Std Dev = [200.71351419 196.54461748]
+    Cluster 7: Std Dev = [365.46135628 206.15829197]
+    Cluster 8: Std Dev = [224.42248248 216.4345234 ]
+    Cluster 9: Std Dev = [260.51560172 232.27217183]
 
 
     
-![png](/materials/notebooks/mnist_example/output_2_2.png)
+![png](/materials/notebooks/mnist_example/output_3_1.png)
     
 
