@@ -432,3 +432,37 @@
       type: assignment
   references: null
   assignments: null
+- section: Reinforcement Learning
+  lecture_number: 18
+  date: Nov 4
+  title: Reinforcement Learning I
+  subtitle: Introduction to RL, MDPs, and value iteration
+  type: lecture
+  duration: 75
+  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision
+    Processes (MDPs), value functions, and dynamic programming solutions including
+    value and policy iteration.
+
+    '
+  materials:
+    lecture:
+    - name: Introduction to Reinforcement Learning
+      url: /materials/slides/RL_1.pdf
+      type: slides
+    - name: Stanford CS229 lecture 0 - Introduction (starting at minute 49:00)
+      url: https://www.youtube.com/watch?v=d5gaWTo6kDM&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=17
+      type: references
+    - name: Stanford CS229 lecture 1 - MDPs and Value iteration
+      url: https://www.youtube.com/watch?v=d5gaWTo6kDM&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=17
+      type: references
+    - name: Stanford CS229 lecture 2 - Continuous state MDP
+      url: https://www.youtube.com/watch?v=QFu5nuc-S0s&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=18
+      type: references
+    - name: Stanford CS229 lecture 3 - Reward Model and Linear Dynamical Systems
+      url: https://www.youtube.com/watch?v=0rt2CsEQv6U&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=19
+      type: references
+    - name: Stanford CS229 lecture 4 - RL debugging and diagnostics
+      url: https://www.youtube.com/watch?v=pLhPQynL0tY&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=20
+      type: references
+  references: null
+  assignments: null
