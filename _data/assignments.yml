@@ -61,3 +61,11 @@
   links:
   - name: Open
     url: /materials/assignments/hw6/
+- id: hw7
+  title: 'Problem Set 7: Reinforcement Learning '
+  release_date: 2025-11-07
+  due_date: 2025-11-14
+  description: 'Markov decision processes and reinforcement learning '
+  links:
+  - name: Open
+    url: /materials/assignments/hw7/
