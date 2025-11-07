@@ -6,9 +6,9 @@ permalink: /materials/assignments/hw7/
 ---
 
 
-**Instructions:** Submit the proposal as a PDF file on the following [submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2428505)
+**Instructions:** Submit the solution as a PDFs and notebooks on the following [submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2428505)
 
-## Problem 1: Proving the Convergence of Value Iteration (30 points)
+## Problem 1: Proving the Convergence of Value Iteration (50 points)
 
 Consider a Markov Decision Process (MDP) with finite state and action spaces, and a discount factor $0 < \gamma < 1$. In class we discussed that the value iteration algorithm converges to the optimal value function. In this problem, we will prove this result.
 
@@ -21,7 +21,7 @@ $$
 where:
 
 * $R(s)$ is the reward for being in state $s$,
-* $P(s'|s,a)$ is the transition probability from state $s$ to $s'$ after taking action $a$.
+* $P(s' \mid s,a)$ is the transition probability from state $s$ to $s'$ after taking action $a$.
 
 a) Show that for any two finite-valued vectors $V_1$ and $V_2$, the following inequality holds:
 
@@ -29,7 +29,7 @@ $$
 \|B(V_1) - B(V_2)\|_\infty \le \gamma \|V_1 - V_2\|_ \infty,
 $$
 
-where $\|V\|_\infty = \max_{s \in S} |V(s)|$.
+where $\|V\|_\infty = \max_{s \in S} \|V(s)\|$.
 
 b) A vector $V$ is called a fixed point of $B$ if it satisfies $B(V) = V$. Using the result above, prove that $B$ has at most one fixed point; that is, there can be at most one solution to the Bellman equations. You can assume that at least one fixed point exists.
 
@@ -61,17 +61,12 @@ Here's the pendulum problem you saw in class, with a slightly different state an
 
 A classic control problem involves balancing a pendulum on a moving cart by applying horizontal forces. We keep only **cart position** and **pole angle** as the state. Actions are **discrete force commands** on the cart.
 
-1. **State**: Cart position: $ X={x_1,\dots,x_{N_x}} $ with $ N_x $ being the number of discrete positions. 
+1. **State**: Cart position: $ X=\{x_1,\dots,x_{N_x}\} $, with $ N_x $ being the number of discrete positions. 
 
-2. **Action space (discretized force)**: Choose a small, finite set of forces (e.g., three- or five-level control):
- $$ A=\{-F_{\max},-\tfrac{F_{\max}}{2},0,\tfrac{F_{\max}}{2},F_{\max}\} $$
+2. **Action space (discretized force)**: Choose a small, finite set of forces:
+ $$ A=\{-F_{\max},-\tfrac{F_{\max}}{2},0,\tfrac{F_{\max}}{2},F_{\max}\} $$.
 
-3. **Reward function**: Penalize angle deviation:
-
-$$
-R(s,a) = -\alpha\theta^{2},
-\qquad \alpha>0.
-$$
+3. **Reward function**: Penalize angle deviation: $R(s,a) = -\alpha\theta^{2}, \qquad \alpha>0.$
 
 ---
 
