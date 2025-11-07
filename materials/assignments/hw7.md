@@ -35,7 +35,7 @@ b) A vector $V$ is called a fixed point of $B$ if it satisfies $B(V) = V$. Using
 
 c) Starting from [this example code](https://colab.research.google.com/github/Data-Driven-Modeling-Lab/intro2ml/blob/main/materials/references/value_iteration_new.ipynb), show that V decreases monotonically with each iteration of value iteration.
 
-## Problem 2: MDPs for Real-World Control and Decision-Making (10 points)
+## Problem 2: MDPs for Real-World Control and Decision-Making (50 points)
 
 In this exercise, you will practice formulating **Markov Decision Processes (MDPs)** for real-world control and decision-making scenarios. Each MDP should be described by the tuple
 $$
