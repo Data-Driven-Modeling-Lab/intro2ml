@@ -449,6 +449,9 @@
     - name: Introduction to Reinforcement Learning
       url: /materials/slides/RL_1.pdf
       type: slides
+    - name: Coding notebook example
+      url: /materials/references/value_iteration_new/
+      type: notebook
     - name: Stanford CS229 lecture 0 - Introduction (starting at minute 49:00)
       url: https://www.youtube.com/watch?v=d5gaWTo6kDM&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=17
       type: references
