@@ -26,10 +26,10 @@ where:
 a) Show that for any two finite-valued vectors $V_1$ and $V_2$, the following inequality holds:
 
 $$
-\|B(V_1) - B(V_2)\|_\infty \le \gamma \|V_1 - V_2\|_ \infty,
+\|B(V_1) - B(V_2)\|_\infty \le \gamma \|V_1 - V_2\|_\infty,
 $$
 
-where $\|V\|_\infty = \max_{s \in S} \|V(s)\|$.
+where $\| V \|_{\infty} = \max_{s \in S} \| V(s) \|$.
 
 b) A vector $V$ is called a fixed point of $B$ if it satisfies $B(V) = V$. Using the result above, prove that $B$ has at most one fixed point; that is, there can be at most one solution to the Bellman equations. You can assume that at least one fixed point exists.
 
@@ -46,14 +46,14 @@ where:
 
 * $S$ is the **state space**
 * $A$ is the **action space**
-* $P(s'|s,a)$ is the **transition probability**
+* $P(s' \mid s,a)$ is the **transition probability**
 * $R(s,a)$ is the **reward function**
 * $\gamma$ is the **discount factor**
 
 1. Identify what the **state**, **action**, and **reward** should represent.
 2. Write the sets $ S, A, R $ explicitly
 
-Note that the solutions are not unique. Feel free to consider multiple state, action, and reward functions as long as they are consistent with the problem statement, and **briefly EXPLAIN your choices**. 
+Note that the solutions are not unique. Feel free to consider multiple state, action, and reward functions as long as they are consistent with the problem statement, and briefly explain your choices. 
 
 Here's the pendulum problem you saw in class, with a slightly different state and action space.
 
