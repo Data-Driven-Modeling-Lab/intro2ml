@@ -502,8 +502,26 @@
     '
   materials:
     lecture:
-    - name: Modeling slides
-      url: slides/modeling.pdf
+    - name: Self-Supervised foundation modeling
+      url: /materials/slides/self-supervised-learning.pdf
+      type: slides
+  references: null
+  assignments: null
+- section: Advanced Topics
+  lecture_number: 22
+  date: Nov 18
+  title: Machine Learning for Modeling Physical Systems
+  subtitle: How does ML apply to science and engineering where some physics-based
+    models are already known?
+  type: lecture
+  duration: 75
+  description: 'Modeling scientific systems with machine learning''
+
+    '''
+  materials:
+    lecture:
+    - name: Data-driven modeling principles
+      url: /materials/slides/modeling.pdf
       type: slides
   references: null
   assignments: null
