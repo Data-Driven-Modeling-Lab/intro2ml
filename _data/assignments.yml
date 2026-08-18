@@ -8,6 +8,7 @@
     url: /materials/assignments/hw0/
   - name: Solution
     url: /materials/assignments/hw0_solution/
+    visible: false
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
   release_date: 2025-09-09
@@ -19,6 +20,8 @@
     url: /materials/assignments/hw1/
   - name: Solution
     url: /materials/assignments/hw1_solution/
+    visible: false
+  visible: false
 - id: hw2
   title: 'Problem Set 2: Logistic Regression and Classification'
   release_date: 2025-09-17
@@ -27,6 +30,7 @@
   links:
   - name: Open
     url: /materials/assignments/hw2/
+  visible: false
 - id: hw3
   title: 'Problem Set 3: Data Exploration'
   release_date: 2025-09-26
@@ -35,6 +39,7 @@
   links:
   - name: Open
     url: /materials/assignments/hw3/
+  visible: false
 - id: hw4
   title: 'Problem Set 4: Neural Network Basics'
   release_date: 2025-10-02
@@ -45,6 +50,8 @@
     url: /materials/assignments/hw4/
   - name: Solution
     url: /materials/assignments/hw4_solution/
+    visible: false
+  visible: false
 - id: hw5
   title: 'Problem Set 5: Project Proposal and Progress'
   release_date: 2025-10-09
@@ -53,6 +60,7 @@
   links:
   - name: Open
     url: /materials/assignments/hw5/
+  visible: false
 - id: hw6
   title: 'Problem Set 6: Unsupervised Learning'
   release_date: 2025-10-17
@@ -61,6 +69,7 @@
   links:
   - name: Open
     url: /materials/assignments/hw6/
+  visible: false
 - id: hw7
   title: 'Problem Set 7: Reinforcement Learning '
   release_date: 2025-11-07
@@ -69,3 +78,4 @@
   links:
   - name: Open
     url: /materials/assignments/hw7/
+  visible: false

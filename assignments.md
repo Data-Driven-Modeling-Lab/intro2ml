@@ -21,6 +21,7 @@ title: Assignments
 {% if items and items.size > 0 %}
   {% for a in items %}
   {% assign release_ts = a.release_date | date: "%s" | plus: 0 %}
+  {% if a.visible == false %}{% continue %}{% endif %}
   {% if release_ts <= today_ts %}
   <div class="assignment-item">
     <div class="assignment-header">
@@ -33,7 +34,7 @@ title: Assignments
     {% if a.links %}
     <div class="assignment-links">
       {% for l in a.links %}
-        <a href="{{ l.url }}">{{ l.name }}</a>
+        {% unless l.visible == false %}<a href="{{ l.url }}">{{ l.name }}</a>{% endunless %}
       {% endfor %}
     </div>
     {% endif %}
