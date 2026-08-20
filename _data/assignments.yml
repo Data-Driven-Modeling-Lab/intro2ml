@@ -1,7 +1,7 @@
 - id: hw0
   title: 'Problem Set 0: Review and Chatting with LLMs'
-  release_date: 2025-08-29
-  due_date: 2025-09-07
+  release_date: '2026-09-01'
+  due_date: '2026-09-09'
   description: Calculus and linear algebra review. Chatting with LLMs.
   links:
   - name: Open
@@ -11,8 +11,8 @@
     visible: false
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
-  release_date: 2025-09-09
-  due_date: 2025-09-14
+  release_date: '2026-09-10'
+  due_date: '2026-09-24'
   description: Linear regression, Kaggle competition, Learning with LLMs, weather
     data exploration
   links:
@@ -24,8 +24,8 @@
   visible: false
 - id: hw2
   title: 'Problem Set 2: Logistic Regression and Classification'
-  release_date: 2025-09-17
-  due_date: 2025-09-22
+  release_date: '2026-09-24'
+  due_date: '2026-10-06'
   description: Project pre-proposal, logistic regression, normal equation, MLE
   links:
   - name: Open
@@ -33,8 +33,8 @@
   visible: false
 - id: hw3
   title: 'Problem Set 3: Data Exploration'
-  release_date: 2025-09-26
-  due_date: 2025-10-01
+  release_date: '2026-10-06'
+  due_date: '2026-10-14'
   description: 'Data Exploration '
   links:
   - name: Open
@@ -42,8 +42,8 @@
   visible: false
 - id: hw4
   title: 'Problem Set 4: Neural Network Basics'
-  release_date: 2025-10-02
-  due_date: 2025-10-06
+  release_date: '2026-10-20'
+  due_date: '2026-10-29'
   description: 'Deep Learning Basics '
   links:
   - name: Open
@@ -54,8 +54,8 @@
   visible: false
 - id: hw5
   title: 'Problem Set 5: Project Proposal and Progress'
-  release_date: 2025-10-09
-  due_date: 2025-10-16
+  release_date: '2026-10-29'
+  due_date: '2026-11-05'
   description: Project proposal and progress
   links:
   - name: Open
@@ -63,8 +63,8 @@
   visible: false
 - id: hw6
   title: 'Problem Set 6: Unsupervised Learning'
-  release_date: 2025-10-17
-  due_date: 2025-10-23
+  release_date: '2026-11-05'
+  due_date: '2026-11-17'
   description: 'Unsupervised learning: k-means, PCA, autoencoders and others '
   links:
   - name: Open
@@ -72,8 +72,8 @@
   visible: false
 - id: hw7
   title: 'Problem Set 7: Reinforcement Learning '
-  release_date: 2025-11-07
-  due_date: 2025-11-14
+  release_date: '2026-11-17'
+  due_date: '2026-11-24'
   description: 'Markov decision processes and reinforcement learning '
   links:
   - name: Open

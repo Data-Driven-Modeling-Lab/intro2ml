@@ -1,21 +1,17 @@
-# Fall 2026 schedule. F25 preserved in lectures_f25.yml.
 - section: Introduction
   lecture_number: 1
-  date: Sep 1
-  title: 'Introduction: What is a Model?'
-  subtitle: Models, ethics, purpose of AI, and course logistics
+  date: Aug 26
+  title: Introduction, Ethics/Purpose of AI, Logistics
+  subtitle: Course foundations and logistics
   type: lecture
   duration: 75
-  description: 'Course introduction covering learning objectives, expectations, and motivation.  Exploration
-    of AI''s transformative impact on society and discussion of ethical  implications in AI development
-    and deployment.
+  description: 'Course introduction covering learning objectives, expectations, and
+    motivation.  Exploration of AI''s transformative impact on society and discussion
+    of ethical  implications in AI development and deployment.
 
     '
   materials:
     lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/what_is_a_model
-      type: interactive
     - name: Introductory Slides
       url: /materials/slides/introductory_slides.pdf
       type: slides
@@ -38,14 +34,9 @@
       optional: true
   references: null
   assignments: null
-  study_guide:
-  - 'Before class: nothing, come curious'
-  - 'After: reread the What is a Model slides, note one model you use daily'
-  - Set up Python per the logistics page
-  - Start PS0 (posted today, due Sep 9)
 - section: Introduction
   lecture_number: 2
-  date: Sep 3
+  date: Aug 28
   title: Data, Models, and Python
   subtitle: null
   type: lecture
@@ -62,21 +53,18 @@
       url: null
       recommended: true
   assignments: null
-  study_guide:
-  - Review the slides and run the intro notebook
-  - Skim CS229 notes section on supervised learning framing
-  - Continue PS0
 - section: Introduction
   lecture_number: 3
-  date: Sep 8
+  date: Sep 2
   title: Math and Python Review - Your Computational Toolkit
   subtitle: Linear algebra meets computational implementation
   type: lecture
   duration: 75
-  description: 'Comprehensive review of mathematical foundations essential for machine learning,  combined
-    with hands-on Python implementation. Students will bridge the gap between  mathematical notation and
-    computational implementation through interactive notebooks  that combine CS229 linear algebra concepts
-    with NumPy code examples.
+  description: 'Comprehensive review of mathematical foundations essential for machine
+    learning,  combined with hands-on Python implementation. Students will bridge
+    the gap between  mathematical notation and computational implementation through
+    interactive notebooks  that combine CS229 linear algebra concepts with NumPy code
+    examples.
 
     '
   materials:
@@ -124,26 +112,20 @@
     - name: Pandas User Guide
       url: https://pandas.pydata.org/docs/user_guide/
   assignments: null
-  study_guide:
-  - Redo the in-class exercises in the math review notebook
-  - Finish and submit PS0 (due Sep 9)
-  - 'Self-test: the linear algebra quiz on the slides'
 - section: Function Approximation
   lecture_number: 4
-  date: Sep 10
+  date: Sep 9
   title: Supervised Learning and Linear Regression
   subtitle: First machine learning algorithm and foundational concepts
   type: lecture
   duration: 75
-  description: 'Introduction to supervised learning paradigm with linear regression as the first ML algorithm.
-    Mathematical foundations, implementation, and practical applications with hands-on coding.
+  description: 'Introduction to supervised learning paradigm with linear regression
+    as the first ML algorithm. Mathematical foundations, implementation, and practical
+    applications with hands-on coding.
 
     '
   materials:
     lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/intro_ml_04n
-      type: interactive
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
@@ -159,20 +141,15 @@
       type: references
   references: null
   assignments: null
-  study_guide:
-  - Go through the interactive linear regression slides and try each widget
-  - Read CS229 notes Part I, sections 1.1-1.2
-  - Start PS1 (posted today)
-  - Self-test with the in-slide quizzes
 - section: Function Approximation
   lecture_number: 5
-  date: Sep 15
+  date: Sep 11
   title: Feature Engineering and Generalization
   subtitle: From raw data to meaningful features, avoiding overfitting
   type: lecture
   duration: 75
-  description: 'Deep dive into feature engineering techniques and understanding generalization. Covers
-    bias-variance tradeoff, cross-validation, and regularization methods.
+  description: 'Deep dive into feature engineering techniques and understanding generalization.
+    Covers bias-variance tradeoff, cross-validation, and regularization methods.
 
     '
   materials:
@@ -192,26 +169,19 @@
       type: video
   references: null
   assignments: null
-  study_guide:
-  - Review generalization slides, focus on bias-variance
-  - Run the cross-validation notebook
-  - Continue PS1
 - section: Function Approximation
   lecture_number: 6
-  date: Sep 17
+  date: Sep 16
   title: Classification and Logistic Regression
   subtitle: From regression to classification with probabilistic models
   type: lecture
   duration: 75
-  description: 'Introduction to classification problems using logistic regression. Covers sigmoid function,
-    maximum likelihood estimation, and decision boundaries.
+  description: 'Introduction to classification problems using logistic regression.
+    Covers sigmoid function, maximum likelihood estimation, and decision boundaries.
 
     '
   materials:
     lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/intro_ml_06n
-      type: interactive
     - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
@@ -220,19 +190,15 @@
       type: references
   references: null
   assignments: null
-  study_guide:
-  - Go through the interactive logistic regression slides
-  - Compare the MSE vs cross-entropy loss surfaces in the slides
-  - Continue PS1 (due Sep 24)
 - section: Probabilistic Reasoning
   lecture_number: 7
-  date: Sep 22
+  date: Sep 18
   title: Maximum Likelihood Estimation and Generalized Linear Models
   subtitle: Foundations of probabilistic reasoning and statistical learning
   type: lecture
   duration: 75
-  description: 'Deep dive into maximum likelihood estimation and generalized linear models, at the foundation
-    of statistical learning theory.
+  description: 'Deep dive into maximum likelihood estimation and generalized linear
+    models, at the foundation of statistical learning theory.
 
     '
   materials:
@@ -245,19 +211,15 @@
       type: references
   references: null
   assignments: null
-  study_guide:
-  - Review MLE slides, rederive the least-squares connection
-  - CS229 notes on GLMs
-  - Start thinking about PS2
 - section: Probabilistic Reasoning
   lecture_number: 8
-  date: Sep 24
+  date: Sep 23
   title: Generative Learning and Language
   subtitle: Working with Language and the Naive Bayes Algorithm
   type: lecture
   duration: 75
-  description: 'Working with language, inferring algorithms from space v. non-spam, and the Naive Bayes
-    Algorithm as an example for generative learning '
+  description: 'Working with language, inferring algorithms from space v. non-spam,
+    and the Naive Bayes Algorithm as an example for generative learning '
   materials:
     lecture:
     - name: Lecture Slides
@@ -268,26 +230,19 @@
       type: references
   references: null
   assignments: null
-  study_guide:
-  - Review Naive Bayes slides
-  - Finish PS1, start PS2
-  - Try the language-model exercise from class
 - section: Deep Learning
-  lecture_number: 9
-  date: Sep 29
+  lecture_number: 10
+  date: Sep 30
   title: Introduction to Neural Networks
   subtitle: From linear models to deep networks
   type: lecture
   duration: 75
-  description: 'Introduction to neural networks, from biological inspiration to mathematical formulation.
-    Covers perceptrons, multilayer networks, and activation functions.
+  description: 'Introduction to neural networks, from biological inspiration to mathematical
+    formulation. Covers perceptrons, multilayer networks, and activation functions.
 
     '
   materials:
     lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/intro_ml_10n
-      type: interactive
     - name: Lecture Slides
       url: /materials/slides/deep-learning-lecture-part_1.pdf
       type: slides
@@ -297,13 +252,14 @@
   references: null
   assignments: null
 - section: Deep Learning
-  lecture_number: 10
-  date: Oct 1
+  lecture_number: 11
+  date: Oct 2
   title: Backpropagation, Computation Graphs and Hands on
   subtitle: A deeper dive into the inner working of deep learning
   type: lecture
   duration: 75
-  description: ' Backpropagation, chain rule, computation graph, pytorch, tutorial, symmetry
+  description: ' Backpropagation, chain rule, computation graph, pytorch, tutorial,
+    symmetry
 
     '
   materials:
@@ -330,14 +286,15 @@
   references: null
   assignments: null
 - section: Deep Learning
-  lecture_number: 11
-  date: Oct 6
+  lecture_number: 12
+  date: Oct 7
   title: Advanced Neural Networks
   subtitle: Advanced Neural network architectures
   type: lecture
   duration: 75
-  description: 'Advanced deep learning architectures from fully connected networks, to autoencoders, recurrent
-    neural networks, convolutional neural networks, etc. - snapshots from CS231n '
+  description: 'Advanced deep learning architectures from fully connected networks,
+    to autoencoders, recurrent neural networks, convolutional neural networks, etc.
+    - snapshots from CS231n '
   materials:
     lecture:
     - name: Lecture Slides
@@ -364,8 +321,8 @@
   references: null
   assignments: null
 - section: Deep Learning
-  lecture_number: 12
-  date: Oct 8
+  lecture_number: 13
+  date: Oct 9
   title: CNNs, RNNs and AI Assistants
   subtitle: How to use AI coding assistants in the context of deep learning
   type: lecture
@@ -384,31 +341,16 @@
       type: notebook
   references: null
   assignments: null
-- section: Midterm
-  lecture_number: 13
-  date: Oct 13
-  title: Midterm Review
-  subtitle: A story-format review of the first half
-  type: review
-  duration: 75
-  description: A story-format review of the first half.
-- section: Midterm
-  lecture_number: 14
-  date: Oct 15
-  title: Midterm Exam
-  subtitle: In class, 75 minutes
-  type: exam
-  duration: 75
-  description: In class, 75 minutes.
 - section: Unsupervised Learning
-  lecture_number: 15
-  date: Oct 20
+  lecture_number: 14
+  date: Oct 14
   title: Introduction to Unsupervised Learning & K-Means Clustering
   subtitle: Introduction to clustering and unsupervised pattern discovery
   type: lecture
   duration: 75
-  description: 'Introduction to clustering algorithms with focus on K-means. Covers cluster analysis,
-    centroid-based clustering, and evaluation metrics for unsupervised learning.
+  description: 'Introduction to clustering algorithms with focus on K-means. Covers
+    cluster analysis, centroid-based clustering, and evaluation metrics for unsupervised
+    learning.
 
     '
   materials:
@@ -423,14 +365,14 @@
   references: null
   assignments: null
 - section: Unsupervised Learning
-  lecture_number: 16
-  date: Oct 22
+  lecture_number: 15
+  date: Oct 16
   title: Principal Component Analysis
   subtitle: Principal component analysis and Dimensionality Reduction
   type: lecture
   duration: 75
-  description: 'Dimensionality reduction. Focus on Principal Component Analysis (PCA), SVD, and applications
-    to data compression and visualization.
+  description: 'Dimensionality reduction. Focus on Principal Component Analysis (PCA),
+    SVD, and applications to data compression and visualization.
 
     '
   materials:
@@ -450,14 +392,15 @@
   references: null
   assignments: null
 - section: Unsupervised Learning
-  lecture_number: 17
-  date: Oct 27
+  lecture_number: 16
+  date: Oct 21
   title: EM Algorithm and Gaussian Mixture Models
   subtitle: Probabilistic clustering and the EM algorithm
   type: lecture
   duration: 75
-  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization algorithm.
-    Covers probabilistic clustering, latent variable models, and maximum likelihood estimation.
+  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization
+    algorithm. Covers probabilistic clustering, latent variable models, and maximum
+    likelihood estimation.
 
     '
   materials:
@@ -471,14 +414,15 @@
   references: null
   assignments: null
 - section: Unsupervised Learning
-  lecture_number: 18
-  date: Oct 29
+  lecture_number: 17
+  date: Oct 23
   title: Other Unsupervised Learning Methods
   subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
   type: lecture
   duration: 75
-  description: 'Survey of additional unsupervised learning techniques including hierarchical clustering,
-    density-based clustering (DBSCAN), manifold learning, and dimensionality reduction methods.
+  description: 'Survey of additional unsupervised learning techniques including hierarchical
+    clustering, density-based clustering (DBSCAN), manifold learning, and dimensionality
+    reduction methods.
 
     '
   materials:
@@ -488,28 +432,16 @@
       type: assignment
   references: null
   assignments: null
-- section: Unsupervised Learning
-  lecture_number: 19
-  date: Nov 3
-  title: 'Story Session: The Rope as an Instrument'
-  subtitle: Unsupervised discovery on real physical data
-  type: story
-  duration: 75
-  description: Unsupervised discovery on real physical data.
-  materials:
-    lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/rope_as_instrument
-      type: interactive
 - section: Reinforcement Learning
-  lecture_number: 20
-  date: Nov 5
+  lecture_number: 18
+  date: Nov 4
   title: Reinforcement Learning I
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
   duration: 75
-  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs),
-    value functions, and dynamic programming solutions including value and policy iteration.
+  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision
+    Processes (MDPs), value functions, and dynamic programming solutions including
+    value and policy iteration.
 
     '
   materials:
@@ -529,14 +461,15 @@
   references: null
   assignments: null
 - section: Reinforcement Learning
-  lecture_number: 21
-  date: Nov 10
+  lecture_number: 19
+  date: Nov 6
   title: Reinforcement Learning II
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
   duration: 75
-  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs),
-    value functions, and dynamic programming solutions including value and policy iteration.
+  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision
+    Processes (MDPs), value functions, and dynamic programming solutions including
+    value and policy iteration.
 
     '
   materials:
@@ -556,14 +489,15 @@
   references: null
   assignments: null
 - section: Advanced Topics
-  lecture_number: 22
-  date: Nov 12
+  lecture_number: 20
+  date: Nov 11
   title: Foundation Modeling
   subtitle: Large-scale models and transfer learning
   type: lecture
   duration: 75
-  description: 'Introduction to foundation models - large-scale pre-trained models that can be adapted
-    to various downstream tasks. Covers transfer learning, fine-tuning, and model scaling.
+  description: 'Introduction to foundation models - large-scale pre-trained models
+    that can be adapted to various downstream tasks. Covers transfer learning, fine-tuning,
+    and model scaling.
 
     '
   materials:
@@ -574,10 +508,11 @@
   references: null
   assignments: null
 - section: Advanced Topics
-  lecture_number: 23
-  date: Nov 17
+  lecture_number: 22
+  date: Nov 18
   title: Machine Learning for Modeling Physical Systems
-  subtitle: How does ML apply to science and engineering where some physics-based models are already known?
+  subtitle: How does ML apply to science and engineering where some physics-based
+    models are already known?
   type: lecture
   duration: 75
   description: 'Modeling scientific systems with machine learning''
@@ -590,43 +525,3 @@
       type: slides
   references: null
   assignments: null
-- section: Projects and Closing
-  lecture_number: 24
-  date: Nov 19
-  title: Project Work Session
-  subtitle: In-class work on final projects
-  type: project
-  duration: 75
-  description: In-class work on final projects.
-- section: Projects and Closing
-  lecture_number: 25
-  date: Nov 24
-  title: Closing Story Session and Review
-  subtitle: The course in one arc
-  type: story
-  duration: 75
-  description: The course in one arc.
-- section: Projects and Closing
-  lecture_number: 26
-  date: Nov 26
-  title: Review and Exam Prep
-  subtitle: Flipped Q and A session
-  type: review
-  duration: 75
-  description: Flipped Q and A session.
-- section: Projects and Closing
-  lecture_number: 27
-  date: Dec 1
-  title: Project Presentations I
-  subtitle: Final project presentations
-  type: project
-  duration: 75
-  description: Final project presentations.
-- section: Projects and Closing
-  lecture_number: 28
-  date: Dec 3
-  title: Project Presentations II and Course Close
-  subtitle: Final presentations and farewell
-  type: project
-  duration: 75
-  description: Final presentations and farewell.
