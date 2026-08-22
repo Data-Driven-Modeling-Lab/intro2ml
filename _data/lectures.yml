@@ -53,6 +53,9 @@
   description: null
   materials:
     lecture:
+    - name: Interactive Slides
+      url: https://learn.sematlas.com/slides/intro_ml_02n
+      type: interactive
     - name: Learning from Data Slides
       url: /materials/slides/learning examples and data.pdf
       type: slides
