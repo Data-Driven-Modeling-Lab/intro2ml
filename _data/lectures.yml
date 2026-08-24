@@ -16,6 +16,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/what_is_a_model
       type: interactive
+      visible: false
     - name: Introductory Slides
       url: /materials/slides/introductory_slides.pdf
       type: slides
@@ -56,6 +57,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_02n
       type: interactive
+      visible: false
     - name: Learning from Data Slides
       url: /materials/slides/learning examples and data.pdf
       type: slides
@@ -147,6 +149,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_04n
       type: interactive
+      visible: false
     - name: Lecture Slides
       url: /materials/slides/linear-regression.pdf
       type: slides
@@ -215,6 +218,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_06n
       type: interactive
+      visible: false
     - name: Lecture Slides
       url: /materials/slides/log-regression.pdf
       type: slides
@@ -291,6 +295,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_10n
       type: interactive
+      visible: false
     - name: Lecture Slides
       url: /materials/slides/deep-learning-lecture-part_1.pdf
       type: slides

@@ -418,6 +418,7 @@ title: Schedule
                             <div class="materials-title">{{ category_name | replace: '_', ' ' | capitalize }}</div>
                             <ul class="material-list">
                                 {% for material in materials %}
+                                {% if material.visible == false %}{% continue %}{% endif %}
                                 <li class="material-item">
                                     {% if material.url %}
                                         {% assign u = material.url %}
