@@ -509,6 +509,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/rope_as_instrument
       type: interactive
+      visible: false
 - section: Reinforcement Learning
   lecture_number: 20
   date: Nov 5
