@@ -13,7 +13,7 @@ mathjax: true
 ## **Core Course Materials**
 
 ### Essential Textbooks (Free Online)
-- **Artificial Intelligence: A Modern Approach** [Free online](https://aima.cs.berkeley.edu/)
+- **Russell & Norvig**. Artificial Intelligence: A Modern Approach [Chapter 1, PDF](https://api.pageplace.de/preview/DT0400.9781292401171_A41586057/preview-9781292401171_A41586057.pdf)
 - **Hastie, Tibshirani, and Friedman**. The Elements of Statistical Learning [Free online](https://hastie.su.domains/ElemStatLearn/)
 - **Murphy, K. P. (2022)**. Probabilistic machine learning: an introduction. [Free online](https://probml.github.io/pml-book/book1.html)
 

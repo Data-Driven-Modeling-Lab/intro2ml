@@ -17,12 +17,16 @@ Your project must involve data and empirical evaluation. Ambitious, well-scoped 
 
 Unless otherwise noted, all items are due at 11:59pm local time.
 
-| Deliverable | Weight | Due Date | Late Days |
+The project is 40% of the course grade, split across five deliverables.
+**Dates below are placeholders for Fall 2026 and will be fixed early in the term.**
+
+| Deliverable | Weight | Due Date (tentative) | Late Days |
 | --- | --- | --- | --- |
-| Project Proposal | 5% | 2025-10-21 | Yes |
-| Project Milestone | 5% | 2025-11-13 | Yes |
-| Final Report | 25% | 2025-12-02 | No |
-| Final Presentation/Poster | 5% | 2025-11-27 | No |
+| Pre-proposal | 3% | 2026-10-06 | Yes |
+| Proposal | 7% | 2026-10-20 | Yes |
+| Progress report | 5% | 2026-11-12 | Yes |
+| Poster session | 10% | 2026-12-01 | No |
+| Final report | 15% | 2026-12-10 | No |
 
 ## Overview
 

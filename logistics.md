@@ -9,16 +9,16 @@ title: Logistics
 
 **Course:** Introduction to Machine Learning  
 **Course Numbers:** MECH534, EECE490, MECH678, EECE690  
-**Semester:** Fall 2025  
+**Semester:** Fall 2026  
 **Credits:** 3 credit hours  
 **Prerequisites:** Linear algebra, calculus, statistics and probability, programming  
 **Lectures:** Tuesday and Thursday, 11:00AM-12:15PM    
-**Location:** IOEC 210-A 
+**Location:** IOEC 224C 
 
 ### Instructor: Joseph Bakarji
 - **Email:** jb50@aub.edu.lb
 - **Office:** Bechtel 418 
-- **Office Hours:** Thursday 2:30-4:30PM (or by appointment)
+- **Office Hours:** Thursday 1:30-3:30PM (or by appointment)
 
 ### Teaching Assistants
 
@@ -63,6 +63,42 @@ By the end of this course, successful students will be able to:
 5. **Communicate** results effectively through visualizations and technical reports
 
 ##  Grading & Assessment
+
+## Setting Up Python
+
+You need a working Python environment for the whole course. Anaconda is the
+simplest route and gives you the scientific stack in one install.
+
+1. **Install Miniconda** from
+   [docs.conda.io](https://docs.conda.io/projects/miniconda/en/latest/).
+   Miniconda is the small version; full Anaconda works too and is heavier.
+2. **Make an environment for this course**, so nothing you install here breaks
+   anything else on your machine:
+
+   ```bash
+   conda create -n intro2ml python=3.11
+   conda activate intro2ml
+   ```
+
+3. **Install what we use:**
+
+   ```bash
+   conda install numpy scipy matplotlib pandas scikit-learn jupyter
+   ```
+
+4. **Check it works.** `jupyter notebook` should open in your browser, and
+   `import numpy` should run without complaint.
+
+Activate the environment (`conda activate intro2ml`) every time you work on the
+course. If a command is not found, that is usually what you forgot.
+
+**If you are new to Python or NumPy**, work through the
+[CS231n Python and NumPy tutorial](https://cs231n.github.io/python-numpy-tutorial/)
+before the second week. It is the fastest way in, and it covers exactly the
+subset we use: arrays, indexing, broadcasting, and plotting.
+
+Google Colab works if your machine will not cooperate, but a local environment
+is worth the hour it costs.
 
 ### Late Policy
 - **Late days:** You get a total of 5 (emergency) late days to use on any assignment submission (except project). You can only use 3 days per assignment. Use them wisely. 

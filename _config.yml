@@ -1,7 +1,7 @@
 # Site settings
 course_name: "Introduction to Machine Learning"
 course_description: "Fundamentals of machine learning from linear methods to deep learning, with hands-on Python implementation and real-world applications."
-course_semester: "Fall 2025"
+course_semester: "Fall 2026"
 
 # URL settings (for GitHub Pages with custom domain)
 # Root site on custom domain: set baseurl to empty and url to your domain

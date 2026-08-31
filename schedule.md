@@ -4,7 +4,7 @@ title: Schedule
 ---
 
 # Course Schedule
-**Introduction to Machine Learning • Fall 2025**
+**Introduction to Machine Learning • Fall 2026**
 
 <style>
 .schedule-search {
@@ -268,12 +268,20 @@ title: Schedule
     }
 }
 
-.study-guide { margin: 0.6rem 0 0.2rem; padding: 0.6rem 0.9rem; border-left: 3px solid #7aa2f7;
-               background: rgba(122,162,247,0.06); border-radius: 6px; font-size: 0.92rem; }
-.study-guide-title { font-weight: 600; margin-bottom: 0.3rem; font-size: 0.85rem;
-                     text-transform: uppercase; letter-spacing: 0.5px; color: #7aa2f7; }
-.study-guide ul { margin: 0 0 0 1.1rem; padding: 0; }
-.study-guide li { margin: 0.15rem 0; }
+.study-guide { position: relative; margin: 0.9rem 0 0.4rem; padding: 0.85rem 1rem 0.85rem 1.1rem;
+               background: linear-gradient(180deg, rgba(122,162,247,0.10), rgba(122,162,247,0.04));
+               border: 1px solid rgba(122,162,247,0.30); border-radius: 10px;
+               font-size: 0.93rem; line-height: 1.55;
+               box-shadow: 0 1px 3px rgba(15,23,42,0.06); }
+.study-guide-title { display: inline-flex; align-items: center; gap: 0.4rem;
+                     font-weight: 700; margin-bottom: 0.5rem; font-size: 0.72rem;
+                     text-transform: uppercase; letter-spacing: 1.1px; color: #3b63c4; }
+.study-guide-title::before { content: ''; width: 14px; height: 14px; border-radius: 3px;
+                     background: #7aa2f7; display: inline-block; flex: 0 0 14px; }
+.study-guide ul { margin: 0; padding: 0; list-style: none; }
+.study-guide li { margin: 0.28rem 0; padding-left: 1.15rem; position: relative; }
+.study-guide li::before { content: ''; position: absolute; left: 0; top: 0.62em;
+                     width: 5px; height: 5px; border-radius: 50%; background: #7aa2f7; }
 </style>
 
 <!-- Group lectures by sections -->

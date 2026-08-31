@@ -23,7 +23,7 @@ This course provides a comprehensive introduction to machine learning, covering 
     <div>
         <h3>Joseph Bakarji</h3>
         <p><strong>Email:</strong> jb50@aub.edu.lb</p>
-        <p><strong>Office Hours:</strong> Thursday 2:30-4:30PM (or by appointment)</p>
+        <p><strong>Office Hours:</strong> Thursday 1:30-3:30PM (or by appointment)</p>
         <p><strong>Office:</strong> Bechtel 418</p>
     </div>
 </div>
@@ -66,12 +66,15 @@ This course provides a comprehensive introduction to machine learning, covering 
 
 | Component | Weight | Description |
 |-----------|---------|-------------|
-| **Assignments** | 25% | 7-9 assignments |
-| **Participation** | 5% | Class engagement and labs |
-| **Quizzes** | 5% | Short conceptual assessments |
-| **Midterm** | 10% | Date (tentative): Nov 6 |
+| **Project** | 40% | Group ML project, in five deliverables |
+| **Assignments** | 20% | 7-9 assignments |
 | **Final Exam** | 15% | Date: TBD |
-| **Project** | 40% | Group ML project |
+| **Midterm** | 10% | Date (tentative): Nov 5 |
+| **Quizzes** | 10% | Short conceptual assessments |
+| **Participation** | 5% | Class engagement, labs, and Slack |
+
+The project's 40% breaks down as pre-proposal 3%, proposal 7%, progress report 5%,
+poster session 10%, and final report 15%.
 
 
 **Recommended References:**
