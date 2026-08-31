@@ -33,37 +33,19 @@ This course provides a comprehensive introduction to machine learning, covering 
 <div class="ta-container">
   <div class="ta-card">
       <div>
-          <h3>Joe Germany</h3>
-          <p><strong>Email:</strong> jmg15@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> Friday 2:00-3:00PM (or by appointment) </p>
-          <p><strong>Office:</strong> IOEC 311 </p>
+          <h3>Ghina Daoud</h3>
+          <p><strong>Email:</strong> gad08@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> TBA </p>
+          <p><strong>Office:</strong> TBA </p>
       </div>
   </div>
 
   <div class="ta-card">
       <div>
-          <h3>Issar Amro</h3>
-          <p><strong>Email:</strong> iza04@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> Tuesday 9:00-11:00AM (or online by appointment) </p>
-          <p><strong>Office:</strong> IOEC 311 </p>
-      </div>
-  </div>
-
-  <div class="ta-card">
-      <div>
-          <h3>Elie Hachem</h3>
-          <p><strong>Email:</strong> egh14@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> Wednesday 09:30-11:00AM (or by appointment) </p>
-          <p><strong>Office:</strong> IOEC 512 </p>
-      </div>
-  </div>
-
-  <div class="ta-card">
-      <div>
-          <h3>Chaymaa Abbas</h3>
-          <p><strong>Email:</strong> cwa07@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> 12:30-2:00PM (or by appointment)</p>
-          <p><strong>Office:</strong> IOEC 419 </p>
+          <h3>Shafik Houeidi</h3>
+          <p><strong>Email:</strong> sah89@mail.aub.edu </p>
+          <p><strong>Office Hours:</strong> TBA </p>
+          <p><strong>Office:</strong> TBA </p>
       </div>
   </div>
 </div>
