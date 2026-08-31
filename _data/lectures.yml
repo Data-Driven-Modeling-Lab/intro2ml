@@ -6,20 +6,11 @@
   subtitle: Models, ethics, purpose of AI, and course logistics
   type: lecture
   duration: 75
-  description: 'Course introduction covering learning objectives, expectations, and motivation.  Exploration
-    of AI''s transformative impact on society and discussion of ethical  implications in AI development
-    and deployment.
+  description: 'Course introduction covering learning objectives, expectations, and motivation.  Exploration of AI''s transformative impact on society and discussion of ethical  implications in AI development and deployment.
 
     '
   materials:
-    lecture:
-    - name: Interactive Slides
-      url: https://learn.sematlas.com/slides/what_is_a_model
-      type: interactive
-      visible: false
-    - name: Introductory Slides
-      url: /materials/slides/introductory_slides.pdf
-      type: slides
+    preparation:
     - name: Pre-course Survey
       url: https://docs.google.com/forms/d/e/1FAIpQLSd01PzGEE1JxqCwxGWsXeS8goRgRcYOOR9sAuEW0UQBrTQmgA/viewform?usp=sharing&ouid=112491546008459452170
       type: references
@@ -27,6 +18,11 @@
     - name: Course introductory note and takeaways
       url: /materials/references/course_purpose_note/
       type: references
+    lecture:
+    - name: Interactive Slides
+      url: https://learn.sematlas.com/slides/what_is_a_model
+      type: interactive
+      visible: true
     articles:
     - name: 'Artificial Intelligence: A Modern Approach (Ch. 1) Russell & Norvig textbook'
       url: https://aima.cs.berkeley.edu/
@@ -37,8 +33,12 @@
       url: https://www.josephbakarji.com/articles/on-discovering-physics-from-data
       type: research
       optional: true
-  references: null
-  assignments: null
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/introductory_slides.pdf
+      type: slides
+  references:
+  assignments:
   study_guide:
   - 'Before class: nothing, come curious'
   - 'After: reread the What is a Model slides, note one model you use daily'
@@ -48,25 +48,26 @@
   lecture_number: 2
   date: Sep 3
   title: Data, Models, and Python
-  subtitle: null
+  subtitle:
   type: lecture
   duration: 75
-  description: null
+  description:
   materials:
     lecture:
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_02n
       type: interactive
-      visible: false
-    - name: Learning from Data Slides
+      visible: true
+    references:
+    - name: 2025 PDF slides
       url: /materials/slides/learning examples and data.pdf
       type: slides
   references:
     videos:
     - name: Data Visualization Example (coming soon)
-      url: null
+      url:
       recommended: true
-  assignments: null
+  assignments:
   study_guide:
   - Review the slides and run the intro notebook
   - Skim CS229 notes section on supervised learning framing
@@ -78,10 +79,7 @@
   subtitle: Linear algebra meets computational implementation
   type: lecture
   duration: 75
-  description: 'Comprehensive review of mathematical foundations essential for machine learning,  combined
-    with hands-on Python implementation. Students will bridge the gap between  mathematical notation and
-    computational implementation through interactive notebooks  that combine CS229 linear algebra concepts
-    with NumPy code examples.
+  description: 'Comprehensive review of mathematical foundations essential for machine learning,  combined with hands-on Python implementation. Students will bridge the gap between  mathematical notation and computational implementation through interactive notebooks  that combine CS229 linear algebra concepts with NumPy code examples.
 
     '
   materials:
@@ -128,7 +126,7 @@
       url: https://matplotlib.org/stable/tutorials/index.html
     - name: Pandas User Guide
       url: https://pandas.pydata.org/docs/user_guide/
-  assignments: null
+  assignments:
   study_guide:
   - Redo the in-class exercises in the math review notebook
   - Finish and submit PS0 (due Sep 9)
@@ -140,31 +138,31 @@
   subtitle: First machine learning algorithm and foundational concepts
   type: lecture
   duration: 75
-  description: 'Introduction to supervised learning paradigm with linear regression as the first ML algorithm.
-    Mathematical foundations, implementation, and practical applications with hands-on coding.
+  description: 'Introduction to supervised learning paradigm with linear regression as the first ML algorithm. Mathematical foundations, implementation, and practical applications with hands-on coding.
 
     '
   materials:
+    preparation:
+    - name: CS 229 notes, Part I, Chapter 1, Sections 1.1-1.2
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
     lecture:
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_04n
       type: interactive
-      visible: false
-    - name: Lecture Slides
-      url: /materials/slides/linear-regression.pdf
-      type: slides
+      visible: true
     - name: Notes with Code
       url: /materials/notebooks/cs229_linear_regression_complete/
       type: notebooks
-    - name: CS 229 notes, Part I, Chapter 1, Sections 1.1-1.2
-      url: https://cs229.stanford.edu/main_notes.pdf
-      type: references
     references:
     - name: Interactive introduction to linear regression
       url: https://mlu-explain.github.io/linear-regression/
       type: references
-  references: null
-  assignments: null
+    - name: 2025 PDF slides
+      url: /materials/slides/linear-regression.pdf
+      type: slides
+  references:
+  assignments:
   study_guide:
   - Go through the interactive linear regression slides and try each widget
   - Read CS229 notes Part I, sections 1.1-1.2
@@ -177,18 +175,15 @@
   subtitle: From raw data to meaningful features, avoiding overfitting
   type: lecture
   duration: 75
-  description: 'Deep dive into feature engineering techniques and understanding generalization. Covers
-    bias-variance tradeoff, cross-validation, and regularization methods.
+  description: 'Deep dive into feature engineering techniques and understanding generalization. Covers bias-variance tradeoff, cross-validation, and regularization methods.
 
     '
   materials:
-    lecture:
-    - name: Lecture Slides
-      url: /materials/slides/generalization-and-features.pdf
-      type: slides
+    preparation:
     - name: Notes, Chapter 8
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
+    lecture: []
     references:
     - name: Generalization, linear regression, and Scikit-learn Notebook
       url: /materials/notebooks/ML_tutorial/
@@ -196,8 +191,11 @@
     - name: Generalization, linear regression, and Scikit-learn Video
       url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3&ab_channel=JosephBakarji
       type: video
-  references: null
-  assignments: null
+    - name: 2025 PDF slides
+      url: /materials/slides/generalization-and-features.pdf
+      type: slides
+  references:
+  assignments:
   study_guide:
   - Review generalization slides, focus on bias-variance
   - Run the cross-validation notebook
@@ -209,24 +207,25 @@
   subtitle: From regression to classification with probabilistic models
   type: lecture
   duration: 75
-  description: 'Introduction to classification problems using logistic regression. Covers sigmoid function,
-    maximum likelihood estimation, and decision boundaries.
+  description: 'Introduction to classification problems using logistic regression. Covers sigmoid function, maximum likelihood estimation, and decision boundaries.
 
     '
   materials:
+    preparation:
+    - name: CS229 Notes, Chapter 2
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
     lecture:
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_06n
       type: interactive
-      visible: false
-    - name: Lecture Slides
+      visible: true
+    references:
+    - name: 2025 PDF slides
       url: /materials/slides/log-regression.pdf
       type: slides
-    - name: CS229 Notes, Chapter 2
-      url: https://cs229.stanford.edu/main_notes.pdf
-      type: references
-  references: null
-  assignments: null
+  references:
+  assignments:
   study_guide:
   - Go through the interactive logistic regression slides
   - Compare the MSE vs cross-entropy loss surfaces in the slides
@@ -238,20 +237,21 @@
   subtitle: Foundations of probabilistic reasoning and statistical learning
   type: lecture
   duration: 75
-  description: 'Deep dive into maximum likelihood estimation and generalized linear models, at the foundation
-    of statistical learning theory.
+  description: 'Deep dive into maximum likelihood estimation and generalized linear models, at the foundation of statistical learning theory.
 
     '
   materials:
-    lecture:
-    - name: Lecture Slides
-      url: /materials/slides/mle-glm.pdf
-      type: slides
+    preparation:
     - name: CS229 Notes, Section 1.3, 2.1, and Chapter 3
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
-  references: null
-  assignments: null
+    lecture: []
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/mle-glm.pdf
+      type: slides
+  references:
+  assignments:
   study_guide:
   - Review MLE slides, rederive the least-squares connection
   - CS229 notes on GLMs
@@ -263,18 +263,19 @@
   subtitle: Working with Language and the Naive Bayes Algorithm
   type: lecture
   duration: 75
-  description: 'Working with language, inferring algorithms from space v. non-spam, and the Naive Bayes
-    Algorithm as an example for generative learning '
+  description: 'Working with language, inferring algorithms from space v. non-spam, and the Naive Bayes Algorithm as an example for generative learning '
   materials:
-    lecture:
-    - name: Lecture Slides
-      url: /materials/slides/naive_bayes_and_language.pdf
-      type: slides
+    preparation:
     - name: CS229 Notes, Chapter 4
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
-  references: null
-  assignments: null
+    lecture: []
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/naive_bayes_and_language.pdf
+      type: slides
+  references:
+  assignments:
   study_guide:
   - Review Naive Bayes slides
   - Finish PS1, start PS2
@@ -286,8 +287,7 @@
   subtitle: From linear models to deep networks
   type: lecture
   duration: 75
-  description: 'Introduction to neural networks, from biological inspiration to mathematical formulation.
-    Covers perceptrons, multilayer networks, and activation functions.
+  description: 'Introduction to neural networks, from biological inspiration to mathematical formulation. Covers perceptrons, multilayer networks, and activation functions.
 
     '
   materials:
@@ -295,15 +295,16 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/intro_ml_10n
       type: interactive
-      visible: false
-    - name: Lecture Slides
-      url: /materials/slides/deep-learning-lecture-part_1.pdf
-      type: slides
+      visible: true
     - name: Python Neural Network Example
       url: notebooks/basic_nn_example.ipynb
       type: notebook
-  references: null
-  assignments: null
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/deep-learning-lecture-part_1.pdf
+      type: slides
+  references:
+  assignments:
 - section: Deep Learning
   lecture_number: 10
   date: Oct 1
@@ -316,9 +317,6 @@
     '
   materials:
     lecture:
-    - name: Lecture Slides
-      url: /materials/slides/deep-learning-lecture-part_2.pdf
-      type: slides
     - name: Make Network Symmetric Exercise
       url: /materials/notebooks/basic_nn_example/
       type: notebook
@@ -335,8 +333,11 @@
     - name: Tensorflow Playground
       url: https://playground.tensorflow.org/
       type: references
-  references: null
-  assignments: null
+    - name: 2025 PDF slides
+      url: /materials/slides/deep-learning-lecture-part_2.pdf
+      type: slides
+  references:
+  assignments:
 - section: Deep Learning
   lecture_number: 11
   date: Oct 6
@@ -344,13 +345,9 @@
   subtitle: Advanced Neural network architectures
   type: lecture
   duration: 75
-  description: 'Advanced deep learning architectures from fully connected networks, to autoencoders, recurrent
-    neural networks, convolutional neural networks, etc. - snapshots from CS231n '
+  description: 'Advanced deep learning architectures from fully connected networks, to autoencoders, recurrent neural networks, convolutional neural networks, etc. - snapshots from CS231n '
   materials:
-    lecture:
-    - name: Lecture Slides
-      url: /materials/slides/advanced-deep-learning-lecture.pdf
-      type: slides
+    preparation:
     - name: CNN and RNN cheat sheet
       url: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
       type: references
@@ -369,8 +366,13 @@
     - name: RNN overview
       url: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
       type: references
-  references: null
-  assignments: null
+    lecture: []
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/advanced-deep-learning-lecture.pdf
+      type: slides
+  references:
+  assignments:
 - section: Deep Learning
   lecture_number: 12
   date: Oct 8
@@ -390,8 +392,8 @@
     - name: Arabic Tweets, AI-Generated RNN Completion Tutorial
       url: /materials/notebooks/gen_rnn_completion_tutorial/
       type: notebook
-  references: null
-  assignments: null
+  references:
+  assignments:
 - section: Midterm
   lecture_number: 13
   date: Oct 13
@@ -415,21 +417,22 @@
   subtitle: Introduction to clustering and unsupervised pattern discovery
   type: lecture
   duration: 75
-  description: 'Introduction to clustering algorithms with focus on K-means. Covers cluster analysis,
-    centroid-based clustering, and evaluation metrics for unsupervised learning.
+  description: 'Introduction to clustering algorithms with focus on K-means. Covers cluster analysis, centroid-based clustering, and evaluation metrics for unsupervised learning.
 
     '
   materials:
-    lecture:
-    - name: Lecture Slides
-      url: /materials/slides/kmean_intro.pdf
-      type: slides
+    preparation:
     - name: CS229 Notes, Chapter 10
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
       description: Implement and compare clustering algorithms
-  references: null
-  assignments: null
+    lecture: []
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/kmean_intro.pdf
+      type: slides
+  references:
+  assignments:
 - section: Unsupervised Learning
   lecture_number: 16
   date: Oct 22
@@ -437,15 +440,11 @@
   subtitle: Principal component analysis and Dimensionality Reduction
   type: lecture
   duration: 75
-  description: 'Dimensionality reduction. Focus on Principal Component Analysis (PCA), SVD, and applications
-    to data compression and visualization.
+  description: 'Dimensionality reduction. Focus on Principal Component Analysis (PCA), SVD, and applications to data compression and visualization.
 
     '
   materials:
     lecture:
-    - name: Lecture Slides
-      url: /materials/slides/pca.pdf
-      type: slides
     - name: Basic PCA Coding Example
       url: /materials/references/svd_demo/
       type: notebook
@@ -455,8 +454,12 @@
     - name: MNIST Dataset Dimensionality Reduction
       url: /materials/notebooks/mnist_example/
       type: notebook
-  references: null
-  assignments: null
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/pca.pdf
+      type: slides
+  references:
+  assignments:
 - section: Unsupervised Learning
   lecture_number: 17
   date: Oct 27
@@ -464,20 +467,20 @@
   subtitle: Probabilistic clustering and the EM algorithm
   type: lecture
   duration: 75
-  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization algorithm.
-    Covers probabilistic clustering, latent variable models, and maximum likelihood estimation.
+  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization algorithm. Covers probabilistic clustering, latent variable models, and maximum likelihood estimation.
 
     '
   materials:
     lecture:
-    - name: Lecture Slides
-      url: /materials/slides/gmm.pdf
-      type: slides
     - name: GMM Code Walkthough
       url: /materials/notebooks/gmm_em_walkthrough/
       type: notebook
-  references: null
-  assignments: null
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/gmm.pdf
+      type: slides
+  references:
+  assignments:
 - section: Unsupervised Learning
   lecture_number: 18
   date: Oct 29
@@ -485,8 +488,7 @@
   subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
   type: lecture
   duration: 75
-  description: 'Survey of additional unsupervised learning techniques including hierarchical clustering,
-    density-based clustering (DBSCAN), manifold learning, and dimensionality reduction methods.
+  description: 'Survey of additional unsupervised learning techniques including hierarchical clustering, density-based clustering (DBSCAN), manifold learning, and dimensionality reduction methods.
 
     '
   materials:
@@ -494,8 +496,8 @@
     - name: Unsupervised-Learning-Overview
       url: /materials/assignments/unsupervised-learning-overview.pdf
       type: assignment
-  references: null
-  assignments: null
+  references:
+  assignments:
 - section: Unsupervised Learning
   lecture_number: 19
   date: Nov 3
@@ -509,7 +511,7 @@
     - name: Interactive Slides
       url: https://learn.sematlas.com/slides/rope_as_instrument
       type: interactive
-      visible: false
+      visible: true
 - section: Reinforcement Learning
   lecture_number: 20
   date: Nov 5
@@ -517,15 +519,11 @@
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
   duration: 75
-  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs),
-    value functions, and dynamic programming solutions including value and policy iteration.
+  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs), value functions, and dynamic programming solutions including value and policy iteration.
 
     '
   materials:
-    lecture:
-    - name: Introduction to Reinforcement Learning
-      url: /materials/slides/RL_1.pdf
-      type: slides
+    preparation:
     - name: Stanford CS229 lecture 0 - Introduction (starting at minute 49:00)
       url: https://www.youtube.com/watch?v=d5gaWTo6kDM&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=17
       type: references
@@ -535,8 +533,13 @@
     - name: Stanford CS229 lecture 2 - Continuous state MDP
       url: https://www.youtube.com/watch?v=QFu5nuc-S0s&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=18
       type: references
-  references: null
-  assignments: null
+    lecture: []
+    references:
+    - name: 2025 PDF slides
+      url: /materials/slides/RL_1.pdf
+      type: slides
+  references:
+  assignments:
 - section: Reinforcement Learning
   lecture_number: 21
   date: Nov 10
@@ -544,26 +547,27 @@
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
   duration: 75
-  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs),
-    value functions, and dynamic programming solutions including value and policy iteration.
+  description: 'Introduction to reinforcement learning paradigm. Covers Markov Decision Processes (MDPs), value functions, and dynamic programming solutions including value and policy iteration.
 
     '
   materials:
-    lecture:
-    - name: Introduction to Reinforcement Learning
-      url: Slides/RL_1.pdf
-      type: slides
-    - name: Coding notebook example
-      url: references/value_iteration_new.ipynb
-      type: notebook
+    preparation:
     - name: Stanford CS229 lecture 3 - Reward Model and Linear Dynamical Systems
       url: https://www.youtube.com/watch?v=0rt2CsEQv6U&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=19
       type: references
     - name: Stanford CS229 lecture 4 - RL debugging and diagnostics
       url: https://www.youtube.com/watch?v=pLhPQynL0tY&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=20
       type: references
-  references: null
-  assignments: null
+    lecture:
+    - name: Coding notebook example
+      url: references/value_iteration_new.ipynb
+      type: notebook
+    references:
+    - name: 2025 PDF slides
+      url: Slides/RL_1.pdf
+      type: slides
+  references:
+  assignments:
 - section: Advanced Topics
   lecture_number: 22
   date: Nov 12
@@ -571,17 +575,17 @@
   subtitle: Large-scale models and transfer learning
   type: lecture
   duration: 75
-  description: 'Introduction to foundation models - large-scale pre-trained models that can be adapted
-    to various downstream tasks. Covers transfer learning, fine-tuning, and model scaling.
+  description: 'Introduction to foundation models - large-scale pre-trained models that can be adapted to various downstream tasks. Covers transfer learning, fine-tuning, and model scaling.
 
     '
   materials:
-    lecture:
-    - name: Self-Supervised foundation modeling
+    lecture: []
+    references:
+    - name: 2025 PDF slides
       url: /materials/slides/self-supervised-learning.pdf
       type: slides
-  references: null
-  assignments: null
+  references:
+  assignments:
 - section: Advanced Topics
   lecture_number: 23
   date: Nov 17
@@ -593,12 +597,13 @@
 
     '''
   materials:
-    lecture:
-    - name: Data-driven modeling principles
+    lecture: []
+    references:
+    - name: 2025 PDF slides
       url: /materials/slides/modeling.pdf
       type: slides
-  references: null
-  assignments: null
+  references:
+  assignments:
 - section: Projects and Closing
   lecture_number: 24
   date: Nov 19
