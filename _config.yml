@@ -48,6 +48,11 @@ collections:
   assignments:
     output: true
     permalink: /:collection/:name/
+  # The weekly note that goes out by email, kept on the site too: the framing
+  # in them is course content, and it should not only live in an inbox.
+  notes:
+    output: true
+    permalink: /notes/:name/
   
 # Defaults
 defaults:
@@ -56,6 +61,11 @@ defaults:
       type: "lectures"
     values:
       layout: "lecture"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "note"
   - scope:
       path: ""
       type: "assignments"

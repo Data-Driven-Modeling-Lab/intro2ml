@@ -16,17 +16,14 @@ title: Assignments
 
 ## Assignments
 
-{% assign today_ts = site.time | date: "%s" | plus: 0 %}
 {% assign items = site.data.assignments | sort: 'release_date' | reverse %}
 {% if items and items.size > 0 %}
   {% for a in items %}
-  {% assign release_ts = a.release_date | date: "%s" | plus: 0 %}
   {% if a.visible == false %}{% continue %}{% endif %}
-  {% if release_ts <= today_ts %}
-  <div class="assignment-item">
+  <div class="assignment-item is-scheduled" data-release="{{ a.release_date }}" hidden>
     <div class="assignment-header">
       <div class="assignment-title">{{ a.title }}</div>
-      <div class="assignment-meta">Released: {{ a.release_date }} • Due: {{ a.due_date }}</div>
+      <div class="assignment-meta">Released: {{ a.release_date }} &bull; Due: {{ a.due_date }}</div>
     </div>
     {% if a.description %}
     <div class="assignment-desc">{{ a.description }}</div>
@@ -39,8 +36,32 @@ title: Assignments
     </div>
     {% endif %}
   </div>
-  {% endif %}
   {% endfor %}
+  <p id="no-assignments-yet" hidden>No assignments published yet.</p>
 {% else %}
 No assignments published yet.
 {% endif %}
+
+<script>
+// Release dates are compared against the reader's date, not the build date.
+// Jekyll's site.time is the moment the site was last built, so a set whose
+// release date fell after the last push stayed invisible until someone
+// happened to push again. PS0 released 2026-09-01 against a site last built
+// 2026-08-31, and simply did not appear. Deciding in the browser means a set
+// shows up on its date with no rebuild.
+(function () {
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+  var shown = 0;
+  document.querySelectorAll('.assignment-item.is-scheduled').forEach(function (el) {
+    var parts = (el.dataset.release || '').split('-');
+    if (parts.length !== 3) { el.hidden = false; shown++; return; }
+    var rel = new Date(+parts[0], +parts[1] - 1, +parts[2]);
+    if (rel <= today) { el.hidden = false; shown++; }
+  });
+  if (!shown) {
+    var none = document.getElementById('no-assignments-yet');
+    if (none) none.hidden = false;
+  }
+})();
+</script>

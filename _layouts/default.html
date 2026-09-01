@@ -80,6 +80,7 @@
                 <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
                 <a href="{{ '/schedule/' | relative_url }}" {% if page.url contains 'schedule' %}class="active"{% endif %}>Schedule</a>
                 <a href="{{ '/assignments/' | relative_url }}" {% if page.url contains 'assignments' %}class="active"{% endif %}>Assignments</a>
+                <a href="{{ '/notes/' | relative_url }}" {% if page.url contains 'notes' %}class="active"{% endif %}>Notes</a>
                 <a href="{{ '/project/' | relative_url }}" {% if page.url contains 'project' %}class="active"{% endif %}>Project</a>
                 <a href="{{ '/resources/' | relative_url }}" {% if page.url contains 'resources' %}class="active"{% endif %}>Resources</a>
                 <a href="{{ '/logistics/' | relative_url }}" {% if page.url contains 'logistics' %}class="active"{% endif %}>Logistics</a>

@@ -44,6 +44,11 @@
         Four turns minimum. Do it before lecture 2.
   references:
   assignments:
+  week_note: /notes/week-01/
+  takeaways:
+  - A model is a compression of reality, kept only as far as it serves an action
+  - Data are what the world gives you; the model is what you make of them
+  - Learning lives in the loop between perception and action, not in either alone
   study_guide:
   - 'Before class: nothing, come curious'
   - 'After: reread the Introduction and Logistics slides, note one model you use daily'
@@ -74,6 +79,7 @@
       url:
       recommended: true
   assignments:
+  week_note: /notes/week-01/
   study_guide:
   - Review the slides and run the intro notebook
   - Skim CS229 notes section on supervised learning framing

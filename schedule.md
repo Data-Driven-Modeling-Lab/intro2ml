@@ -268,6 +268,23 @@ title: Schedule
     }
 }
 
+.week-note-link { display: inline-block; margin: 0.7rem 0 0.1rem;
+               font-size: 0.86rem; font-weight: 600; color: #3b63c4; text-decoration: none; }
+.week-note-link::before { content: '\2709'; margin-right: 0.4rem; }
+.week-note-link:hover { text-decoration: underline; }
+.takeaways { position: relative; margin: 0.9rem 0 0.4rem; padding: 0.85rem 1rem 0.85rem 1.1rem;
+             background: linear-gradient(180deg, rgba(126,200,139,0.12), rgba(126,200,139,0.05));
+             border: 1px solid rgba(90,160,105,0.32); border-radius: 10px;
+             font-size: 0.93rem; line-height: 1.55; }
+.takeaways-title { display: inline-flex; align-items: center; gap: 0.4rem;
+             font-weight: 700; margin-bottom: 0.5rem; font-size: 0.72rem;
+             text-transform: uppercase; letter-spacing: 1.1px; color: #2f7d45; }
+.takeaways-title::before { content: ''; width: 14px; height: 14px; border-radius: 3px;
+             background: #5aa069; display: inline-block; flex: 0 0 14px; }
+.takeaways ul { margin: 0; padding: 0; list-style: none; }
+.takeaways li { margin: 0.28rem 0; padding-left: 1.15rem; position: relative; }
+.takeaways li::before { content: ''; position: absolute; left: 0; top: 0.62em;
+             width: 5px; height: 5px; border-radius: 50%; background: #5aa069; }
 .study-guide { position: relative; margin: 0.9rem 0 0.4rem; padding: 0.85rem 1rem 0.85rem 1.1rem;
                background: linear-gradient(180deg, rgba(122,162,247,0.10), rgba(122,162,247,0.04));
                border: 1px solid rgba(122,162,247,0.30); border-radius: 10px;
@@ -407,6 +424,20 @@ title: Schedule
                 {% if lecture.description %}
                 <div class="lecture-description-expanded">{{ lecture.description }}</div>
                 {% endif %}
+                {% if lecture.week_note %}
+                <a class="week-note-link" href="{{ lecture.week_note | relative_url }}">
+                  Week note for this session</a>
+                {% endif %}
+
+                {% if lecture.takeaways %}
+                <div class="takeaways">
+                  <div class="takeaways-title">Takeaways</div>
+                  <ul>
+                  {% for item in lecture.takeaways %}<li>{{ item }}</li>
+                  {% endfor %}</ul>
+                </div>
+                {% endif %}
+
                 {% if lecture.study_guide %}
                 <div class="study-guide">
                   <div class="study-guide-title">How to study this session</div>
