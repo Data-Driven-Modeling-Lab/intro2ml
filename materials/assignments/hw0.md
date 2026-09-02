@@ -3,12 +3,13 @@ title: "Problem Set 0: Review and Chatting with LLMs"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw0/
+published: false   # not announced yet
 ---
 
 
 This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
 
-Problem 1 should be submitted on Slack (see more in the instructions). Problem 2, 3, 4 and 5 should be submitted as a zip file, containing PDF files with names of the following format: `name_problem_i.pdf` for $i=3,4,5$, on moodle (submission link below). Problem 2 has a different name convention (see details in problem).
+Problem 1 is submitted on Slack (see the instructions in the problem). Problem 2 is done entirely on the [course slides site](https://learn.sematlas.com/slides/ps0) and has nothing to upload. Problems 3, 4 and 5 are submitted as a zip file of PDFs named `name_problem_i.pdf` for $i=3,4,5$ on Moodle (link below).
 
 [Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2394563)
 
@@ -48,34 +49,47 @@ You have to submit this problem as a *Colab notebook* link on the `#problem-sets
 
 ---
 
-## Problem 2 (20 points): Exploring Project Ideas with a Language Model
+## Problem 2 (20 points): Three Conversations
 
-This assignment is a warm-up to get you thinking about **project ideas** and **datasets** before we dive into machine learning in detail. The best way to learn ML is through exposure to lots of examples. The more you explore, the better.  
+This problem is a warm-up: it gets you thinking about **project ideas** and
+**datasets** before we go near the mathematics. The best way to learn ML early on
+is exposure to lots of examples, so this is mostly exploration.
 
-Nowadays it is very easy to find interesting datasets, and brainstorm ideas with your favorite language model. Here's one way to start learning about what ML can do. 
+It also gets you set up on the course slides site, which is where every lecture
+and every conversation lives this semester.
 
-(a) **Chat with an LLM (like ChatGPT, Gemini, Claude, etc.)**. No need to subscribe to any service. You can use the free versions. 
-   - Pick a topic you're interested in (e.g. music, robotics, aerospace, cybersecurity, basketball, Formula 1...).  
-   - Ask questions such as:  
-     - *What are interesting applications of ML in X? Can you provide examples and references?*
-     - *Give me original ideas for a project in X.*  
-     - *Where could I get data for project X?*  
-     - *If I were to take a course on ML in X, what would the syllabus look like? Can you make it more focused on theory/applications?*  
+**Everything for this problem happens at
+[learn.sematlas.com/slides/ps0](https://learn.sematlas.com/slides/ps0).** There
+is nothing to submit on Moodle for Problem 2: no PDFs, no screenshots, no
+browser extension to export a chat. Sign in with your AUB email and your real
+name, and have the conversations there. I read them directly.
 
-Be creative. The more specific and elaborate your questions, the more unique and interesting the answers will be.
+The deck opens with a short tour of the site, then three conversations:
 
-(b) **Refine your exploration**  
-   - Push the conversation deeper: ask about product ideas (if you're interested in applications/entrepreneurship) or paper ideas (if you're more research-oriented).  
-   - Check what's already been done (Google, papers, projects) and include them in your project abstract submission (part c).
+**(a) What could ML do for X?** *(six turns minimum)* Pick a field you actually
+care about, and work out what machine learning is really doing in it, what data
+that requires, and what makes your problem hard for a machine specifically. You
+should come out with three candidate project ideas.
 
-(c) **Create a project abstract**  
-   - Ask the LLM to **draft an abstract** for a project proposal based on your discussion.  
-   - This isn't your final project: it's just practice to see what's possible.
+**(b) Write the abstract.** *(five turns minimum)* Take the idea you liked best
+and sharpen it into a project abstract: a named dataset or a real collection
+procedure, a clear input and output, and a measure that would tell you whether
+it worked. You write the abstract, not the model.
 
-(d) **Create a Machine Learning for X syllabus**  
-   - Ask the LLM to **draft a syllabus** for a course on ML for X. You can compare this syllabus with what you already know and the syllabus of this course.
+**(c) Design the course.** *(six turns minimum)* Build a syllabus for "Machine
+Learning for X". Then compare it with the course you are sitting in, and tell me
+one thing yours does better and one thing it does worse. I want the
+disagreement.
 
-(e) **Submit**: Submit PDF files of: 1) the abstract of the project idea (named `abstract.pdf`), 2) the syllabus of the course you've generated (named `syllabus.pdf`), and 3) the conversation history you've had with the LLM (named `chat_history.pdf`). You can use extensions like [this one](https://www.chatgpt2pdf.app/) to save PDF files. Include all the submissions in a final zip file of your submission on moodle. Feel 
+A note on how these are marked. I am not grading the model's answers, and there
+is no advantage in getting long or impressive-sounding replies out of it. What
+counts is how you push: whether you ask for specifics, whether you notice when an
+answer is vague, whether you argue back. The turn minimums are a floor, not a
+target. A conversation where you disagreed with the model twice is worth more
+than one three times its length where you accepted everything.
+
+Any trouble with the site, or anything that looks broken: press **C** on the
+slide where it happened and it reaches me with the slide attached.
 
 ---
 
