@@ -3,6 +3,7 @@ title: "Problem 1: Neural Networks"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw4_solution/
+published: false   # solution not released
 ---
 
 

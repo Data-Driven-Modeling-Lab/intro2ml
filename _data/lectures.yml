@@ -11,10 +11,6 @@
     '
   materials:
     preparation:
-    - name: Pre-course Survey
-      url: https://docs.google.com/forms/d/e/1FAIpQLSd01PzGEE1JxqCwxGWsXeS8goRgRcYOOR9sAuEW0UQBrTQmgA/viewform?usp=sharing&ouid=112491546008459452170
-      type: references
-      required: true
     - name: Course introductory note and takeaways
       url: /materials/references/course_purpose_note/
       type: references
@@ -29,7 +25,7 @@
       type: references
       chapter: Chapter 1 - Introduction
       recommended: true
-    - name: A bit about my research - Discovering Physics with Machine Learning
+    - name: 'If you''re curious, a bit about my research: On Discovering Physics From Data'
       url: https://www.josephbakarji.com/articles/?slug=on-discovering-physics-from-data
       type: research
       optional: true
@@ -37,24 +33,17 @@
       url: /materials/slides/introductory_slides.pdf
       type: slides
     homework:
-    - name: 'How will you use AI in this course?'
+    - name: How will you use AI in this course?
       url: https://learn.sematlas.com/slides/intro_ml_01n#/chat-how_you_will_use_ai
       type: conversation
-      description: A conversation with the course tutor, on the last slide of lecture 1.
-        Four turns minimum. Do it before lecture 2.
+      description: This is an optional conversation with the course AI tutor, on the last slide of lecture 1.
   references:
   assignments:
   week_note: /notes/week-01/
-  takeaways:
-  - A model is a compression of reality, kept only as far as it serves an action
-  - Data are what the world gives you; the model is what you make of them
-  - Learning lives in the loop between perception and action, not in either alone
   study_guide:
-  - 'Before class: nothing, come curious'
-  - 'After: reread the Introduction and Logistics slides, note one model you use daily'
-  - Set up Python per the logistics page
-  - Have the AI conversation on the last slide, before lecture 2
-  - Start PS0 (posted today, due Sep 9)
+  - Explore the logistics and schedule pages on www.intro2ml.com
+  - reread the Introduction and Logistics slides.
+  - Set up Python per the logistics page for next Tuesday.
 - section: Introduction
   lecture_number: 2
   date: Sep 3
@@ -70,7 +59,7 @@
       type: interactive
       visible: true
     references:
-    - name: 2025 PDF slides
+    - name: Last semester's PDF slides (for reference)
       url: /materials/slides/learning examples and data.pdf
       type: slides
   references:
@@ -81,17 +70,16 @@
   assignments:
   week_note: /notes/week-01/
   study_guide:
-  - Review the slides and run the intro notebook
-  - Skim CS229 notes section on supervised learning framing
-  - Continue PS0
+  - 'Problem Set 0 is posted here: https://intro2ml.com/materials/assignments/hw0/'
+  - Think of Data and Models you encounter every day.
 - section: Introduction
   lecture_number: 3
   date: Sep 8
   title: Math and Python Review - Your Computational Toolkit
-  subtitle: Linear algebra meets computational implementation
+  subtitle: Linear algebra and its computational implementation
   type: lecture
   duration: 75
-  description: 'Comprehensive review of mathematical foundations essential for machine learning,  combined with hands-on Python implementation. Students will bridge the gap between  mathematical notation and computational implementation through interactive notebooks  that combine CS229 linear algebra concepts with NumPy code examples.
+  description: 'Comprehensive review of mathematical foundations essential for machine learning,  combined with hands-on Python implementation. You will bridge the gap between  mathematical notation and computational implementation through interactive notebooks that combine linear algebra concepts with NumPy code examples.
 
     '
   materials:

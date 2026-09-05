@@ -1,17 +1,16 @@
 ---
-title: "Problem Set 0: Review and Chatting with LLMs"
+title: "Problem Set 0: Data, Math, and Chatting with LLMs"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw0/
-published: false   # not announced yet
 ---
 
 
-This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
+This is an individual assignment. Review the [assignment policy](https://intro2ml.com/logistics/) regarding collaboration and late submissions on the website before starting.
 
-Problem 1 is submitted on Slack (see the instructions in the problem). Problem 2 is done entirely on the [course slides site](https://learn.sematlas.com/slides/ps0) and has nothing to upload. Problems 3, 4 and 5 are submitted as a zip file of PDFs named `name_problem_i.pdf` for $i=3,4,5$ on Moodle (link below).
+Problem 1 should be submitted on Slack (see the instructions in the problem). Problem 2 is done entirely on the [course slides site](https://learn.sematlas.com/slides/ps0) and has nothing to upload. Problems 3, 4 and 5 are submitted as a zip file of PDFs named `name_problem_i.pdf` for $i=3,4,5$ on Moodle (link below).
 
-[Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2394563)
+[Sumbission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2820681)
 
 ## Problem 1 (30 points): Data Collection and Analysis with Your Phone
 
@@ -19,13 +18,13 @@ This problem is designed to get you thinking creatively about how to collect and
 
 Ethical dilemmas aside, this exercise is meant to show you what the **real-world iterative process of data science** looks like:  
 
-Collect data $\rightarrow$ define a problem $\rightarrow$ analyze it $\rightarrow$ redefine the problem $\rightarrow$ collect more data $\rightarrow$ try again.  
+Here's the typical pipeline: Collect data, define a problem, analyze/visualize it, redefine the problem, collect more data, and repeat.  
 
 Not all data science is machine learning. Sometimes it's a matter of signal processing, statistics, or simple algorithms (e.g., Fourier transform, averages, locating objects in an image, tweaking thresholds, etc.).
 
-You have to submit this problem as a *Colab notebook* link on the `#problem-sets-subs` channel on Slack. **Make sure that the link works before submitting, by making it publicly accessible.** Here's are more detailed instructions.
+You have to submit this problem as a *Colab notebook* link on the `#ml-assignments` channel on Slack. **Make sure that the link works before submitting, by making it publicly accessible.** Here's are more detailed instructions.
 
-- **Use your phone as a sensor**: e.g. camera, microphone, gyroscope, accelerometer, light sensor, screen, etc. There are a bunch of apps that can give you access to these sensors (e.g. [Sensor Data Recorder](https://apps.apple.com/us/app/sensor-data-recorder/id1438400138))
+- **Use your phone as a sensor**: e.g. camera, microphone, gyroscope, accelerometer, light sensor, screen, etc. There are a bunch of apps that can give you access to these sensors. The one I'm familiar with is: [Sensor Data Recorder](https://apps.apple.com/us/app/sensor-data-recorder/id1438400138), but you can use any app you want.
 
 - **Brainstorm 5 ideas**: Think of 5 possible uses of these sensors. *Write them down at the top of the Jupyter notebook in a markdown cell.*
 - **Choose one idea** and collect data for that idea.
@@ -37,7 +36,7 @@ You have to submit this problem as a *Colab notebook* link on the `#problem-sets
 - **You can use open-source libraries**, but not machine learning models. (e.g., use OpenCV for color detection in images).
 - **Any resource is allowed**. Disclose and briefly describe how you used LLMs by mentioning it in your notebook. 
 - **Submit your work**:  
-  - Post a link to your Colab notebook in the `#problem-sets-subs` channel.  
+  - Post a link to your Colab notebook in the `#ml-assignments` channel.  
   - Include a short description (max 3 sentences) on Slack explaining your idea.  
   - Your notebook should include your code, analysis, and any visualizations. Most importantly **it should run**.
   - The more you explain your process, the better. You can use the markdown cells to do that. 
@@ -81,12 +80,10 @@ Learning for X". Then compare it with the course you are sitting in, and tell me
 one thing yours does better and one thing it does worse. I want the
 disagreement.
 
-A note on how these are marked. I am not grading the model's answers, and there
-is no advantage in getting long or impressive-sounding replies out of it. What
+A note on how these are graded. I am not grading the model's answers, and there
+is no advantage in getting very long replies out of it. What
 counts is how you push: whether you ask for specifics, whether you notice when an
-answer is vague, whether you argue back. The turn minimums are a floor, not a
-target. A conversation where you disagreed with the model twice is worth more
-than one three times its length where you accepted everything.
+answer is vague, whether you argue back.
 
 Any trouble with the site, or anything that looks broken: press **C** on the
 slide where it happened and it reaches me with the slide attached.

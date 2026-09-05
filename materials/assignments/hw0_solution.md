@@ -3,6 +3,7 @@ title: "Problem Set 0 Solution"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw0_solution/
+published: false   # solution not released
 ---
 
 ## Problem 3: Gradients and Hessians

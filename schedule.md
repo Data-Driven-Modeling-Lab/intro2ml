@@ -272,6 +272,19 @@ title: Schedule
                font-size: 0.86rem; font-weight: 600; color: #3b63c4; text-decoration: none; }
 .week-note-link::before { content: '\2709'; margin-right: 0.4rem; }
 .week-note-link:hover { text-decoration: underline; }
+.prep-note { position: relative; margin: 0.9rem 0 0.4rem; padding: 0.85rem 1rem 0.85rem 1.1rem;
+             background: linear-gradient(180deg, rgba(230,150,60,0.11), rgba(230,150,60,0.04));
+             border: 1px solid rgba(200,130,50,0.30); border-radius: 10px;
+             font-size: 0.93rem; line-height: 1.55; }
+.prep-note-title { display: inline-flex; align-items: center; gap: 0.4rem;
+             font-weight: 700; margin-bottom: 0.5rem; font-size: 0.72rem;
+             text-transform: uppercase; letter-spacing: 1.1px; color: #a9631a; }
+.prep-note-title::before { content: ''; width: 14px; height: 14px; border-radius: 3px;
+             background: #e0902f; display: inline-block; flex: 0 0 14px; }
+.prep-note ul { margin: 0; padding: 0; list-style: none; }
+.prep-note li { margin: 0.28rem 0; padding-left: 1.15rem; position: relative; }
+.prep-note li::before { content: ''; position: absolute; left: 0; top: 0.62em;
+             width: 5px; height: 5px; border-radius: 50%; background: #e0902f; }
 .takeaways { position: relative; margin: 0.9rem 0 0.4rem; padding: 0.85rem 1rem 0.85rem 1.1rem;
              background: linear-gradient(180deg, rgba(126,200,139,0.12), rgba(126,200,139,0.05));
              border: 1px solid rgba(90,160,105,0.32); border-radius: 10px;
@@ -427,6 +440,15 @@ title: Schedule
                 {% if lecture.week_note %}
                 <a class="week-note-link" href="{{ lecture.week_note | relative_url }}">
                   Week note for this session</a>
+                {% endif %}
+
+                {% if lecture.preparation %}
+                <div class="prep-note">
+                  <div class="prep-note-title">Before class</div>
+                  <ul>
+                  {% for item in lecture.preparation %}<li>{{ item }}</li>
+                  {% endfor %}</ul>
+                </div>
                 {% endif %}
 
                 {% if lecture.takeaways %}

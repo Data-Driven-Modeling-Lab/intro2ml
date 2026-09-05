@@ -3,6 +3,7 @@ title: "Problem Set 1 Solution"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw1_solution/
+published: false   # solution not released
 ---
 
 ## Problem 3: Linear Regression and Gradient Descent
