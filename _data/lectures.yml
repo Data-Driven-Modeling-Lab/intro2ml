@@ -88,6 +88,10 @@
       url: https://cs229.stanford.edu/section/cs229-linalg.pdf
       type: reference
     lecture:
+    - name: Overview slides
+      url: https://learn.sematlas.com/slides/intro_ml_03n
+      type: interactive
+      visible: true
     - name: Python Introduction
       url: /materials/notebooks/00_python_intro/
       type: notebook
@@ -161,6 +165,12 @@
     - name: 2025 PDF slides
       url: /materials/slides/linear-regression.pdf
       type: slides
+    - name: My video on Linear Regression
+      url: https://www.youtube.com/watch?v=3zHWnd-7FkA
+      type: references
+    - name: A 3-minute Overview
+      url: https://www.youtube.com/watch?v=3dhcmeOTZ_Q
+      type: references
   references:
   assignments:
   study_guide:
