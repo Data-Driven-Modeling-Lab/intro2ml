@@ -132,9 +132,8 @@
       url: https://pandas.pydata.org/docs/user_guide/
   assignments:
   study_guide:
-  - Redo the in-class exercises in the math review notebook
-  - Finish and submit PS0 (due Sep 9)
-  - 'Self-test: the linear algebra quiz on the slides'
+  - Review the math and python review notebooks
+  - Test your knowledge with the in-slide quizzes/questions
 - section: Function Approximation
   lecture_number: 4
   date: Sep 10
@@ -174,10 +173,10 @@
   references:
   assignments:
   study_guide:
-  - Go through the interactive linear regression slides and try each widget
   - Read CS229 notes Part I, sections 1.1-1.2
+  - Go through the interactive linear regression slides and explore each widget
+  - Watch the videos in the references if you're struggling with some concepts
   - Start PS1 (posted today)
-  - Self-test with the in-slide quizzes
 - section: Function Approximation
   lecture_number: 5
   date: Sep 15

@@ -2,7 +2,8 @@
   title: 'Problem Set 0: Data, Math, and Chatting with LLMs'
   visible: true           # posted Sep 5 2026
   release_date: '2026-09-01'
-  due_date: '2026-09-09'
+  due_date: '2026-09-13'
+  due_time: midnight
   description: Calculus and linear algebra review. Chatting with LLMs.
   links:
   - name: Open

@@ -23,7 +23,7 @@ title: Assignments
   <div class="assignment-item is-scheduled" data-release="{{ a.release_date }}" hidden>
     <div class="assignment-header">
       <div class="assignment-title">{{ a.title }}</div>
-      <div class="assignment-meta">Released: {{ a.release_date }} &bull; Due: {{ a.due_date }}</div>
+      <div class="assignment-meta">Released: {{ a.release_date }} &bull; Due: {{ a.due_date }}{% if a.due_time %}, {{ a.due_time }}{% endif %}</div>
     </div>
     {% if a.description %}
     <div class="assignment-desc">{{ a.description }}</div>
