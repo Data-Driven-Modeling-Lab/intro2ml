@@ -17,11 +17,11 @@ slides site rather than on paper, and one happens on Slack:
 | Problem | Where | What you hand in |
 |---|---|---|
 | 0. Forum discussion | Slack, `#learn-and-share` | One substantive post and one reply |
-| 1. MCQ warm up | Course slides | Answered in place, recorded automatically |
+| 1. MCQ warm up | [Course slides](https://learn.sematlas.com/slides/ps1#/warmup) | Answered in place, with a reason for each |
 | 2. Weather dataset | Moodle | `problem_2.ipynb` |
 | 3. Regression and gradient descent | Moodle | `problem_3.pdf` |
 | 4. Kaggle competition | Kaggle | Your team's submissions |
-| 5. Learning ML with ML | Course slides | The conversation itself, recorded automatically |
+| 5. Learning ML with ML | [Course slides](https://learn.sematlas.com/slides/ps1#/chat-lmlml) | The conversation itself, recorded as you have it |
 
 Zip what goes to Moodle into a single file and submit it here:
 [Submission Link](TODO_MOODLE_LINK)
@@ -116,12 +116,20 @@ This one is on the course slides, not on paper. Work through the PS1 warm up
 deck and answer the questions in place. Your answers are recorded as you go, so
 there is nothing to submit and nothing to zip.
 
-Link: TODO_SLIDES_MCQ_LINK
+Link: [PS1 warm up](https://learn.sematlas.com/slides/ps1#/warmup)
 
-The questions cover least squares, feature scaling, collinearity, polynomial
-degree and test error, ridge, cross-validation, early stopping, and gradient
-descent convergence. Answer them after you have done the reading and the
-lecture, not before: the point is to find out what you actually absorbed.
+Ten true or false claims, covering least squares, feature scaling,
+collinearity, polynomial degree and test error, ridge, cross-validation, early
+stopping, and gradient descent convergence. Not all of them are true.
+
+Each one asks you to type a reason before you can submit, and you cannot see
+the explanation until you have. That ordering is the point: what gets recorded
+is what you actually thought, not what you thought once you had been told the
+answer. You may retry a question, and every attempt keeps its own reason, so
+changing your mind costs you nothing and is worth more than being right first
+time.
+
+Answer them after the reading and the lecture, not before.
 
 ## Problem 2: Work with this dataset (20 points)
 
@@ -195,15 +203,30 @@ course tutor about linear regression: explaining the core ideas in your own
 words, asking for derivations, getting it to write and run a small experiment,
 testing yourself with its questions, and reflecting on what you got wrong.
 
-Link: TODO_SLIDES_CONVERSATION_LINK
+Link: [Learning ML with ML](https://learn.sematlas.com/slides/ps1#/chat-lmlml)
+
+The tutor opens with a calibration question about your background, then gives
+you five questions one at a time, holding back each explanation until you have
+answered. Ask it for the maths when its words are vague, ask it for code and a
+plot, take it off script, then ask for five more questions and a summary at the
+end. You write a short reflection, under 300 words, inside the conversation
+itself: what you explored, what clicked and what did not, and two next steps.
 
 The conversation is recorded as you have it, so there is no transcript to
-export and no PDF to assemble. What is marked is the quality of the
-conversation: whether you pushed past the first answer, asked for the maths
-when the words were vague, argued back when something sounded wrong, and were
-honest in the reflection at the end. Length is not the point. A conversation
-where you disagreed with the model twice is worth more than one three times as
-long where you accepted everything.
+export and no PDF to assemble. Marks, out of 20:
+
+- **Conversation quality (5).** You pushed past the first answer and took it
+  off script.
+- **The ten questions (5).** Only 1 of these 5 is for getting them right.
+  Depth and curiosity are worth more.
+- **Code and plots (4).** At least one runnable experiment with a labelled plot.
+- **Reflection (4).** Honest and specific, tying mistakes to next steps.
+- **Checking the tutor (2).** At least one place where you verified something
+  it claimed, asked it to re-derive a result, or disagreed with it and gave a
+  reason.
+
+Length is not the point. A conversation where you disagreed with the model
+twice is worth more than one three times as long where you accepted everything.
 
 ## Notes
 
