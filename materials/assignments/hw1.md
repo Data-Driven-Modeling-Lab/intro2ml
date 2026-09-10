@@ -7,31 +7,121 @@ published: false   # under revision for F26
 ---
 
 
-This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
+This is an individual assignment, apart from the Kaggle competition. Review the
+[assignment policy](https://intro2ml.com/logistics/) on collaboration and late
+submissions before you start.
 
-**Instructions:** problem 0 will be evaluated based on your Slack participation. Problem 1 and 5 should be submitted as PDF, labeled as `problem_1.pdf` and `problem_5.pdf` respectively. Problem 2 should be submitted as a Jupyter notebook called `problem_2.ipynb` so that it can run locally. 
+**Where each problem is done.** Two of the six problems happen on the course
+slides site rather than on paper, and one happens on Slack:
 
-Zip all files and submit them as a single file on the following moodle link: [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2401976)
+| Problem | Where | What you hand in |
+|---|---|---|
+| 0. Forum discussion | Slack, `#learn-and-share` | One substantive post and one reply |
+| 1. MCQ warm up | Course slides | Answered in place, recorded automatically |
+| 2. Weather dataset | Moodle | `problem_2.ipynb` |
+| 3. Regression and gradient descent | Moodle | `problem_3.pdf` |
+| 4. Kaggle competition | Kaggle | Your team's submissions |
+| 5. Learning ML with ML | Course slides | The conversation itself, recorded automatically |
 
-## Problem 0: Ask a good question (10 points)
+Zip what goes to Moodle into a single file and submit it here:
+[Submission Link](TODO_MOODLE_LINK)
 
-To encourage participation and interactions on Slack, you are required to ask at least one good question about the lectures we covered so far, and answer at least one question from another student. Do that on the #learn-and-share channel.
+## Problem 0: Forum discussion, did an AI just solve a Millennium Prize problem? (10 points)
 
-## Problem 1: Multiple Choice Questions (MCQ) Warm up (20 points)
+On 8 September 2026, OpenAI announced that a swarm of roughly 10,000 agents,
+running a model it has not released, produced a proof about the
+three-dimensional Navier-Stokes equations in about 88 hours, followed by
+roughly 17 hours of formalization in Lean. Much of the press called it a
+solution to one of the seven Millennium Prize Problems, each of which carries a
+one million dollar prize. OpenAI says it will not claim the prize.
 
-Answer the following questions with True or False, and briefly explain your reasoning (2 sentences max): 
+Before you argue about it, four details that the headlines mostly skipped.
 
-1.  Ordinary Least Squares (OLS) minimizes the sum of squared residuals between predictions and targets. 
-2.  Adding a feature that is a perfect linear combination of existing features can make the OLS solution non-unique. 
-3.  Normalizing features changes the location of the OLS minimum in parameter space. 
-4.  In polynomial regression, increasing the degree always reduces training error but may increase test error. 
-5.  L2 regularization (ridge) tends to set some coefficients exactly to zero.
-6.  In k-fold cross-validation, using the same random seed across runs can change the average validation score. 
-7.  Early stopping acts like implicit regularization by limiting effective model capacity. 
-8.  When features are highly correlated, ridge typically outperforms OLS on test error due to variance reduction.
-9.  Stochastic Gradient Descent (SGD) with a fixed learning rate will always converge if we run it long enough. 
-10. The purpose of a test set is to prevent overfitting.
+**What Navier-Stokes is.** The equations that describe how fluids move: water
+from a tap, blood in an artery, air over a wing, the weather. A *singularity*,
+or blow up, means a solution stops being smooth after a finite time: something
+like the velocity gradient runs off to infinity. If that can happen, the
+equations stop describing the fluid at that instant. The Millennium Problem
+asks whether smooth solutions always stay smooth.
 
+**What was actually proved.** Not the Millennium Problem as stated. The result
+shows a singularity can form in finite time in the three-dimensional equations
+*with a smooth forcing term added*. The Millennium Problem concerns the
+unforced equations. Whether the forced result is a real step toward the
+unforced one, or a different question wearing its clothes, is a live argument
+among people who work on this.
+
+**How it was checked.** Lean is a proof assistant: you state your definitions
+and your claim formally, and the software mechanically verifies every step. A
+Lean-checked proof is a different kind of evidence from a long, fluent,
+convincing-sounding argument in prose, which is exactly the failure mode people
+worry about with language models. It is also not the same thing as peer review,
+which for a claim this size usually takes months. The proof was released on 8
+September, so that review has barely started.
+
+**Who found it.** Tristan Buckmaster (NYU) and Levent Alpoge (Anthropic) say
+they had spent about a year on related fluid blow-up problems and had
+Lean-verified results on the Boussinesq and three-dimensional Euler equations
+by 22 August. Buckmaster has suggested OpenAI may have drawn on his private
+work stored in Codex. OpenAI's published page credits both for concurrent work
+on the forced Euler problem and has offered a joint announcement.
+
+Some places to read, and you should find your own as well:
+[OpenAI's own writeup](https://openai.com/index/navier-stokes-solution/),
+[Nature](https://www.nature.com/articles/d41586-026-02842-5),
+[Washington Post](https://www.washingtonpost.com/technology/2026/09/09/openai-claims-it-solved-elusive-math-problem-with-1-million-prize/),
+[Semafor](https://www.semafor.com/article/09/08/2026/openai-agents-find-proof-to-1-million-millennium-prize-problem).
+
+### What to discuss
+
+Post on `#learn-and-share`. This is open ended and there is no correct answer;
+I am marking the quality of the thinking, not the position you land on. Pick
+whatever grabs you, and take a position rather than surveying both sides.
+
+Some things worth arguing about:
+
+- **Is this a finding?** What would have to be true for you to call it one.
+  Does it matter that the theorem proved is not the theorem that carries the
+  prize? Does it matter that no human can hold the whole argument in their
+  head?
+- **What counts as verification.** In this course you fit a model and then
+  check it on data the model never saw. A proof has no test set. Lean checks
+  that the steps follow from the assumptions, but not that the assumptions are
+  the interesting ones. Which of these is the stronger guarantee, and of what?
+- **Where the finding came from.** If a model is shown someone's unpublished
+  work and then produces a related result, who found it? Compare this to how
+  you will use an LLM in Problem 5 of this very problem set. When does using a
+  tool become the tool doing it?
+- **Prospect and risk.** If this generalizes, what happens to a field like
+  fluid dynamics, or to the training of the next generation of researchers?
+  What is lost, if anything? And what would a *bad* version of this look like:
+  what kind of claim would be much harder to catch than a wrong proof?
+
+### What to hand in
+
+Nothing on Moodle. Marked on Slack participation:
+
+- **One substantive post** (roughly 150 to 400 words) taking a position and
+  giving a reason for it. Cite something you actually read.
+- **At least one reply** to a classmate that moves their argument forward:
+  extend it, complicate it, or disagree with a reason. "Good point, I agree" is
+  not a reply.
+
+Posts that quote a chatbot's summary of the story without adding a thought of
+your own will not get credit. Read something.
+
+## Problem 1: MCQ warm up (20 points)
+
+This one is on the course slides, not on paper. Work through the PS1 warm up
+deck and answer the questions in place. Your answers are recorded as you go, so
+there is nothing to submit and nothing to zip.
+
+Link: TODO_SLIDES_MCQ_LINK
+
+The questions cover least squares, feature scaling, collinearity, polynomial
+degree and test error, ridge, cross-validation, early stopping, and gradient
+descent convergence. Answer them after you have done the reading and the
+lecture, not before: the point is to find out what you actually absorbed.
 
 ## Problem 2: Work with this dataset (20 points)
 
@@ -47,8 +137,7 @@ Create a Jupyter notebook that loads the dataset, preprocesses it, and applies l
 - Suggest improvements to the model and explain what experiments you would do to improve the model
 - Propose real-world scenarios where this model could be useful
 
-Submit the notebook with the dataset in the same folder called `problem_2.ipynb` so that it can run locally. If it doesn't run, you will lose points.
-
+Submit it on Moodle as `problem_2.ipynb`, with the dataset in the same folder so that it runs locally. If it does not run, you will lose points.
 
 ## Problem 3: Linear Regression and Gradient Descent (20 points)
 
@@ -90,114 +179,38 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 (g) Describe the shape of the level sets (contours) of $J(\theta)$ for two parameters $(\theta_0,\theta_1)$ and how the gradient direction relates to those contours. Explain qualitatively what can happen if $\alpha$ is chosen too large vs. reasonably small.
 
-## Problem 4: Kaggle Competition (20 points)
+## Problem 4: Kaggle competition (20 points)
 
-Sign up to kaggle.com and make teams of up to 3. And join the competition through this link: [Competition Link](https://www.kaggle.com/competitions/find-polynomial). Please don’t share the link with people outside the class (for now). The problem statement is to fit a function given two inputs and one output (all real numbers). You’re free to use whatever method you see fit. You’re allowed only 2 submissions per day. You'll see more details on the link.
+Sign up at kaggle.com and form teams of up to three. Join the competition
+through this link: [Competition Link](TODO_KAGGLE_LINK). Please do not share
+the link outside the class for now. The problem is to fit a function given two
+real inputs and one real output. Use whatever method you see fit. You are
+allowed two submissions per day, and you will find more detail on the
+competition page.
 
-## Problem 5: Learning Machine Learning with Machine Learning - LMLML (20 points)
+## Problem 5: Learning machine learning with machine learning (20 points)
 
-* Explaining core ideas in your own words (features, model/hypothesis, loss, optimization).
-* Doing math: gradients, normal equation, regularization effects.
-* Coding + plotting a simple regression experiment.
-* Testing yourself with MCQs and reflecting on mistakes.
+Also on the course slides. You will run one sustained conversation with the
+course tutor about linear regression: explaining the core ideas in your own
+words, asking for derivations, getting it to write and run a small experiment,
+testing yourself with its questions, and reflecting on what you got wrong.
 
-#### Deliverables (submit as **one PDF**)
+Link: TODO_SLIDES_CONVERSATION_LINK
 
-1. **Full chat transcript** with the model (from your first prompt to the end).
-2. **MCQ answer sheet** (Q1–Q10 with your chosen option + brief reason).
-3. **Reflection (<300 words)** using *What? So what? Now what?*
-4. **Code & plots** shown in the conversation. 
-5. **Link(s) to the lecture slides/video** you used (if any).
+The conversation is recorded as you have it, so there is no transcript to
+export and no PDF to assemble. What is marked is the quality of the
+conversation: whether you pushed past the first answer, asked for the maths
+when the words were vague, argued back when something sounded wrong, and were
+honest in the reflection at the end. Length is not the point. A conversation
+where you disagreed with the model twice is worth more than one three times as
+long where you accepted everything.
 
+## Notes
 
-You will run **one** sustained conversation with ChatGPT (or a similar LLM). Start with the **Initial Prompt** below by copy-pasting it into the chat as your very first message.
-
-#### Initial Prompt (copy-paste this)
-```
-You are an AI tutor helping me master *linear regression*. This week I learned about:
-- Linear regression hypothesis and model
-- feature engineering,
-- mean squared error and gradients,
-- gradient descent vs. stochastic gradient descent,
-- step size/learning rate schedules,
-- train/val/test splits and generalization,
-- L2 regularization (ridge),
-- normal equation.
-
-Your role and ground rules:
-1) Start by asking me a brief calibration question about my background (math & Python).
-2) Then immediately give me **5 multiple-choice questions** (MCQs) that mix:
-   - concepts (assumptions, scaling effects),
-   - lightweight math (one gradient/normal-equation item),
-   - a tiny numeric step of gradient descent,
-   - a coding/output interpretation item,
-   - one regularization question.
-   For each MCQ: wait for my answer before revealing the solution; after I answer, give me a concise explanation.
-3) Throughout, whenever I ask "show me the math," include the derivation using clear steps and notation.
-4) When I ask for code or a plot, give runnable Python (NumPy/Matplotlib) with a tiny synthetic dataset so I can run it locally; label axes and include comments. Whenever possible, run it on your side and show me the plots.
-5) Help me *push deeper*. Offer optional extensions like:
-   - comparing GD vs. SGD on a noisy dataset,
-   - effect of $\lambda$ in ridge (bias–variance),
-   - learning-rate schedules or early stopping.
-6) By the end, after I request it, provide more MCQs at a slightly higher difficulty, again revealing explanations only after I answer.
-7) If I seem confused, use short Socratic questions to guide me.
-8) Keep answers crisp, math correct, and code minimal but complete.
-9) At the very end, summarize the topics I've learned and show me all the MCQs I answered, which ones I got correctly, and key takeaways.
-
-Assume I may share a link to my week's lecture; if I do, you can tailor the depth. Ready? Ask your calibration question first.
-```
-
-#### Required elements during your chat
-
-* Answer the **first 5 MCQs** one by one (explanations revealed after each).
-* Ask the tutor for **“5 more MCQs”** near the end, then answer them (total = **10 MCQs**).
-* Ask for **at least one derivation** (e.g., gradient of MSE, normal equation, or ridge closed-form).
-* Ask for **at least one code snippet + plot** exploring linear regression (e.g., fit vs. no scaling, $\lambda$ sweep for ridge, GD vs. SGD trajectories).
-* Ask **at least two off-script questions** that go beyond lecture scope (examples below).
-* Request a **final summary** and **two specific next steps** from the tutor at the end.
-
-
-#### Suggested conversation flow 
-
-1. Paste the **Initial Prompt**.
-2. Answer the calibration question.
-3. Do the **first 5 MCQs**.
-4. Depending on your MCQs, e.g. ask: "Show me the math for the gradient of the MSE loss and one GD update step.", "Give me a tiny experiment sweeping $\lambda$ in ridge regression (e.g., $\lambda \in {0, 0.1, 1, 10})$; plot train/test MSE.", etc.
-5. Dig deeper with more MCQs: e.g. "Give me one more difficult MCQ question about the logic behind least squares".
-6. Ask more questions until you have answered at least 10 MCQs.
-7. Ask: "Rewrite a review of all MCQs, and my answers with a brief explanation."
-
-Off-script prompts you *might* try (please tailor to your own interests and background based on what you're interested in and what you'd want to understand in more depth)
-
-* "Why does feature scaling affect eigenvalues of $X^TX$ and thus GD step sizes?"
-* "Show a toy case where normal equation is numerically unstable; compare to ridge."
-* "Derive the bias introduced by L2 regularization and sketch the bias–variance tradeoff."
-* "How would you detect under/overfitting with a validation curve in this setup?"
-* "What breaks if features are perfectly collinear? How does ridge fix it?"
-* "How do I pick a learning-rate schedule? Try constant vs. decay in a plot."
-
-
-#### Reflection (<300 words, use this scaffold)
-
-The best way to learn is to write down what you remember from readings, conversations and lectures. Here's a guide to do it yourself (submit this and don't worry about editing language too much; in fact, it's better if you don't edit it too much so that I know it's not a language model that generated it). Here are questions to consider in your reflection.
-
-**What?** Briefly describe what you explored (topics, derivations, code).
-**So what?** What clicked? What remained confusing? What errors did you make on MCQs and why?
-**Now what?** Two concrete next steps to strengthen your understanding (e.g., try L1, regularization paths, condition numbers).
-
-#### Grading rubric (20 pts total)
-
-* **Conversation quality (5 pts):** Followed the flow, asked off-script questions, requested derivations; interactions are inquisitive and substantive.
-* **MCQs (5 pts):** Completed **10** MCQs. How many you got correctly is important but only counts for 1 point (if you got most correctly). Exploration of deeper concepts and demonstration of understanding and curiosity is more important.
-* **Code & plots (4 pts):** At least one runnable experiment with labeled plot(s); shows a relevant comparison (e.g., GD vs. SGD or λ sweep).
-* **Reflection (4 pts):** Clear, honest, and actionable; ties mistakes to next steps.
-* **Presentation (2 pts):** One clean PDF; readable code/plots; includes lecture link(s).
-
-A few more points: 
-* Late or incomplete items may lose points.
-* Do your own conversation and reasoning. It’s fine if you discuss ideas with classmates, but **do not copy** chats or answers.
-* If you used any external sources beyond the provided lecture (blogs, docs), list them at the end of your PDF.
-* If an answer seems off, **ask the model to re-derive or verify** with a small numeric example. Be always skeptical!
-* When you run code locally, compare your outputs to the model's and ask "why are these different?".
-* If you ask for data-plotting examples, prefer tiny datasets (n<200) so plots render clearly and code runs fast
-
+- Late or incomplete items may lose points.
+- Do your own work and your own reasoning. Discussing ideas with classmates is
+  fine; copying chats, notebooks or answers is not.
+- List any external sources you used beyond the lectures.
+- Be skeptical of what a model tells you. If an answer seems off, ask it to
+  re-derive the result or check it against a small numeric example, and compare
+  its output to what you get when you run the code yourself.
