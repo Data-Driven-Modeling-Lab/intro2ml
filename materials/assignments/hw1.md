@@ -3,6 +3,7 @@ title: "Problem Set 1: Linear Regression"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw1/
+published: false   # under revision for F26
 ---
 
 
