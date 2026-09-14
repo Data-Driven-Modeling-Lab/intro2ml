@@ -159,13 +159,3 @@ Reminder: Be skeptical of what a model tells you. If an answer seems off, ask it
   re-derive the result, check it in the notes, or compare
   its output to what you get when you run the code yourself.
 
-## A note on working together
-
-Discuss freely. Explain things to each other, argue about which model to use,
-help someone find the bug they cannot see. That is how most of this gets
-learned, and none of it is cheating.
-
-Do not share code, notebooks, submission files, chat transcripts or written
-answers, and do not ask a classmate for theirs. If you cannot explain a line of
-what you submitted, it should not be in there. This applies to the Kaggle
-competition exactly as much as to the rest.
