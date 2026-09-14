@@ -11,125 +11,64 @@ This is an individual assignment, apart from the Kaggle competition. Review the
 [assignment policy](https://intro2ml.com/logistics/) on collaboration and late
 submissions before you start.
 
-**Where each problem is done.** Two of the six problems happen on the course
-slides site rather than on paper, and one happens on Slack:
-
-| Problem | Where | What you hand in |
-|---|---|---|
-| 0. Forum discussion | Slack, `#learn-and-share` | One substantive post and one reply |
-| 1. MCQ warm up | [Course slides](https://learn.sematlas.com/slides/ps1#/warmup) | Answered in place, with a reason for each |
-| 2. Weather dataset | Moodle | `problem_2.ipynb` |
-| 3. Regression and gradient descent | Moodle | `problem_3.pdf` |
-| 4. Kaggle competition | Kaggle | Your team's submissions |
-| 5. Learning ML with ML | [Course slides](https://learn.sematlas.com/slides/ps1#/chat-lmlml) | The conversation itself, recorded as you have it |
+**Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2 and 3 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 on Kaggle.
 
 Zip what goes to Moodle into a single file and submit it here:
-[Submission Link](TODO_MOODLE_LINK)
+[Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1)
 
-## Problem 0: Forum discussion, did an AI just solve a Millennium Prize problem? (10 points)
+## Problem 0: Some AI News and an invitation to a forum discussion (10 points)
 
-On 8 September 2026, OpenAI announced that a swarm of roughly 10,000 agents,
-running a model it has not released, produced a proof about the
-three-dimensional Navier-Stokes equations in about 88 hours, followed by
-roughly 17 hours of formalization in Lean. Much of the press called it a
-solution to one of the seven Millennium Prize Problems, each of which carries a
-one million dollar prize. OpenAI says it will not claim the prize.
+On 8 September 2026, OpenAI announced that a swarm of 10,000 agents,
+using a model it hasn't released yet, came up with a proof about the
+three-dimensional Navier-Stokes equations in 88 hours, followed by
+17 hours of formalization in Lean (an non-ML algorithmic proof system used by mathematicians to formalize or derive theorems). Much of the press called it a solution to one of the seven Millennium Prize Problems; each of which, when solved, awards the winner 
+one million dollars! OpenAI says it will not claim the prize.
 
-Before you argue about it, four details that the headlines mostly skipped.
+Before you tell me what you think, four details that the headlines mostly skipped.
 
-**What Navier-Stokes is.** The equations that describe how fluids move: water
+To start with, what is the Navier-Stokes equation(s)? The equations that describe how fluids move: water
 from a tap, blood in an artery, air over a wing, the weather. A *singularity*,
 or blow up, means a solution stops being smooth after a finite time: something
-like the velocity gradient runs off to infinity. If that can happen, the
+like the velocity gradient goes to infinity. If that can happen, the
 equations stop describing the fluid at that instant. The Millennium Problem
-asks whether smooth solutions always stay smooth.
+asks to prove whether smooth solutions always stay smooth -- it's an existence/uniqueness problem.
 
-**What was actually proved.** Not the Millennium Problem as stated. The result
+What was proved, isn't the Millennium Problem as stated. The result
 shows a singularity can form in finite time in the three-dimensional equations
-*with a smooth forcing term added*. The Millennium Problem concerns the
-unforced equations. Whether the forced result is a real step toward the
-unforced one, or a different question wearing its clothes, is a live argument
-among people who work on this.
+*with a smooth forcing term added*. The Millennium Problem is concerned with the
+unforced equations. Whether this result is a useful step toward the
+unforced one is currently the argument among people working on this.
 
-**How it was checked.** Lean is a proof assistant: you state your definitions
+A little more about Lean. Lean is a proof assistant: you state your definitions
 and your claim formally, and the software mechanically verifies every step. A
-Lean-checked proof is a different kind of evidence from a long, fluent,
-convincing-sounding argument in prose, which is exactly the failure mode people
-worry about with language models. It is also not the same thing as peer review,
-which for a claim this size usually takes months. The proof was released on 8
-September, so that review has barely started.
+Lean-checked proof is a different kind of evidence from a human-written, typically prose, 
+argument. Lean ensures that all arguments are rigorous, which partially solves the ambiguity and halluciation problem with language models. It's not the same as peer review, which for a proof this long will probably take months to do; typically, reviews take months even if the paper is 10 pages long! 
 
-**Who found it.** Tristan Buckmaster (NYU) and Levent Alpoge (Anthropic) say
-they had spent about a year on related fluid blow-up problems and had
-Lean-verified results on the Boussinesq and three-dimensional Euler equations
-by 22 August. Buckmaster has suggested OpenAI may have drawn on his private
-work stored in Codex. OpenAI's published page credits both for concurrent work
+There's a bit of drama behidn this news. Tristan Buckmaster (NYU) and Levent Alpoge (Anthropic) say
+they spent around a year on related fluid blow-up problems and had
+Lean-verified results on the related (Boussinesq and three-dimensional Euler) equations
+before 22 August. Buckmaster has suggested OpenAI has taken on his private
+work stored in Codex (OpenAI's coding agent). OpenAI's published page credits both for concurrent work
 on the forced Euler problem and has offered a joint announcement.
 
 Some places to read, and you should find your own as well:
 [OpenAI's own writeup](https://openai.com/index/navier-stokes-solution/),
 [Nature](https://www.nature.com/articles/d41586-026-02842-5),
 [Washington Post](https://www.washingtonpost.com/technology/2026/09/09/openai-claims-it-solved-elusive-math-problem-with-1-million-prize/),
-[Semafor](https://www.semafor.com/article/09/08/2026/openai-agents-find-proof-to-1-million-millennium-prize-problem).
 
 ### What to discuss
 
-Post on `#learn-and-share`. This is open ended and there is no correct answer;
-I am marking the quality of the thinking, not the position you land on. Pick
-whatever grabs you, and take a position rather than surveying both sides.
+Start a conversation on the `#discussion-forum`. This is open ended and there is no correct answer. I want to see real engagement, the formation of an opinion, sharing relevant resources that might help you and others understand what's happening, etc. Feel free to focus on whatever part of the story you're interested in (technical, ethical, technological, mathematical, etc), and try to express a position clearly and succinctly. In this case, **I discourage using LLMs** to completely write you posts for you. I want to hear your way of phrasing things, and putting words together. I much prefere a brief answer that sounds like you, than a long paragraph that sounds like a machine. In this specific context where you're expecting to have the conversation with other humans, authenticity matters.
 
-Some things worth arguing about:
-
-- **Is this a finding?** What would have to be true for you to call it one.
-  Does it matter that the theorem proved is not the theorem that carries the
-  prize? Does it matter that no human can hold the whole argument in their
-  head?
-- **What counts as verification.** In this course you fit a model and then
-  check it on data the model never saw. A proof has no test set. Lean checks
-  that the steps follow from the assumptions, but not that the assumptions are
-  the interesting ones. Which of these is the stronger guarantee, and of what?
-- **Where the finding came from.** If a model is shown someone's unpublished
-  work and then produces a related result, who found it? Compare this to how
-  you will use an LLM in Problem 5 of this very problem set. When does using a
-  tool become the tool doing it?
-- **Prospect and risk.** If this generalizes, what happens to a field like
-  fluid dynamics, or to the training of the next generation of researchers?
-  What is lost, if anything? And what would a *bad* version of this look like:
-  what kind of claim would be much harder to catch than a wrong proof?
-
-### What to hand in
-
-Nothing on Moodle. Marked on Slack participation:
-
-- **One substantive post** (roughly 150 to 400 words) taking a position and
-  giving a reason for it. Cite something you actually read.
-- **At least one reply** to a classmate that moves their argument forward:
-  extend it, complicate it, or disagree with a reason. "Good point, I agree" is
-  not a reply.
-
-Posts that quote a chatbot's summary of the story without adding a thought of
-your own will not get credit. Read something.
+Some tips about where to take the conversation: what's the context for the finding? Does it generalize to other theorems? What are the technical details of the proof? etc.
 
 ## Problem 1: MCQ warm up (20 points)
 
-This one is on the course slides, not on paper. Work through the PS1 warm up
+Solve the following MCQ on the course slides. Work through the PS1 warm up
 deck and answer the questions in place. Your answers are recorded as you go, so
-there is nothing to submit and nothing to zip.
+there is nothing to submit and nothing to zip. Here's the link [PS1 warm up](https://learn.sematlas.com/slides/ps1#/warmup)
 
-Link: [PS1 warm up](https://learn.sematlas.com/slides/ps1#/warmup)
-
-Ten true or false claims, covering least squares, feature scaling,
-collinearity, polynomial degree and test error, ridge, cross-validation, early
-stopping, and gradient descent convergence. Not all of them are true.
-
-Each one asks you to type a reason before you can submit, and you cannot see
-the explanation until you have. That ordering is the point: what gets recorded
-is what you actually thought, not what you thought once you had been told the
-answer. You may retry a question, and every attempt keeps its own reason, so
-changing your mind costs you nothing and is worth more than being right first
-time.
-
-Answer them after the reading and the lecture, not before.
+I recommend going through them after reading the lecture notes to test your understanding.
 
 ## Problem 2: Work with this dataset (20 points)
 
@@ -198,8 +137,8 @@ competition page.
 
 ## Problem 5: Learning machine learning with machine learning (20 points)
 
-Also on the course slides. You will run one sustained conversation with the
-course tutor about linear regression: explaining the core ideas in your own
+The best way to learn is to try and recall everything you've learned without using any reference. You'll try to rederive things if you've forgotten them, and you'll develop your own perspective on seeing things. This works even if you're not taking a course; if you want to learn about any topic on your own. In this exercise, we're leveraging the fact that you can try to recall details through a conversation about linear regression with a 
+course tutor. Explaining the core ideas in your own
 words, asking for derivations, getting it to write and run a small experiment,
 testing yourself with its questions, and reflecting on what you got wrong.
 
@@ -207,33 +146,13 @@ Link: [Learning ML with ML](https://learn.sematlas.com/slides/ps1#/chat-lmlml)
 
 The tutor opens with a calibration question about your background, then gives
 you five questions one at a time, holding back each explanation until you have
-answered. Ask it for the maths when its words are vague, ask it for code and a
-plot, take it off script, then ask for five more questions and a summary at the
-end. You write a short reflection, under 300 words, inside the conversation
-itself: what you explored, what clicked and what did not, and two next steps.
+answered. Ask it for the technical details when its words are vague, ask it for code and a
+plot, and take it off script as long as it's related to machine learning. Start with a reflection (under 300 words) inside the conversation
+itself: what you explored, what clicked and what did not, and how you think it's related to your interests.
 
 The conversation is recorded as you have it, so there is no transcript to
-export and no PDF to assemble. Marks, out of 20:
+export and no PDF to assemble.
 
-- **Conversation quality (5).** You pushed past the first answer and took it
-  off script.
-- **The ten questions (5).** Only 1 of these 5 is for getting them right.
-  Depth and curiosity are worth more.
-- **Code and plots (4).** At least one runnable experiment with a labelled plot.
-- **Reflection (4).** Honest and specific, tying mistakes to next steps.
-- **Checking the tutor (2).** At least one place where you verified something
-  it claimed, asked it to re-derive a result, or disagreed with it and gave a
-  reason.
-
-Length is not the point. A conversation where you disagreed with the model
-twice is worth more than one three times as long where you accepted everything.
-
-## Notes
-
-- Late or incomplete items may lose points.
-- Do your own work and your own reasoning. Discussing ideas with classmates is
-  fine; copying chats, notebooks or answers is not.
-- List any external sources you used beyond the lectures.
-- Be skeptical of what a model tells you. If an answer seems off, ask it to
-  re-derive the result or check it against a small numeric example, and compare
+Reminder: Be skeptical of what a model tells you. If an answer seems off, ask it to
+  re-derive the result, check it in the notes, or compare
   its output to what you get when you run the code yourself.
