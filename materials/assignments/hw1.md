@@ -6,16 +6,21 @@ permalink: /materials/assignments/hw1/
 ---
 
 
-This is an individual assignment, apart from the Kaggle competition. Review the
+**This is an individual assignment, all of it, including the Kaggle
+competition.** You are welcome to discuss approaches with each other, and I
+would rather you did: arguing about how to attack a problem is most of the
+learning. What you may not do is share or copy code, notebooks, submission
+files or written answers. The work you hand in has to be yours, and you have to
+be able to explain every line of it. Review the
 [assignment policy](https://intro2ml.com/logistics/) on collaboration and late
 submissions before you start.
 
 **Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2, 3 and 4 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 should also be submitted on Kaggle (more details in the problem description).
 
-**Two deadlines, and they are not the same.** The Kaggle competition closes
-**Sunday 20 September at 23:59**, four days before the rest. That is on purpose:
-we look at the leaderboard together in class on Tuesday the 22nd, which only
-works if it has closed. Everything else is due **Thursday 24 September**.
+**Two deadlines.** The Kaggle competition closes **Wednesday 23 September at
+23:59**, the night before everything else so that we can look at the
+leaderboard together in class on Thursday. The rest of the set is due
+**Thursday 24 September**.
 
 Zip what goes to Moodle into a single file and submit it here:
 [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1)
@@ -131,6 +136,10 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 ## Problem 4: Kaggle competition (20 points)
 
+**Enter on your own.** No teams this year: the leaderboard should tell each of
+you where your own model stands. Talking through approaches with classmates is
+fine and encouraged; handing round code or submission files is not.
+
 Sign up at kaggle.com with a username that is your first name and last name. Join the competition
 through this link: [Competition Link](https://www.kaggle.com/competitions/find-the-polynomial-ml26-27). Please do not share
 the link outside the class for now. The problem is to fit a function given two
@@ -159,3 +168,14 @@ export and no PDF to assemble.
 Reminder: Be skeptical of what a model tells you. If an answer seems off, ask it to
   re-derive the result, check it in the notes, or compare
   its output to what you get when you run the code yourself.
+
+## A note on working together
+
+Discuss freely. Explain things to each other, argue about which model to use,
+help someone find the bug they cannot see. That is how most of this gets
+learned, and none of it is cheating.
+
+Do not share code, notebooks, submission files, chat transcripts or written
+answers, and do not ask a classmate for theirs. If you cannot explain a line of
+what you submitted, it should not be in there. This applies to the Kaggle
+competition exactly as much as to the rest.
