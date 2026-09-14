@@ -15,7 +15,8 @@
   title: 'Problem Set 1: Linear Regression'
   visible: true           # posted Sep 14 2026
   release_date: '2026-09-14'
-  due_date: '2026-09-24'
+  due_date: '2026-09-23'
+  due_time: midnight
   description: Linear regression, Kaggle competition, Learning with LLMs, weather
     data exploration
   links:

@@ -6,23 +6,13 @@ permalink: /materials/assignments/hw1/
 ---
 
 
-**This is an individual assignment, all of it, including the Kaggle
-competition.** You are welcome to discuss approaches with each other, and I
-would rather you did: arguing about how to attack a problem is most of the
-learning. What you may not do is share or copy code, notebooks, submission
-files or written answers. The work you hand in has to be yours, and you have to
-be able to explain every line of it. Review the
-[assignment policy](https://intro2ml.com/logistics/) on collaboration and late
+This is an individual assignment. I encourage you to discuss the problems with each other but the final write up has to be yours. Copying or sharing code is not allowed. The work you hand in has to be yours, and you have to
+be able to explain every line of it. Review the [assignment policy](https://intro2ml.com/logistics/) on collaboration and late
 submissions before you start.
 
-**Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2, 3 and 4 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 should also be submitted on Kaggle (more details in the problem description).
+Submission guidelines: Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2, 3 and 4 zipped and submitted to moodle (link below), problem 4 should also be submitted on Kaggle (more details in the problem description).
 
-**Two deadlines.** The Kaggle competition closes **Wednesday 23 September at
-23:59**, the night before everything else so that we can look at the
-leaderboard together in class on Thursday. The rest of the set is due
-**Thursday 24 September**.
-
-Zip what goes to Moodle into a single file and submit it here:
+Deadlines: The homework is due on **Wednesday 23 September at 23:59**. Zip what goes to Moodle into a single file and submit it here:
 [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1)
 
 ## Problem 0: Some AI News and an invitation to a forum discussion (10 points)
