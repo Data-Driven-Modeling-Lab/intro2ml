@@ -3,7 +3,6 @@ title: "Problem Set 1: Linear Regression"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw1/
-published: false   # under revision for F26
 ---
 
 
@@ -11,7 +10,7 @@ This is an individual assignment, apart from the Kaggle competition. Review the
 [assignment policy](https://intro2ml.com/logistics/) on collaboration and late
 submissions before you start.
 
-**Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2 and 3 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 on Kaggle.
+**Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2, 3 and 4 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 should also be submitted on Kaggle (more details in the problem description).
 
 **Two deadlines, and they are not the same.** The Kaggle competition closes
 **Sunday 20 September at 23:59**, four days before the rest. That is on purpose:
@@ -59,7 +58,6 @@ on the forced Euler problem and has offered a joint announcement.
 Some places to read, and you should find your own as well:
 [OpenAI's own writeup](https://openai.com/index/navier-stokes-solution/),
 [Nature](https://www.nature.com/articles/d41586-026-02842-5),
-[Washington Post](https://www.washingtonpost.com/technology/2026/09/09/openai-claims-it-solved-elusive-math-problem-with-1-million-prize/),
 
 ### What to discuss
 
@@ -133,12 +131,12 @@ Start from $\theta^{(0)}=(0,\,0)$ and take **one** batch GD step with $\alpha=0.
 
 ## Problem 4: Kaggle competition (20 points)
 
-Sign up at kaggle.com and form teams of up to three. Join the competition
-through this link: [Competition Link](TODO_KAGGLE_LINK). Please do not share
+Sign up at kaggle.com with a username that is your first name and last name. Join the competition
+through this link: [Competition Link](https://www.kaggle.com/competitions/find-the-polynomial-ml26-27). Please do not share
 the link outside the class for now. The problem is to fit a function given two
 real inputs and one real output. Use whatever method you see fit. You are
 allowed two submissions per day, and you will find more detail on the
-competition page.
+competition page. Along with the kaggle submissions, submit your code containing the solutions you've tried on Moodle as `problem_4.ipynb`.
 
 ## Problem 5: Learning machine learning with machine learning (20 points)
 

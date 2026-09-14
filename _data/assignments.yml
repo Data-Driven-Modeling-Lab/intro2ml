@@ -13,6 +13,7 @@
     visible: false
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
+  visible: true           # posted Sep 14 2026
   release_date: '2026-09-14'
   due_date: '2026-09-24'
   description: Linear regression, Kaggle competition, Learning with LLMs, weather
@@ -23,7 +24,6 @@
   - name: Solution
     url: /materials/assignments/hw1_solution/
     visible: false
-  visible: false
 - id: hw2
   title: 'Problem Set 2: Logistic Regression and Classification'
   release_date: '2026-09-24'
