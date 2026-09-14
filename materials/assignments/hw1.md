@@ -13,6 +13,11 @@ submissions before you start.
 
 **Where each problem is done.** Problem 0 should be done on Slack, Problem 1 and 5 on the slides, problem 2 and 3 zipped and submitted [on moodle here](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1), problem 4 on Kaggle.
 
+**Two deadlines, and they are not the same.** The Kaggle competition closes
+**Sunday 20 September at 23:59**, four days before the rest. That is on purpose:
+we look at the leaderboard together in class on Tuesday the 22nd, which only
+works if it has closed. Everything else is due **Thursday 24 September**.
+
 Zip what goes to Moodle into a single file and submit it here:
 [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2827253&forceview=1)
 

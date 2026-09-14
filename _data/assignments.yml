@@ -13,7 +13,7 @@
     visible: false
 - id: hw1
   title: 'Problem Set 1: Linear Regression'
-  release_date: '2026-09-10'
+  release_date: '2026-09-14'
   due_date: '2026-09-24'
   description: Linear regression, Kaggle competition, Learning with LLMs, weather
     data exploration
