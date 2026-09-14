@@ -192,7 +192,11 @@
     - name: Notes, Chapter 8
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
-    lecture: []
+    lecture:
+    - name: Feature Engineering and Generalization
+      url: https://learn.sematlas.com/slides/intro_ml_05n
+      type: interactive
+      visible: true
     references:
     - name: Generalization, linear regression, and Scikit-learn Notebook
       url: /materials/notebooks/ML_tutorial/
