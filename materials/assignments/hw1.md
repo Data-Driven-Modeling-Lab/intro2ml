@@ -146,11 +146,15 @@ testing yourself with its questions, and reflecting on what you got wrong.
 
 Link: [Learning ML with ML](https://learn.sematlas.com/slides/ps1#/chat-lmlml)
 
-The tutor opens with a calibration question about your background, then gives
-you five questions one at a time, holding back each explanation until you have
-answered. Ask it for the technical details when its words are vague, ask it for code and a
-plot, and take it off script as long as it's related to machine learning. Start with a reflection (under 300 words) inside the conversation
-itself: what you explored, what clicked and what did not, and how you think it's related to your interests.
+You open, not the tutor. Start with a reflection written from memory, around
+300 words: what you explored, what clicked and what did not, and two examples
+you would like to think about more. Write mathematical expressions when the
+words are vague. The tutor reads it, tells you what was solid and what was
+vague, and then gives you five questions one at a time, built from what you
+wrote, holding back each explanation until you have answered. After that,
+steer it wherever you want, as long as it is machine learning: ask for the
+technical details when its words are vague, ask for code and a plot, take it
+off script.
 
 The conversation is recorded as you have it, so there is no transcript to
 export and no PDF to assemble.
