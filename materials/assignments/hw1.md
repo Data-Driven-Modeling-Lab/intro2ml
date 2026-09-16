@@ -29,14 +29,20 @@ To start with, what is the Navier-Stokes equation(s)? The equations that describ
 from a tap, blood in an artery, air over a wing, the weather. A *singularity*,
 or blow up, means a solution stops being smooth after a finite time: something
 like the velocity gradient goes to infinity. If that can happen, the
-equations stop describing the fluid at that instant. The Millennium Problem
-asks to prove whether smooth solutions always stay smooth -- it's an existence/uniqueness problem.
+equations stop describing the fluid at that instant. The Millennium Problem asks
+for a proof of any ONE of four statements that Fefferman wrote down for the Clay
+Institute: that smooth solutions always exist, either in all of space (A) or in a
+periodic box (B), with no external force; or that they can break down, again in
+space (C) or in a box (D), where you are allowed to apply a smooth force. Any one
+of the four wins the prize.
 
-What was proved, isn't the Millennium Problem as stated. The result
-shows a singularity can form in finite time in the three-dimensional equations
-*with a smooth forcing term added*. The Millennium Problem is concerned with the
-unforced equations. Whether this result is a useful step toward the
-unforced one is currently the argument among people working on this.
+What the paper claims to prove, and it has not been reviewed yet, is (C) and (D):
+a fluid starting from rest, with a smooth force applied and finite energy the whole
+way, that develops a singularity in finite time. That is one of the four
+statements, and according to the problem statement it counts.
+
+Many people consider (A) and (B), the unforced versions, more interesting. But they
+are not required to consider the problem, as stated, solved.
 
 A little more about Lean. Lean is a proof assistant: you state your definitions
 and your claim formally, and the software mechanically verifies every step. A
