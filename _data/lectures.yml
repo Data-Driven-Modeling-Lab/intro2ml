@@ -214,6 +214,49 @@
 - section: Function Approximation
   lecture_number: 6
   date: Sep 17
+  title: Quiz 1, then Feature Engineering in Practice
+  subtitle: 'The coding half of lecture 5: scikit-learn, train/test splits and choosing a model'
+  type: lecture
+  duration: 75
+  description: 'Quiz 1 on the first four sessions, then the practical half of feature engineering and generalization: fitting, validating and comparing models in scikit-learn.
+
+    '
+  materials:
+    lecture:
+    - name: Feature Engineering and Generalization slides, from the coding part
+      url: https://learn.sematlas.com/slides/intro_ml_05#/24
+      type: interactive
+      visible: true
+    - name: Generalization, linear regression and scikit-learn (video tutorial)
+      url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3
+      type: video
+    - name: Generalization, linear regression and scikit-learn (notebook)
+      url: /materials/notebooks/ML_tutorial/
+      type: notebook
+    references:
+    - name: scikit-learn, Getting Started (the official ten-minute tour of fit, predict, pipelines and cross-validation)
+      url: https://scikit-learn.org/stable/getting_started.html
+      type: references
+    - name: The scikit-learn MOOC by Inria (free, notebook-based; Module 1 covers exactly this session)
+      url: https://inria.github.io/scikit-learn-mooc/
+      type: references
+      recommended: true
+  references:
+  assignments:
+  preparation:
+  - 'Quiz 1 covers sessions 1 to 4: supervised vs unsupervised learning, linear models in vector form, the train/validation/test split'
+  - Have Python and scikit-learn working on your machine; the video tutorial shows the setup
+  takeaways:
+  - In scikit-learn every model is fit, then predict; the feature engineering happens before fit
+  - The held-out set is the only honest estimate of how a model will do on new data
+  - 'Model choice is an experiment: compare validation error across candidates, do not guess'
+  study_guide:
+  - Redo the coding walkthrough from the slides in your own notebook, with a dataset of your choice
+  - Watch the scikit-learn video tutorial, then try Module 1 of the Inria MOOC
+  - Continue PS1 (due Sep 23)
+- section: Function Approximation
+  lecture_number: 7
+  date: Sep 22
   title: Classification and Logistic Regression
   subtitle: From regression to classification with probabilistic models
   type: lecture
@@ -239,10 +282,10 @@
   study_guide:
   - Go through the interactive logistic regression slides
   - Compare the MSE vs cross-entropy loss surfaces in the slides
-  - Continue PS1 (due Sep 24)
+  - Continue PS1 (due Sep 23)
 - section: Probabilistic Reasoning
-  lecture_number: 7
-  date: Sep 22
+  lecture_number: 8
+  date: Sep 24
   title: Maximum Likelihood Estimation and Generalized Linear Models
   subtitle: Foundations of probabilistic reasoning and statistical learning
   type: lecture
@@ -267,8 +310,8 @@
   - CS229 notes on GLMs
   - Start thinking about PS2
 - section: Probabilistic Reasoning
-  lecture_number: 8
-  date: Sep 24
+  lecture_number: 9
+  date: Sep 29
   title: Generative Learning and Language
   subtitle: Working with Language and the Naive Bayes Algorithm
   type: lecture
@@ -291,8 +334,8 @@
   - Finish PS1, start PS2
   - Try the language-model exercise from class
 - section: Deep Learning
-  lecture_number: 9
-  date: Sep 29
+  lecture_number: 10
+  date: Oct 1
   title: Introduction to Neural Networks
   subtitle: From linear models to deep networks
   type: lecture
@@ -316,8 +359,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 10
-  date: Oct 1
+  lecture_number: 11
+  date: Oct 6
   title: Backpropagation, Computation Graphs and Hands on
   subtitle: A deeper dive into the inner working of deep learning
   type: lecture
@@ -349,8 +392,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 11
-  date: Oct 6
+  lecture_number: 12
+  date: Oct 8
   title: Advanced Neural Networks
   subtitle: Advanced Neural network architectures
   type: lecture
@@ -384,8 +427,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 12
-  date: Oct 8
+  lecture_number: 13
+  date: Oct 13
   title: CNNs, RNNs and AI Assistants
   subtitle: How to use AI coding assistants in the context of deep learning
   type: lecture
@@ -405,24 +448,24 @@
   references:
   assignments:
 - section: Midterm
-  lecture_number: 13
-  date: Oct 13
+  lecture_number: 14
+  date: Oct 15
   title: Midterm Review
   subtitle: A story-format review of the first half
   type: review
   duration: 75
   description: A story-format review of the first half.
 - section: Midterm
-  lecture_number: 14
-  date: Oct 15
+  lecture_number: 15
+  date: Oct 20
   title: Midterm Exam
   subtitle: In class, 75 minutes
   type: exam
   duration: 75
   description: In class, 75 minutes.
 - section: Unsupervised Learning
-  lecture_number: 15
-  date: Oct 20
+  lecture_number: 16
+  date: Oct 22
   title: Introduction to Unsupervised Learning & K-Means Clustering
   subtitle: Introduction to clustering and unsupervised pattern discovery
   type: lecture
@@ -444,8 +487,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 16
-  date: Oct 22
+  lecture_number: 17
+  date: Oct 27
   title: Principal Component Analysis
   subtitle: Principal component analysis and Dimensionality Reduction
   type: lecture
@@ -471,8 +514,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 17
-  date: Oct 27
+  lecture_number: 18
+  date: Oct 29
   title: EM Algorithm and Gaussian Mixture Models
   subtitle: Probabilistic clustering and the EM algorithm
   type: lecture
@@ -492,8 +535,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 18
-  date: Oct 29
+  lecture_number: 19
+  date: Nov 3
   title: Other Unsupervised Learning Methods
   subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
   type: lecture
@@ -509,8 +552,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 19
-  date: Nov 3
+  lecture_number: 20
+  date: Nov 5
   title: 'Story Session: The Rope as an Instrument'
   subtitle: Unsupervised discovery on real physical data
   type: story
@@ -523,8 +566,8 @@
       type: interactive
       visible: true
 - section: Reinforcement Learning
-  lecture_number: 20
-  date: Nov 5
+  lecture_number: 21
+  date: Nov 10
   title: Reinforcement Learning I
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
@@ -551,8 +594,8 @@
   references:
   assignments:
 - section: Reinforcement Learning
-  lecture_number: 21
-  date: Nov 10
+  lecture_number: 22
+  date: Nov 12
   title: Reinforcement Learning II
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
@@ -579,8 +622,8 @@
   references:
   assignments:
 - section: Advanced Topics
-  lecture_number: 22
-  date: Nov 12
+  lecture_number: 23
+  date: Nov 17
   title: Foundation Modeling
   subtitle: Large-scale models and transfer learning
   type: lecture
@@ -597,8 +640,8 @@
   references:
   assignments:
 - section: Advanced Topics
-  lecture_number: 23
-  date: Nov 17
+  lecture_number: 24
+  date: Nov 19
   title: Machine Learning for Modeling Physical Systems
   subtitle: How does ML apply to science and engineering where some physics-based models are already known?
   type: lecture
@@ -615,29 +658,26 @@
   references:
   assignments:
 - section: Projects and Closing
-  lecture_number: 24
-  date: Nov 19
+  lecture_number: 25
+  date: Nov 24
   title: Project Work Session
   subtitle: In-class work on final projects
   type: project
   duration: 75
   description: In-class work on final projects.
 - section: Projects and Closing
-  lecture_number: 25
-  date: Nov 24
-  title: Closing Story Session and Review
-  subtitle: The course in one arc
-  type: story
-  duration: 75
-  description: The course in one arc.
-- section: Projects and Closing
   lecture_number: 26
   date: Nov 26
-  title: Review and Exam Prep
-  subtitle: Flipped Q and A session
+  title: Closing Story Session, Review and Exam Prep
+  subtitle: The course in one arc; then review and exam prep
   type: review
   duration: 75
-  description: Flipped Q and A session.
+  description: 'The course in one arc.
+
+    Flipped Q and A session.'
+  materials:
+  references:
+  assignments:
 - section: Projects and Closing
   lecture_number: 27
   date: Dec 1
