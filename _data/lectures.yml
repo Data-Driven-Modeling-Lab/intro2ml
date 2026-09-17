@@ -188,30 +188,28 @@
 
     '
   materials:
-    preparation:
-    - name: Notes, Chapter 8
-      url: https://cs229.stanford.edu/main_notes.pdf
-      type: references
     lecture:
     - name: Feature Engineering and Generalization
       url: https://learn.sematlas.com/slides/intro_ml_05
       type: interactive
       visible: true
     references:
+    - name: Ch.8 in reference notes for in-depth discussion (covered in more detailed later in the course)
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+    - name: Old PDF slides
+      url: /materials/slides/generalization-and-features.pdf
+      type: slides
     - name: Generalization, linear regression, and Scikit-learn Notebook
       url: /materials/notebooks/ML_tutorial/
       type: notebook
     - name: Generalization, linear regression, and Scikit-learn Video
       url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3&ab_channel=JosephBakarji
       type: video
-    - name: 2025 PDF slides
-      url: /materials/slides/generalization-and-features.pdf
-      type: slides
   references:
   assignments:
   study_guide:
-  - Review generalization slides, focus on bias-variance
-  - Run the cross-validation notebook
+  - Review generalization slides
   - Continue PS1
 - section: Function Approximation
   lecture_number: 6
@@ -229,12 +227,11 @@
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     lecture:
-    - name: Classification and Logistic Regression
+    - name: Interactive Classification and Logistic Regression slides
       url: https://learn.sematlas.com/slides/intro_ml_06n
       type: interactive
       visible: true
-    references:
-    - name: 2025 PDF slides
+    - name: Reference PDF slides
       url: /materials/slides/log-regression.pdf
       type: slides
   references:
