@@ -194,7 +194,7 @@
       type: references
     lecture:
     - name: Feature Engineering and Generalization
-      url: https://learn.sematlas.com/slides/intro_ml_05n
+      url: https://learn.sematlas.com/slides/intro_ml_05
       type: interactive
       visible: true
     references:
