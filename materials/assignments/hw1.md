@@ -137,7 +137,9 @@ you where your own model stands. Talking through approaches with classmates is
 fine and encouraged; handing round code or submission files is not.
 
 Sign up at kaggle.com with a username that is your first name and last name. Join the competition
-through this link: [Competition Link](https://www.kaggle.com/competitions/find-the-polynomial-ml26-27). Please do not share
+through this invitation link: [Competition Link](https://www.kaggle.com/t/82664c52fab445a7be0be46d21ef5797). The competition is
+unlisted, so this is the only way in; the address in the browser bar after you join
+will not work for someone who has not joined. Please do not share
 the link outside the class for now. The problem is to fit a function given two
 real inputs and one real output. Use whatever method you see fit. You are
 allowed two submissions per day, and you will find more detail on the
