@@ -27,8 +27,8 @@ title: Logistics
       <div>
           <h3>Ghina Daoud</h3>
           <p><strong>Email:</strong> gad08@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> TBA </p>
-          <p><strong>Office:</strong> TBA </p>
+          <p><strong>Office Hours:</strong> Thursday 1:30-3:30PM </p>
+          <p><strong>Office:</strong> Oxy 410 </p>
       </div>
   </div>
 
@@ -36,8 +36,8 @@ title: Logistics
       <div>
           <h3>Shafik Houeidi</h3>
           <p><strong>Email:</strong> sah89@mail.aub.edu </p>
-          <p><strong>Office Hours:</strong> TBA </p>
-          <p><strong>Office:</strong> TBA </p>
+          <p><strong>Office Hours:</strong> Monday 5:00-6:00PM </p>
+          <p><strong>Office:</strong> IOEC 410 (Vision and Robotics Lab) </p>
       </div>
   </div>
 </div>
