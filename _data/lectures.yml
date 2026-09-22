@@ -283,9 +283,55 @@
   - Go through the interactive logistic regression slides
   - Compare the MSE vs cross-entropy loss surfaces in the slides
   - Continue PS1 (due Sep 23)
-- section: Probabilistic Reasoning
+  takeaways:
+  - Covered in class up to the two-feature decision boundary; softmax, metrics and the hands-on continue on Sep 24
+- section: Function Approximation
   lecture_number: 8
   date: Sep 24
+  title: 'Classification II: Softmax, Metrics and a Hands-on Dataset'
+  subtitle: The rest of logistic regression, many classes, and your first classification analysis
+  type: lecture
+  duration: 75
+  description: 'Second half of the logistic regression deck: decision boundary geometry and margin, precision and recall, softmax regression for many classes. Then a short hands-on exercise: a dataset, a question, and your own analysis.
+
+    '
+  materials:
+    preparation:
+    - name: Bring a laptop with Python and scikit-learn working
+      url: https://scikit-learn.org/stable/install.html
+      type: references
+    lecture:
+    - name: Classification and Logistic Regression slides, from the two-feature boundary
+      url: https://learn.sematlas.com/slides/intro_ml_06n#/higher-dim-inputs
+      type: interactive
+      visible: true
+    - name: 'Hands-on dataset: Breast Cancer Wisconsin (load_breast_cancer in scikit-learn)'
+      url: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
+      type: notebook
+    references:
+    - name: CS229 notes, Chapter 2 (classification and logistic regression, softmax regression)
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+    - name: scikit-learn, LogisticRegression (multi-class handled by the same class)
+      url: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+      type: references
+  references:
+  assignments:
+  preparation:
+  - Reread the first half of the logistic regression deck up to the two-feature boundary; the session starts there
+  - 'Have Python and scikit-learn running: the hands-on part is you fitting a classifier, not watching one'
+  takeaways:
+  - The decision boundary is where the score is zero; the margin is how far the closest point sits from it
+  - Accuracy is the wrong compass when classes are imbalanced; report precision and recall at the threshold you deploy
+  - Softmax regression is logistic regression with one score per class, normalised by the exponentials
+  - 'Analysing a dataset means: look at it, pick a question, fit, hold out, and read the confusion matrix'
+  study_guide:
+  - Finish the hands-on analysis at home if you did not in class; compare accuracy, precision and recall on a held-out split
+  - Derive the gradient of the cross-entropy loss yourself, then check it against the slide
+  - Try the same dataset with sklearn's LogisticRegression and compare with your own gradient descent
+- section: Probabilistic Reasoning
+  lecture_number: 9
+  date: Sep 29
   title: Maximum Likelihood Estimation and Generalized Linear Models
   subtitle: Foundations of probabilistic reasoning and statistical learning
   type: lecture
@@ -310,8 +356,8 @@
   - CS229 notes on GLMs
   - Start thinking about PS2
 - section: Probabilistic Reasoning
-  lecture_number: 9
-  date: Sep 29
+  lecture_number: 10
+  date: Oct 1
   title: Generative Learning and Language
   subtitle: Working with Language and the Naive Bayes Algorithm
   type: lecture
@@ -334,8 +380,8 @@
   - Finish PS1, start PS2
   - Try the language-model exercise from class
 - section: Deep Learning
-  lecture_number: 10
-  date: Oct 1
+  lecture_number: 11
+  date: Oct 6
   title: Introduction to Neural Networks
   subtitle: From linear models to deep networks
   type: lecture
@@ -359,8 +405,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 11
-  date: Oct 6
+  lecture_number: 12
+  date: Oct 8
   title: Backpropagation, Computation Graphs and Hands on
   subtitle: A deeper dive into the inner working of deep learning
   type: lecture
@@ -392,8 +438,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 12
-  date: Oct 8
+  lecture_number: 13
+  date: Oct 13
   title: Advanced Neural Networks
   subtitle: Advanced Neural network architectures
   type: lecture
@@ -427,8 +473,8 @@
   references:
   assignments:
 - section: Deep Learning
-  lecture_number: 13
-  date: Oct 13
+  lecture_number: 14
+  date: Oct 15
   title: CNNs, RNNs and AI Assistants
   subtitle: How to use AI coding assistants in the context of deep learning
   type: lecture
@@ -448,24 +494,24 @@
   references:
   assignments:
 - section: Midterm
-  lecture_number: 14
-  date: Oct 15
+  lecture_number: 15
+  date: Oct 20
   title: Midterm Review
   subtitle: A story-format review of the first half
   type: review
   duration: 75
   description: A story-format review of the first half.
 - section: Midterm
-  lecture_number: 15
-  date: Oct 20
+  lecture_number: 16
+  date: Oct 22
   title: Midterm Exam
   subtitle: In class, 75 minutes
   type: exam
   duration: 75
   description: In class, 75 minutes.
 - section: Unsupervised Learning
-  lecture_number: 16
-  date: Oct 22
+  lecture_number: 17
+  date: Oct 27
   title: Introduction to Unsupervised Learning & K-Means Clustering
   subtitle: Introduction to clustering and unsupervised pattern discovery
   type: lecture
@@ -487,8 +533,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 17
-  date: Oct 27
+  lecture_number: 18
+  date: Oct 29
   title: Principal Component Analysis
   subtitle: Principal component analysis and Dimensionality Reduction
   type: lecture
@@ -514,8 +560,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 18
-  date: Oct 29
+  lecture_number: 19
+  date: Nov 3
   title: EM Algorithm and Gaussian Mixture Models
   subtitle: Probabilistic clustering and the EM algorithm
   type: lecture
@@ -535,8 +581,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 19
-  date: Nov 3
+  lecture_number: 20
+  date: Nov 5
   title: Other Unsupervised Learning Methods
   subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
   type: lecture
@@ -552,8 +598,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 20
-  date: Nov 5
+  lecture_number: 21
+  date: Nov 10
   title: 'Story Session: The Rope as an Instrument'
   subtitle: Unsupervised discovery on real physical data
   type: story
@@ -566,8 +612,8 @@
       type: interactive
       visible: true
 - section: Reinforcement Learning
-  lecture_number: 21
-  date: Nov 10
+  lecture_number: 22
+  date: Nov 12
   title: Reinforcement Learning I
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
@@ -594,8 +640,8 @@
   references:
   assignments:
 - section: Reinforcement Learning
-  lecture_number: 22
-  date: Nov 12
+  lecture_number: 23
+  date: Nov 17
   title: Reinforcement Learning II
   subtitle: Introduction to RL, MDPs, and value iteration
   type: lecture
@@ -622,8 +668,8 @@
   references:
   assignments:
 - section: Advanced Topics
-  lecture_number: 23
-  date: Nov 17
+  lecture_number: 24
+  date: Nov 19
   title: Foundation Modeling
   subtitle: Large-scale models and transfer learning
   type: lecture
@@ -640,8 +686,8 @@
   references:
   assignments:
 - section: Advanced Topics
-  lecture_number: 24
-  date: Nov 19
+  lecture_number: 25
+  date: Nov 24
   title: Machine Learning for Modeling Physical Systems
   subtitle: How does ML apply to science and engineering where some physics-based models are already known?
   type: lecture
@@ -657,14 +703,6 @@
       type: slides
   references:
   assignments:
-- section: Projects and Closing
-  lecture_number: 25
-  date: Nov 24
-  title: Project Work Session
-  subtitle: In-class work on final projects
-  type: project
-  duration: 75
-  description: In-class work on final projects.
 - section: Projects and Closing
   lecture_number: 26
   date: Nov 26
