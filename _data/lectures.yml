@@ -305,6 +305,10 @@
       url: https://learn.sematlas.com/slides/intro_ml_06n#/higher-dim-inputs
       type: interactive
       visible: true
+    - name: 'Hands-on starter notebook (fill in the cells): classification metrics lab'
+      url: /materials/notebooks/classification_metrics_lab/
+      type: notebook
+      visible: true
     - name: 'Hands-on dataset: Breast Cancer Wisconsin (load_breast_cancer in scikit-learn)'
       url: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
       type: notebook
