@@ -34,14 +34,25 @@ Answer the following questions with True or False, and briefly explain your reas
 
 ## Problem 2: The normal equation (10 points):
 
-Given a linear model with fitting parameters $\theta$, linear hypothesis $h_\theta(x) = \theta^\top x$, and a dataset $\mathcal D = \{ (x^{(i)}, y^{(i)}) \}_{i=1}^{n}$, you can express the least squares cost in matrix form: 
+Given a linear model with fitting parameters $\theta$, linear hypothesis $h_\theta(x) = \theta^\top x$, and a dataset $\mathcal D = \{ (x^{(i)}, y^{(i)}) \}_{i=1}^{n}$, you can express the least squares cost in matrix form:
 
-$ J(\theta) = \| \mathbf X \theta - \mathbf y \|_2^2$, 
+$$
+J(\theta) = \lVert \mathbf X \theta - \mathbf y \rVert_2^2
+$$
 
 Derive the normal equation for the least squares problem. Here are some linear algebra identities that you might find useful:
-$\nabla_{A^T} f(A) = (\nabla_A f(A))^T$
-$\nabla_A tr(ABA^TC) = CAB + C^TAB^T$
-$\nabla_{A^T} tr(ABA^TC) = BA^TC + B^TA^TC^T$
+
+$$
+\nabla_{A^T} f(A) = (\nabla_A f(A))^T
+$$
+
+$$
+\nabla_A \operatorname{tr}(ABA^TC) = CAB + C^TAB^T
+$$
+
+$$
+\nabla_{A^T} \operatorname{tr}(ABA^TC) = BA^TC + B^TA^TC^T
+$$
 
 ## Problem 3: Logistic regression derivations (20 points)
 
@@ -96,7 +107,7 @@ Then read your classmates' posts and comment on at least two of them. A good com
 
 You work at a social media company. The platform serves videos and short posts, like X or Instagram, and you are asked to build the machine learning system that maximizes engagement. Before you write any code, you have to decide what the problem even is.
 
-Part A, the technical setup. Write a concise definition, half a page at most, as `problem_7.pdf`:
+(a) The technical setup. Write a concise definition, half a page at most, as `problem_7.pdf`:
 - What is the problem setup? Is it supervised or unsupervised, or something else?
 - What are the inputs and what is the output? What exactly do you fit?
 - What does the data look like: one row of it, and where it comes from.
@@ -105,4 +116,4 @@ Part A, the technical setup. Write a concise definition, half a page at most, as
 
 This is open ended. Go wild in how you define it, but define it precisely.
 
-Part B, the discussion. Summarize your definition in a short post on the `#discussion-forum` channel on Slack, where the PS1 discussion was, then discuss what it means. The theme of this semester is identity: how would a system like yours reshape the identities of the people who use it, and through which part of the machine learning is that happening? Consider in particular how your model's generalization, its overfitting, and the kind of data it is trained on would affect people's identities and self-image. Then read your classmates' posts and comment on at least two of them; specific, pointed comments count, agreement does not.
+(b) The discussion. Summarize your definition in a short post on the `#discussion-forum` channel on Slack, where the PS1 discussion was, then discuss what it means. The theme of this semester is identity: how would a system like yours reshape the identities of the people who use it, and through which part of the machine learning is that happening? Consider in particular how your model's generalization, its overfitting, and the kind of data it is trained on would affect people's identities and self-image. Then read your classmates' posts and comment on at least two of them; specific, pointed comments count, agreement does not.
