@@ -27,13 +27,14 @@
     visible: false
 - id: hw2
   title: 'Problem Set 2: Logistic Regression and Classification'
-  release_date: '2026-09-24'
+  release_date: '2026-09-29'
   due_date: '2026-10-06'
-  description: Project pre-proposal, logistic regression, normal equation, MLE
+  due_time: midnight
+  description: Logistic regression derivations, classification with scikit-learn, the classification lab, project pre-proposal
   links:
   - name: Open
     url: /materials/assignments/hw2/
-  visible: false
+  visible: true
 - id: hw3
   title: 'Problem Set 3: Data Exploration'
   release_date: '2026-10-06'
