@@ -101,6 +101,8 @@ Before you form a team, propose your own project. The point is for everyone to t
 - A hypothesis or question you would test, and one or two references or similar projects you would build on.
 - A rough plan: the first method you would try, and how you would know whether it worked.
 
+Before you post, run your draft through the pre-proposal reviewer on the slides: [PS2 on LearnSlides](https://learn.sematlas.com/slides/intro_ps2). Write the draft first, paste it in, and argue with the reviewer until the question, the data and the plan hold up; it will not write the draft for you. End your Slack post with one or two sentences on what the exchange changed your mind about. The conversation is saved and counts toward this problem.
+
 Then read your classmates' posts and comment on at least two of them. A good comment is specific: ask a question about something that is unclear, point at a dataset or reference they might have missed, or propose an extension or a simpler baseline to start from. The quality of your two comments counts toward your grade for this problem.
 
 ## Problem 7: Engagement, and what it does to people (10 points)
