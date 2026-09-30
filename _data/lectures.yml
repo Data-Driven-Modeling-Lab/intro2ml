@@ -19,6 +19,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_01n#/start
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_01n-lectured.pdf
+      type: slides
     references:
     - name: 'Artificial Intelligence: A Modern Approach (Ch. 1) Russell & Norvig textbook'
       url: https://api.pageplace.de/preview/DT0400.9781292401171_A41586057/preview-9781292401171_A41586057.pdf
@@ -58,6 +61,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_02n
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_02n-lectured.pdf
+      type: slides
     references:
     - name: Last semester's PDF slides (for reference)
       url: /materials/slides/learning examples and data.pdf
@@ -92,6 +98,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_03n
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_03n-lectured.pdf
+      type: slides
     - name: Python Introduction
       url: /materials/notebooks/00_python_intro/
       type: notebook
@@ -154,6 +163,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_04n
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_04n-lectured.pdf
+      type: slides
     - name: Notes with Code
       url: /materials/notebooks/cs229_linear_regression_complete/
       type: notebooks
@@ -193,6 +205,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_05
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_05-lectured.pdf
+      type: slides
     references:
     - name: Ch.8 in reference notes for in-depth discussion (covered in more detailed later in the course)
       url: https://cs229.stanford.edu/main_notes.pdf
@@ -227,6 +242,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_05#/24
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_05-lectured.pdf
+      type: slides
     - name: Generalization, linear regression and scikit-learn (video tutorial)
       url: https://www.youtube.com/watch?v=f-EFJXCzLsQ&list=PLYjn3CKPE-JVE5BPrDLAVJ3IN3FY_Def2&index=3
       type: video
@@ -274,6 +292,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_06n
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_06n-lectured.pdf
+      type: slides
     - name: Reference PDF slides
       url: /materials/slides/log-regression.pdf
       type: slides
@@ -305,6 +326,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_06n#/higher-dim-inputs
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_06n-lectured.pdf
+      type: slides
     - name: 'Hands-on starter notebook (fill in the cells): classification metrics lab'
       url: /materials/notebooks/classification_metrics_lab/
       type: notebook
@@ -353,6 +377,9 @@
       url: https://learn.sematlas.com/slides/intro_ml_07n
       type: interactive
       visible: true
+    - name: Slides as lectured (PDF)
+      url: /materials/slides/lectured/intro_ml_07n-lectured.pdf
+      type: slides
     references:
     - name: 2025 PDF slides
       url: /materials/slides/mle-glm.pdf
