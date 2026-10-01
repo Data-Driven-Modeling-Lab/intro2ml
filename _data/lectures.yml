@@ -403,7 +403,11 @@
     - name: CS229 Notes, Chapter 4
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
-    lecture: []
+    lecture:
+    - name: Interactive Generative Learning and Language slides
+      url: https://learn.sematlas.com/slides/intro_ml_08n
+      type: interactive
+      visible: true
     references:
     - name: 2025 PDF slides
       url: /materials/slides/naive_bayes_and_language.pdf
