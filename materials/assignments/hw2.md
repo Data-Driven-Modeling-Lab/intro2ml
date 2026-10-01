@@ -10,7 +10,7 @@ This is an individual assignment. I encourage you to discuss the problems with e
 
 Submission guidelines: Problems 0, 1, 2 and 3 are submitted as PDFs named `problem_x.pdf`. Problems 4 and 5 are submitted as Jupyter notebooks (`problem_4.ipynb` and `problem_5.ipynb`) that run top to bottom. Problems 6 and 7 are submitted on Slack and graded on your post and your comments (see the problems).
 
-Deadlines: The homework is due on **Tuesday 8 October at 23:59**. Zip what goes to Moodle into a single file and submit it here:
+Deadlines: The homework is due on **Thursday 8 October at 23:59**. Zip what goes to Moodle into a single file and submit it here:
 [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2837312&forceview=1)
 
 ## Problem 0: Ask a good question - LMLML (10 points)
