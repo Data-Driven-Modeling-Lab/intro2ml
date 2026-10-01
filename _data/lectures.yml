@@ -93,6 +93,9 @@
     - name: CS229 Linear Algebra Review
       url: https://cs229.stanford.edu/section/cs229-linalg.pdf
       type: reference
+    - name: CS229 Probability Review (for the maximum likelihood lectures)
+      url: https://cs229.stanford.edu/section/cs229-prob.pdf
+      type: reference
     lecture:
     - name: Overview slides
       url: https://learn.sematlas.com/slides/intro_ml_03n
@@ -155,7 +158,7 @@
     '
   materials:
     preparation:
-    - name: CS 229 notes, Part I, Chapter 1, Sections 1.1-1.2
+    - name: CS229 notes, Chapter 1, Sections 1.1 (LMS) and 1.2 (the normal equations)
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     lecture:
@@ -209,7 +212,7 @@
       url: /materials/slides/lectured/intro_ml_05-lectured.pdf
       type: slides
     references:
-    - name: Ch.8 in reference notes for in-depth discussion (covered in more detailed later in the course)
+    - name: CS229 notes, Chapter 8, Generalization (bias and variance, double descent; covered in more detail later in the course)
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     - name: Old PDF slides
@@ -252,6 +255,9 @@
       url: /materials/notebooks/ML_tutorial/
       type: notebook
     references:
+    - name: CS229 notes, Section 9.3, Model selection via cross validation
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
     - name: scikit-learn, Getting Started (the official ten-minute tour of fit, predict, pipelines and cross-validation)
       url: https://scikit-learn.org/stable/getting_started.html
       type: references
@@ -284,7 +290,7 @@
     '
   materials:
     preparation:
-    - name: CS229 Notes, Chapter 2
+    - name: CS229 notes, Chapter 2, Sections 2.1 (logistic regression) and 2.3 (multi-class classification)
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     lecture:
@@ -303,7 +309,7 @@
   study_guide:
   - Go through the interactive logistic regression slides
   - Compare the MSE vs cross-entropy loss surfaces in the slides
-  - Continue PS1 (due Sep 23)
+  - PS2 Problems 3 and 4 are on this material (due Oct 6)
   takeaways:
   - Covered in class up to the two-feature decision boundary; softmax, metrics and the hands-on continue on Sep 24
 - section: Function Approximation
@@ -337,7 +343,7 @@
       url: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
       type: notebook
     references:
-    - name: CS229 notes, Chapter 2 (classification and logistic regression, softmax regression)
+    - name: CS229 notes, Sections 2.1 (logistic regression) and 2.3 (multi-class classification, softmax)
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     - name: scikit-learn, LogisticRegression (multi-class handled by the same class)
@@ -369,9 +375,10 @@
     '
   materials:
     preparation:
-    - name: CS229 Notes, Section 1.3, 2.1, and Chapter 3
+    - name: 'CS229 notes, Chapters 1 and 2 (maximum likelihood appears in both: Section 1.3 for regression, 2.1 for logistic regression)'
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
+      required: true
     lecture:
     - name: Interactive MLE and GLM slides
       url: https://learn.sematlas.com/slides/intro_ml_07n
@@ -381,15 +388,19 @@
       url: /materials/slides/lectured/intro_ml_07n-lectured.pdf
       type: slides
     references:
+    - name: CS229 notes, Chapter 3, Generalized linear models (optional, recommended for the general picture)
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
+      recommended: true
     - name: 2025 PDF slides
       url: /materials/slides/mle-glm.pdf
       type: slides
   references:
   assignments:
   study_guide:
-  - Review MLE slides, rederive the least-squares connection
-  - CS229 notes on GLMs
-  - Start thinking about PS2
+  - Review the MLE slides and rederive least squares from the Gaussian likelihood, and cross-entropy from the Bernoulli one
+  - Read CS229 Sections 1.3 and 2.1; Chapter 3 on GLMs if you want the general picture
+  - PS2 is posted (due Oct 6)
 - section: Probabilistic Reasoning
   lecture_number: 10
   date: Oct 1
@@ -400,7 +411,7 @@
   description: 'Working with language, inferring algorithms from space v. non-spam, and the Naive Bayes Algorithm as an example for generative learning '
   materials:
     preparation:
-    - name: CS229 Notes, Chapter 4
+    - name: CS229 notes, Chapter 4, Generative learning algorithms (4.1 Gaussian discriminant analysis, 4.2 Naive Bayes)
       url: https://cs229.stanford.edu/main_notes.pdf
       type: references
     lecture:
@@ -415,9 +426,9 @@
   references:
   assignments:
   study_guide:
-  - Review Naive Bayes slides
-  - Finish PS1, start PS2
-  - Try the language-model exercise from class
+  - 'Review the generative learning slides: Naive Bayes on the spam messages, GDA on the penguins, and the n-gram language model'
+  - Continue PS2 (due Oct 6)
+  - Run the Naive Bayes from scratch notebook from the slides on your own text
 - section: Deep Learning
   lecture_number: 11
   date: Oct 6
@@ -429,13 +440,17 @@
 
     '
   materials:
+    preparation:
+    - name: CS229 notes, Chapter 7, Sections 7.1 and 7.2 (non-linear models, neural networks)
+      url: https://cs229.stanford.edu/main_notes.pdf
+      type: references
     lecture:
     - name: Introduction to Neural Networks
       url: https://learn.sematlas.com/slides/intro_ml_10n
       type: interactive
       visible: true
     - name: Python Neural Network Example
-      url: notebooks/basic_nn_example.ipynb
+      url: /materials/notebooks/basic_nn_example/
       type: notebook
     references:
     - name: 2025 PDF slides
