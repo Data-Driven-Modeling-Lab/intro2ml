@@ -309,7 +309,7 @@
   study_guide:
   - Go through the interactive logistic regression slides
   - Compare the MSE vs cross-entropy loss surfaces in the slides
-  - PS2 Problems 3 and 4 are on this material (due Oct 6)
+  - PS2 Problems 3 and 4 are on this material (due Oct 8)
   takeaways:
   - Covered in class up to the two-feature decision boundary; softmax, metrics and the hands-on continue on Sep 24
 - section: Function Approximation
@@ -400,7 +400,7 @@
   study_guide:
   - Review the MLE slides and rederive least squares from the Gaussian likelihood, and cross-entropy from the Bernoulli one
   - Read CS229 Sections 1.3 and 2.1; Chapter 3 on GLMs if you want the general picture
-  - PS2 is posted (due Oct 6)
+  - PS2 is posted (due Oct 8)
 - section: Probabilistic Reasoning
   lecture_number: 10
   date: Oct 1
@@ -427,7 +427,7 @@
   assignments:
   study_guide:
   - 'Review the generative learning slides: Naive Bayes on the spam messages, GDA on the penguins, and the n-gram language model'
-  - Continue PS2 (due Oct 6)
+  - Continue PS2 (due Oct 8)
   - Run the Naive Bayes from scratch notebook from the slides on your own text
 - section: Deep Learning
   lecture_number: 11
