@@ -436,9 +436,7 @@
   subtitle: From linear models to deep networks
   type: lecture
   duration: 75
-  description: 'Introduction to neural networks, from biological inspiration to mathematical formulation. Covers perceptrons, multilayer networks, and activation functions.
-
-    '
+  description: Where the neuron came from (McCulloch and Pitts, Hodgkin and Huxley), the linear model drawn as a network, activations, XOR and universal approximation, what a network learns from 20,000 handwritten digits, a network in numpy and PyTorch, and a first look at training by gradient descent and backpropagation.
   materials:
     preparation:
     - name: CS229 notes, Chapter 7, Sections 7.1 and 7.2 (non-linear models, neural networks)
@@ -453,11 +451,25 @@
       url: /materials/notebooks/basic_nn_example/
       type: notebook
     references:
+    - name: McCulloch and Pitts (1943), A logical calculus of the ideas immanent in nervous activity
+      url: https://doi.org/10.1007/BF02478259
+      type: references
     - name: 2025 PDF slides
       url: /materials/slides/deep-learning-lecture-part_1.pdf
       type: slides
   references:
   assignments:
+  takeaways:
+  - A layer is a matrix followed by a squash. Without the squash, a stack of layers collapses into a single matrix, so it is no better than linear regression.
+  - 'A hidden layer is a learned feature map: the network chooses the features instead of you, and what it chooses rarely looks like a feature a person would name.'
+  - One hidden layer can approximate any continuous function; depth does it with fewer units, by building features of features.
+  - 'On real handwritten digits a network beats a flat boundary only when it has enough data, and a fully connected layer has no idea that nearby pixels belong together: shift every digit by two pixels and both models fail.'
+  - 'Backpropagation is the chain rule run backwards: one forward pass stores every activation, one backward pass reuses them to get every gradient.'
+  study_guide:
+  - 'Go back through the slides and redo the interactive parts: build AND, OR, NAND and NOR with the McCulloch-Pitts neuron, watch the network bend its boundary around XOR, and draw a curve for the one-hidden-layer network to approximate'
+  - Run "A network in twelve lines" and "Run it on the digits" from the slides, then the Python Neural Network Example notebook
+  - Read CS229 notes, Chapter 7, Sections 7.1 and 7.2
+  - Finish PS2 (due Thursday 8 October, 23:59)
 - section: Deep Learning
   lecture_number: 12
   date: Oct 8
@@ -465,11 +477,13 @@
   subtitle: A deeper dive into the inner working of deep learning
   type: lecture
   duration: 75
-  description: ' Backpropagation, chain rule, computation graph, pytorch, tutorial, symmetry
-
-    '
+  description: The chain rule by hand and on a computation graph, backpropagation from scratch in numpy on real digits, the same network in PyTorch, the symmetry exercise, and what to check when training goes wrong.
   materials:
     lecture:
+    - name: Backpropagation, Hands On
+      url: https://learn.sematlas.com/slides/intro_ml_11n
+      type: interactive
+      visible: false
     - name: Make Network Symmetric Exercise
       url: /materials/notebooks/basic_nn_example/
       type: notebook
