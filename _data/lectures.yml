@@ -465,6 +465,7 @@
   - One hidden layer can approximate any continuous function; depth does it with fewer units, by building features of features.
   - 'On real handwritten digits a network beats a flat boundary only when it has enough data, and a fully connected layer has no idea that nearby pixels belong together: shift every digit by two pixels and both models fail.'
   - 'Backpropagation is the chain rule run backwards: one forward pass stores every activation, one backward pass reuses them to get every gradient.'
+  - Covered in class up to slide 24 of the neural networks deck; the rest, with the handwritten digits example, continues on Oct 8
   study_guide:
   - 'Go back through the slides and redo the interactive parts: build AND, OR, NAND and NOR with the McCulloch-Pitts neuron, watch the network bend its boundary around XOR, and draw a curve for the one-hidden-layer network to approximate'
   - Run "A network in twelve lines" and "Run it on the digits" from the slides, then the Python Neural Network Example notebook
@@ -480,6 +481,9 @@
   description: The chain rule by hand and on a computation graph, backpropagation from scratch in numpy on real digits, the same network in PyTorch, the symmetry exercise, and what to check when training goes wrong.
   materials:
     lecture:
+    - name: Introduction to Neural Networks slides, from slide 24 (handwritten digits, training, code)
+      url: https://learn.sematlas.com/slides/intro_ml_10n#/24
+      type: interactive
     - name: Backpropagation, Hands On
       url: https://learn.sematlas.com/slides/intro_ml_11n
       type: interactive
