@@ -18,15 +18,17 @@ Your project must involve data and empirical evaluation. Ambitious, well-scoped 
 Unless otherwise noted, all items are due at 11:59pm local time.
 
 The project is 40% of the course grade, split across five deliverables.
-**Dates below are placeholders for Fall 2026 and will be fixed early in the term.**
 
-| Deliverable | Weight | Due Date (tentative) | Late Days |
+| Deliverable | Weight | Due Date | Late Days |
 | --- | --- | --- | --- |
-| Pre-proposal | 3% | 2026-10-06 | Yes |
-| Proposal | 7% | 2026-10-20 | Yes |
-| Progress report | 5% | 2026-11-12 | Yes |
-| Poster session | 10% | 2026-12-01 | No |
+| Pre-proposal (Problem 6 of PS2, on Slack) | 3% | 2026-10-08 | Yes |
+| Team formation (post your team on Slack) | | 2026-10-13 | |
+| Proposal | 7% | Tuesday 2026-10-20 | Yes |
+| Progress report | 5% | Tuesday 2026-11-17 | Yes |
+| Poster session | 10% | Friday 2026-12-04 | No |
 | Final report | 15% | 2026-12-10 | No |
+
+Teams form after the pre-proposals: read the pre-proposals on Slack, comment on the ones you find interesting, then either keep your own project, change it, or join one listed on the channel.
 
 ## Overview
 
@@ -37,7 +39,7 @@ Choose a problem/topic that excites you. Example directions include:
 - Comparative study of algorithms for a well-defined problem.
 - Re-implementation and careful evaluation of a recent paper.
 
-Projects may be individual or in teams of up to 3. Larger teams are expected to deliver correspondingly deeper scope, stronger analysis, and clearer takeaways.
+Projects are done in teams of 2 to 3. An individual project or a team of 4 needs a justification. Larger teams are expected to deliver correspondingly deeper scope, stronger analysis, and clearer takeaways.
 
 ## Some Project Criteria and Guidelines
 
@@ -53,23 +55,23 @@ You may consult books, papers, public repos, and online resources, provided you 
 
 ## Late Policy
 
-Late days apply to the proposal and milestone only. The final report and presentation have fixed deadlines.
+Late days apply to the proposal and progress report only. The final report and presentation have fixed deadlines.
 
 ## Project Proposal
 
-Submit a brief proposal (200–400 words) that addresses:
+Due Tuesday 20 October. The proposal contains everything in your pre-proposal, in more detail, plus preliminary data exploration if you already have the data and a more detailed plan for the modeling and learning. Address:
 
 - Problem statement and motivation (why it matters)
 - Related work you will draw on
-- Data you will use (source, size, access, preprocessing needs)
-- Methods you plan to try (baseline first, then improvements)
+- Data you will use (source, size, access, preprocessing needs), with first plots and statistics if you have it
+- Methods you plan to try (baseline first, then improvements), and what you will learn from each
 - How you will evaluate results (metrics, baselines, ablations)
 
 Submission: one PDF per team via the course submission system. Include team members and emails.
 
-## Project Milestone
+## Progress Report
 
-2–3 pages using the provided template. Include:
+Due Tuesday 17 November. 2–3 pages using the provided template. Include:
 
 - Title and team
 - Refined problem statement and dataset details
@@ -97,7 +99,7 @@ Also submit minimal supplementary material as needed (e.g., small demo video or 
 
 ## Presentation
 
-Short in-class or poster-style presentation during finals week. Aim to communicate the problem, approach, and main insights clearly to a general ML audience.
+A poster session on Friday 4 December. Aim to communicate the problem, approach, and main insights clearly to a general ML audience.
 
 ## Resources and Inspiration
 
