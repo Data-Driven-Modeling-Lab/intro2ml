@@ -69,7 +69,7 @@ This course provides a comprehensive introduction to machine learning, covering 
 | **Project** | 40% | Group ML project, in five deliverables |
 | **Assignments** | 20% | 7-9 assignments |
 | **Final Exam** | 15% | Date: TBD |
-| **Midterm** | 10% | Date (tentative): Nov 5 |
+| **Midterm** | 10% | Thursday, Nov 5, in class (75 minutes) |
 | **Quizzes** | 10% | Short conceptual assessments |
 | **Participation** | 5% | Class engagement, labs, and Slack |
 

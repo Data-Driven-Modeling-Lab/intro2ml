@@ -565,25 +565,9 @@
       type: notebook
   references:
   assignments:
-- section: Midterm
+- section: Unsupervised Learning
   lecture_number: 15
   date: Oct 20
-  title: Midterm Review
-  subtitle: A story-format review of the first half
-  type: review
-  duration: 75
-  description: A story-format review of the first half.
-- section: Midterm
-  lecture_number: 16
-  date: Oct 22
-  title: Midterm Exam
-  subtitle: In class, 75 minutes
-  type: exam
-  duration: 75
-  description: In class, 75 minutes.
-- section: Unsupervised Learning
-  lecture_number: 17
-  date: Oct 27
   title: Introduction to Unsupervised Learning & K-Means Clustering
   subtitle: Introduction to clustering and unsupervised pattern discovery
   type: lecture
@@ -605,8 +589,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 18
-  date: Oct 29
+  lecture_number: 16
+  date: Oct 22
   title: Principal Component Analysis
   subtitle: Principal component analysis and Dimensionality Reduction
   type: lecture
@@ -632,8 +616,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 19
-  date: Nov 3
+  lecture_number: 17
+  date: Oct 27
   title: EM Algorithm and Gaussian Mixture Models
   subtitle: Probabilistic clustering and the EM algorithm
   type: lecture
@@ -653,8 +637,8 @@
   references:
   assignments:
 - section: Unsupervised Learning
-  lecture_number: 20
-  date: Nov 5
+  lecture_number: 18
+  date: Oct 29
   title: Other Unsupervised Learning Methods
   subtitle: Hierarchical clustering, Autoencoders, Kernel PCA and others
   type: lecture
@@ -669,6 +653,22 @@
       type: assignment
   references:
   assignments:
+- section: Midterm
+  lecture_number: 19
+  date: Nov 3
+  title: Midterm Review
+  subtitle: A story-format review of the first half
+  type: review
+  duration: 75
+  description: A story-format review of the first half.
+- section: Midterm
+  lecture_number: 20
+  date: Nov 5
+  title: Midterm Exam
+  subtitle: In class, 75 minutes
+  type: exam
+  duration: 75
+  description: In class, 75 minutes.
 - section: Unsupervised Learning
   lecture_number: 21
   date: Nov 10
