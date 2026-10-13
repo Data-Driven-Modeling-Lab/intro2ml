@@ -537,7 +537,10 @@
     - name: RNN overview
       url: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
       type: references
-    lecture: []
+    lecture:
+    - name: Why Are There So Many Neural Networks?
+      url: https://learn.sematlas.com/slides/intro_ml_12n#/bridge
+      type: interactive
     references:
     - name: 2025 PDF slides
       url: /materials/slides/advanced-deep-learning-lecture.pdf
