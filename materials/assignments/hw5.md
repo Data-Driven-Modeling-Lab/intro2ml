@@ -6,6 +6,8 @@ permalink: /materials/assignments/hw5/
 ---
 
 
+Deadline: due on **Tuesday 20 October at 23:59**, the same day as Problem Set 4. The progress report follows on Tuesday 17 November.
+
 **Instructions:** Submit the proposal as a PDF file on the following [submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2417631)
 
 ## Project Proposal Guidelines
@@ -25,7 +27,7 @@ List at least 2-3 models you plan to test. Include results from at least one bas
 Create a public [github](https://github.com/) repository with your initial code, baseline results, and a clear README with setup instructions. I expect to see regular commits from all members of the team throughout the semester showing consistent progress. If you're not familiar with git, and for best practices, refer to [Atlassian's git tutorials](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for a good overview, and here's a [good tutorial](https://learngitbranching.js.org/). Feel free to share related resources and ask questions on Slack.
 
 **5. Timeline:**
-Provide a week-by-week plan from now until the final presentation (end of November), including specific milestones for model development, experiments, and report writing.
+Provide a week-by-week plan from now until the final presentation (early December), including specific milestones for model development, experiments, and report writing.
 
 ### Submission
 Submit as PDF with your GitHub repository link included. Your proposal will be evaluated on problem clarity, literature review quality, dataset appropriateness, timeline realism, and initial implementation quality. You should submit the proposal both on moodle (link above) and on the Slack #project-hub. Feel free to comment and ask questions about each others projects!

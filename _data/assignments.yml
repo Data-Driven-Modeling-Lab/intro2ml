@@ -46,8 +46,9 @@
   visible: false
 - id: hw4
   title: 'Problem Set 4: Neural Network Basics'
-  release_date: '2026-10-20'
-  due_date: '2026-10-29'
+  release_date: '2026-10-13'
+  due_date: '2026-10-20'
+  due_time: midnight
   description: 'Deep Learning Basics '
   links:
   - name: Open
@@ -57,10 +58,11 @@
     visible: false
   visible: false
 - id: hw5
-  title: 'Problem Set 5: Project Proposal and Progress'
-  release_date: '2026-10-29'
-  due_date: '2026-11-05'
-  description: Project proposal and progress
+  title: 'Problem Set 5: Project Proposal'
+  release_date: '2026-10-13'
+  due_date: '2026-10-20'
+  due_time: midnight
+  description: Project proposal. The progress report is due Tuesday 17 November, see the project page
   links:
   - name: Open
     url: /materials/assignments/hw5/

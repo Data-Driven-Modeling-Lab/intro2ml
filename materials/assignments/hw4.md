@@ -8,6 +8,8 @@ permalink: /materials/assignments/hw4/
 
 This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
 
+Deadline: due on **Tuesday 20 October at 23:59**, the same day as the project proposal.
+
 **Instructions:** Submit written problem as PDF files, and notebook problems as ipynb files. Zip everything and submit them as a single file on the following moodle link: [Submission Link](https://lms.aub.edu.lb/mod/assign/view.php?id=2408204)
 
 
