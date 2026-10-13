@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 7: Reinforcement Learning"
+title: "Problem Set 5: Reinforcement Learning"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw7/

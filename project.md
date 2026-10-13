@@ -23,7 +23,7 @@ The project is 40% of the course grade, split across five deliverables.
 | --- | --- | --- | --- |
 | Pre-proposal (Problem 6 of PS2, on Slack) | 3% | 2026-10-08 | Yes |
 | Team formation (post your team on Slack) | | 2026-10-13 | |
-| Proposal | 7% | Tuesday 2026-10-20 | Yes |
+| Proposal (Problem 4 of PS3, PDF on Slack) | 7% | Tuesday 2026-10-20 | Yes |
 | Progress report | 5% | Tuesday 2026-11-17 | Yes |
 | Poster session | 10% | Friday 2026-12-04 | No |
 | Final report | 15% | 2026-12-10 | No |
@@ -67,7 +67,7 @@ Due Tuesday 20 October. The proposal contains everything in your pre-proposal, i
 - Methods you plan to try (baseline first, then improvements), and what you will learn from each
 - How you will evaluate results (metrics, baselines, ablations)
 
-Submission: one PDF per team via the course submission system. Include team members and emails.
+Submission: one PDF per team, written in LaTeX with references, posted on the Slack channel #project-hub and submitted with Problem Set 3. Include team members and emails. The full instructions are [Problem 4 of Problem Set 3](/materials/assignments/hw4/).
 
 ## Progress Report
 

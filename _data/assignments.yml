@@ -45,20 +45,20 @@
     url: /materials/assignments/hw3/
   visible: false
 - id: hw4
-  title: 'Problem Set 4: Neural Network Basics'
+  title: 'Problem Set 3: Neural Network Basics and Project Proposal'
   release_date: '2026-10-13'
   due_date: '2026-10-20'
   due_time: midnight
-  description: 'Deep Learning Basics '
+  description: Gradients by hand, neural networks in PyTorch on two spirals, a symmetric network, and the project proposal (LaTeX, posted as a PDF on Slack)
   links:
   - name: Open
     url: /materials/assignments/hw4/
   - name: Solution
     url: /materials/assignments/hw4_solution/
     visible: false
-  visible: false
+  visible: true           # posted Oct 13 2026
 - id: hw5
-  title: 'Problem Set 5: Project Proposal'
+  title: 'Project Proposal (now Problem 4 of Problem Set 3)'
   release_date: '2026-10-13'
   due_date: '2026-10-20'
   due_time: midnight
@@ -68,7 +68,7 @@
     url: /materials/assignments/hw5/
   visible: false
 - id: hw6
-  title: 'Problem Set 6: Unsupervised Learning'
+  title: 'Problem Set 4: Unsupervised Learning'
   release_date: '2026-11-05'
   due_date: '2026-11-17'
   description: 'Unsupervised learning: k-means, PCA, autoencoders and others '
@@ -77,7 +77,7 @@
     url: /materials/assignments/hw6/
   visible: false
 - id: hw7
-  title: 'Problem Set 7: Reinforcement Learning '
+  title: 'Problem Set 5: Reinforcement Learning'
   release_date: '2026-11-17'
   due_date: '2026-11-24'
   description: 'Markov decision processes and reinforcement learning '

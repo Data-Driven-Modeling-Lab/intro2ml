@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 6: Unsupervised Learning"
+title: "Problem Set 4: Unsupervised Learning"
 layout: note
 category: "Assignment"
 permalink: /materials/assignments/hw6/
