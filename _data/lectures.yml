@@ -557,6 +557,15 @@
   description: ' How to use AI coding assistants in the context of deep learning '
   materials:
     lecture:
+    - name: 'Two Pixels Over: a Neural Networks Lab (the challenge, the board, six problems)'
+      url: https://learn.sematlas.com/slides/intro_ml_13n
+      type: interactive
+    - name: 'Lab track 2: a convolutional network for the shifted digits (PyTorch)'
+      url: /materials/notebooks/lab_cnn_shifted_digits/
+      type: notebook
+    - name: 'Lab track 3: Beirut temperature with a recurrent network (PyTorch)'
+      url: /materials/notebooks/lab_rnn_beirut/
+      type: notebook
     - name: MNIST dataset, AI Generated CNN Tutorial
       url: /materials/notebooks/gen_cnn_tutorial/
       type: notebook
