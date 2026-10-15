@@ -551,13 +551,13 @@
   lecture_number: 14
   date: Oct 15
   title: CNNs, RNNs and AI Assistants
-  subtitle: How to use AI coding assistants in the context of deep learning
+  subtitle: 'Hands-on lab: Two Pixels Over'
   type: lecture
   duration: 75
-  description: ' How to use AI coding assistants in the context of deep learning '
+  description: 'A hands-on lab on neural networks: make a network read digits moved two pixels (in the browser, or with a convolutional network), or forecast Beirut''s temperature with a recurrent network. Teams post every run to a live board, choose settings on a validation set and meet the hidden test set at the end, then solve six problems by hand.'
   materials:
     lecture:
-    - name: 'Two Pixels Over: a Neural Networks Lab (the challenge, the board, six problems)'
+    - name: 'Two Pixels Over: a Neural Networks Lab (the challenge, the boards, six problems)'
       url: https://learn.sematlas.com/slides/intro_ml_13n
       type: interactive
     - name: 'Lab track 2: a convolutional network for the shifted digits (PyTorch)'
@@ -566,13 +566,14 @@
     - name: 'Lab track 3: Beirut temperature with a recurrent network (PyTorch)'
       url: /materials/notebooks/lab_rnn_beirut/
       type: notebook
-    - name: MNIST dataset, AI Generated CNN Tutorial
+    references:
+    - name: 'From 2025, for reference: MNIST dataset, AI Generated CNN Tutorial'
       url: /materials/notebooks/gen_cnn_tutorial/
       type: notebook
-    - name: Arabic Tweets, AI Generated RNN Classification Tutorial
+    - name: 'From 2025, for reference: Arabic Tweets, AI Generated RNN Classification Tutorial'
       url: /materials/notebooks/gen_rnn_classification_tutorial/
       type: notebook
-    - name: Arabic Tweets, AI-Generated RNN Completion Tutorial
+    - name: 'From 2025, for reference: Arabic Tweets, AI-Generated RNN Completion Tutorial'
       url: /materials/notebooks/gen_rnn_completion_tutorial/
       type: notebook
   references:
