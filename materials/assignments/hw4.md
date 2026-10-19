@@ -10,7 +10,7 @@ This is an individual assignment. Review assignment policy regarding collaborati
 
 Deadline: due on **Tuesday 20 October at 23:59**. Problems 1 to 3 are individual; Problem 4, the project proposal, is one submission per team.
 
-**Instructions:** Submit written problem as PDF files, and notebook problems as ipynb files. Zip everything and submit them as a single file on Moodle, under Problem Set 3. Post the proposal PDF on Slack as well (see Problem 4).
+**Instructions:** Submit written problem as PDF files, and notebook problems as ipynb files. Zip everything and submit them as a single file on Moodle, under Problem Set 3: [Moodle submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2851535). Post the proposal PDF on Slack as well (see Problem 4).
 
 
 ## Problem 1:  Neural Networks (40 points) 
