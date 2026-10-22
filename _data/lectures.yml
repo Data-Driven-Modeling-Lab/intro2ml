@@ -616,6 +616,9 @@
     '
   materials:
     lecture:
+    - name: 'How Many Numbers Does a Day of Levant Weather Need? (PCA and the SVD)'
+      url: https://learn.sematlas.com/slides/pca_svd
+      type: interactive
     - name: Basic PCA Coding Example
       url: /materials/references/svd_demo/
       type: notebook
