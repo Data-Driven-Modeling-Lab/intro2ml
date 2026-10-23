@@ -646,6 +646,21 @@
     '
   materials:
     lecture:
+    - name: 'PCA and the SVD, continued: from the SVD slide, then eigen-digits on MNIST'
+      url: https://learn.sematlas.com/slides/pca_svd#/svd
+      type: interactive
+    - name: 'Autoencoders: nonlinear dimensionality reduction on the same digits'
+      url: https://learn.sematlas.com/slides/autoencoders
+      type: interactive
+    - name: 'Gaussian Mixtures and the EM Algorithm'
+      url: https://learn.sematlas.com/slides/gmm_em
+      type: interactive
+    - name: 'Check yourself (end of class, before the quiz)'
+      url: https://learn.sematlas.com/slides/pca_svd#/quiz-variance
+      type: interactive
+    - name: MNIST Dataset Dimensionality Reduction
+      url: /materials/notebooks/mnist_example/
+      type: notebook
     - name: GMM Code Walkthough
       url: /materials/notebooks/gmm_em_walkthrough/
       type: notebook
