@@ -637,27 +637,17 @@
 - section: Unsupervised Learning
   lecture_number: 17
   date: Oct 27
-  title: EM Algorithm and Gaussian Mixture Models
-  subtitle: Probabilistic clustering and the EM algorithm
+  title: 'Unsupervised Learning: a Solving Session'
+  subtitle: PCA and the SVD, Gaussian mixtures and EM, autoencoders and maps, hierarchical clustering; in pairs, scored live
   type: lecture
   duration: 75
-  description: 'Advanced clustering using Gaussian Mixture Models and the Expectation-Maximization algorithm. Covers probabilistic clustering, latent variable models, and maximum likelihood estimation.
-
-    '
+  description: 'A scored session in pairs, with the teaching assistants: PCA and the SVD from the SVD on, the core of Gaussian mixtures and the EM algorithm (soft assignment as a conditional probability, the E-step and the M-step by hand), autoencoders, t-SNE and UMAP, and hierarchical clustering. Bring a laptop and sign in on learn.sematlas.com.'
   materials:
     lecture:
-    - name: 'PCA and the SVD, continued: from the SVD slide, then eigen-digits on MNIST'
-      url: https://learn.sematlas.com/slides/pca_svd#/svd
+    - name: 'Unsupervised Learning: a Solving Session (in class, in pairs: sign in and make your team on Problem 1)'
+      url: https://learn.sematlas.com/slides/unsup_solving
       type: interactive
-    - name: 'Autoencoders: nonlinear dimensionality reduction on the same digits'
-      url: https://learn.sematlas.com/slides/autoencoders
-      type: interactive
-    - name: 'Gaussian Mixtures and the EM Algorithm'
-      url: https://learn.sematlas.com/slides/gmm_em
-      type: interactive
-    - name: 'Check yourself (end of class, before the quiz)'
-      url: https://learn.sematlas.com/slides/pca_svd#/quiz-variance
-      type: interactive
+      required: true
     - name: MNIST Dataset Dimensionality Reduction
       url: /materials/notebooks/mnist_example/
       type: notebook
@@ -665,6 +655,15 @@
       url: /materials/notebooks/gmm_em_walkthrough/
       type: notebook
     references:
+    - name: 'The full decks: PCA and the SVD'
+      url: https://learn.sematlas.com/slides/pca_svd
+      type: interactive
+    - name: 'The full decks: Gaussian mixtures and EM'
+      url: https://learn.sematlas.com/slides/gmm_em
+      type: interactive
+    - name: 'The full decks: autoencoders, t-SNE, UMAP and clustering'
+      url: https://learn.sematlas.com/slides/autoencoders
+      type: interactive
     - name: 2025 PDF slides
       url: /materials/slides/gmm.pdf
       type: slides
