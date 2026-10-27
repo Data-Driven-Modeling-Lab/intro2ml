@@ -637,14 +637,14 @@
 - section: Unsupervised Learning
   lecture_number: 17
   date: Oct 27
-  title: 'Unsupervised Learning: a Solving Session'
-  subtitle: PCA and the SVD, Gaussian mixtures and EM, autoencoders and maps, hierarchical clustering; in pairs, scored live
+  title: Unsupervised Learning Solving Session
+  subtitle: PCA and the SVD, Gaussian mixtures and EM, autoencoders, t-SNE and UMAP, hierarchical clustering.
   type: lecture
   duration: 75
   description: 'A scored session in pairs, with the teaching assistants: PCA and the SVD from the SVD on, the core of Gaussian mixtures and the EM algorithm (soft assignment as a conditional probability, the E-step and the M-step by hand), autoencoders, t-SNE and UMAP, and hierarchical clustering. Bring a laptop and sign in on learn.sematlas.com.'
   materials:
     lecture:
-    - name: 'Unsupervised Learning: a Solving Session (in class, in pairs: sign in and make your team on Problem 1)'
+    - name: 'Unsupervised Learning Solving Session (in class, in pairs: sign in and make your team on Problem 1)'
       url: https://learn.sematlas.com/slides/unsup_solving
       type: interactive
       required: true
