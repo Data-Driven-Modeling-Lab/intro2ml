@@ -75,7 +75,7 @@
   description: 'Unsupervised learning: k-means image compression, PCA and autoencoders on MNIST, t-SNE and hierarchical clustering, latent dynamics of a video'
   links:
   - name: Open
-    url: /materials/assignments/hw6/
+    url: /materials/assignments/hw4-26/
   visible: true           # posted Oct 29 2026
 - id: hw7
   title: 'Problem Set 5: Reinforcement Learning'
