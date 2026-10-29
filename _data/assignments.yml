@@ -70,7 +70,7 @@
 - id: hw6
   title: 'Problem Set 4: Unsupervised Learning'
   release_date: '2026-10-29'
-  due_date: '2026-11-06'
+  due_date: '2026-11-05'
   due_time: midnight
   description: 'Unsupervised learning: k-means image compression, PCA and autoencoders on MNIST, t-SNE and hierarchical clustering, latent dynamics of a video'
   links:
