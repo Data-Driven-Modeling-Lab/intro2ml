@@ -6,7 +6,11 @@ permalink: /materials/assignments/hw6/
 ---
 
 
-**Instructions:** Submit the assignments as a zip file containing PDF files and notebooks on the following [submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2420133)
+This is an individual assignment. Review assignment policy regarding collaboration and late submissions on website before starting.
+
+Deadline: due on **Friday 6 November at 23:59**.
+
+**Instructions:** Submit the assignments as a zip file containing PDF files and notebooks on the following [submission link](https://lms.aub.edu.lb/mod/assign/view.php?id=2856589&forceview=1)
 
 ## Problem 1: K-Means Clustering for Image Compression (30 points)
 
